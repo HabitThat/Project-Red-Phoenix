@@ -1,0 +1,77 @@
+.create-task-area {
+  position: absolute;
+  right: 12px;
+  top: -24px;
+  z-index: 998;
+  align-items: center;
+
+  .dropdown {
+    width: 140px;
+    border-radius: 2px;
+    box-shadow: 0 3px 6px 0 rgba(26, 24, 29, 0.16), 0 3px 6px 0 rgba(26, 24, 29, 0.24);
+    background-color: $white;
+    margin-top: 2px;
+    position: absolute;
+    right: 0px;
+
+    .task-icon {
+      width: 30px;
+    }
+
+    .task-label {
+      margin-top: 1px;
+    }
+
+    .dropdown-item:hover {
+      .svg-icon {
+        color: $purple-300;
+      }
+    }
+    .svg-icon {
+      color: $gray-200;
+
+      &.icon-habit {
+        width: 30px;
+        height: 20px;
+      }
+
+      &.icon-daily {
+        width: 24px;
+        height: 20px;
+      }
+
+      &.icon-todo {
+        width: 20px;
+        height: 20px;
+      }
+
+      &.icon-reward {
+        width: 26px;
+        height: 20px;
+      }
+    }
+  }
+}
+
+.slide-tasks-btns-leave-active, .slide-tasks-btns-enter-active {
+  max-width: 320px;
+  transition: all 0.3s cubic-bezier(0, 1, 0.5, 1);
+}
+
+.slide-tasks-btns-enter, .slide-tasks-btns-leave-to {
+  max-width: 0;
+  opacity: 0;
+  overflow-x: hidden;
+}
+
+.create-btn {
+  color: $white;
+  background-color: $purple-200;
+  height: 32px;
+
+  .svg-icon {
+    color: $purple-500;
+    width: 10px;
+    height: 10px;
+  }
+}

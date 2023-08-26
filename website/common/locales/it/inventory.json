@@ -1,0 +1,10 @@
+{
+    "noItemsAvailableForType": "Non hai <%= type %>.",
+    "foodItemType": "Cibo per Animali",
+    "eggsItemType": "Uova",
+    "hatchingPotionsItemType": "Pozioni di Schiusa",
+    "specialItemType": "Oggetti Speciali",
+    "lockedItem": "Oggetto Bloccato",
+    "allItems": "Tutti gli Oggetti",
+    "petAndMount": "Animale Domestico e Cavalcatura"
+}

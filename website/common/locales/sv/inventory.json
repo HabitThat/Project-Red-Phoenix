@@ -1,0 +1,10 @@
+{
+    "noItemsAvailableForType": "Du har inga <%= type %>.",
+    "foodItemType": "Djurfoder",
+    "eggsItemType": "Ägg",
+    "hatchingPotionsItemType": "Kläckningsbrygder",
+    "specialItemType": "Speciella föremål",
+    "lockedItem": "Låst föremål",
+    "petAndMount": "Husdjur och Riddjur",
+    "allItems": "Alla föremål"
+}

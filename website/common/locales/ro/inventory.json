@@ -1,0 +1,10 @@
+{
+    "noItemsAvailableForType": "Nu ai niciun/nicio <%= type %>.",
+    "foodItemType": "Mâncare Companion",
+    "eggsItemType": "Ouă",
+    "hatchingPotionsItemType": "Poțiuni de Eclozat",
+    "specialItemType": "Obiecte Speciale",
+    "lockedItem": "Obiect blocat",
+    "petAndMount": "Companion și animale de călărit",
+    "allItems": "Toate obiectele"
+}

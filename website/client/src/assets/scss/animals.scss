@@ -1,0 +1,33 @@
+.Pet {
+  margin: auto !important;
+  display: block;
+  position: relative;
+  right: 0;
+  bottom: 0;
+  left: 0;
+
+  &:not([class*="FlyingPig"]) {
+    top: -28px !important;
+  }
+}
+
+.Pet[class*="FlyingPig"] {
+  top: 7px !important;
+}
+
+.Pet.Pet-Dragon-Hydra {
+  top: -16px !important;
+}
+
+$foolPets: Veggie, Dessert, VirtualPet, TeaShop;
+
+@each $foolPet in $foolPets {
+  .Pet.Pet-FlyingPig-#{$foolPet} {
+    top: -28px !important;
+  }
+}
+
+.Pet[class*="Virtual"] {
+  left: 1.25rem;
+  bottom: 0.5rem;
+}

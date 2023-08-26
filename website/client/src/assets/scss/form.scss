@@ -1,0 +1,415 @@
+.nested-field {
+  padding-left: 1.5rem;
+}
+
+label small {
+  font-size: 12px;
+  line-height: 1.33;
+
+  a {
+    color: $white;
+
+    &:hover, &:active {
+      text-decoration: underline;
+      color: $white;
+    }
+  }
+}
+
+// Inputs and textareas
+
+input, textarea, input.form-control, textarea.form-control {
+  padding: 10px 12px;
+  border-radius: 2px;
+  font-size: 14px;
+  line-height: 1.43;
+  color: $gray-50;
+  border: 1px solid $gray-400;
+
+  &:hover:not(:disabled) {
+    border-color: $gray-300;
+  }
+
+  &:active:not(:disabled), &:focus:not(:disabled) {
+    border-color: $purple-400;
+    outline: 0;
+    box-shadow: none;
+  }
+
+  &:disabled {
+    opacity: 0.64;
+    background: $gray-700;
+  }
+
+  &.input-search {
+    height: 2rem;
+    border-radius: 2px;
+    border: solid 1px $gray-400;
+    background-color: $white;
+
+    font-size: 14px;
+    line-height: 1.71;
+    color: $gray-200;
+
+    padding: 0.25rem 1rem 0.25rem 0.75rem;
+  }
+
+  &.input-valid, &.input-invalid {
+    background-repeat: no-repeat;
+    background-position: center right 16px;
+  }
+
+  &.input-valid {
+    padding-right: 37px;
+    background-image: url(~@/assets/svg/for-css/check.svg);
+    background-size: 13px 10px;
+  }
+
+  &.input-invalid {
+    padding-right: 40px;
+    background-image: url(~@/assets/svg/for-css/alert.svg);
+    background-size: 16px 16px;
+    border-color: $red-100 !important;
+  }
+}
+
+.input-group-outer {
+  display: flex;
+  flex-direction: row;
+
+  .input-group {
+    flex: 1;
+  }
+}
+
+// Colored Input-Groups, ignoring checklist
+.input-group:not(.checklist-group) {
+  border-radius: 2px;
+  border: solid 1px $gray-400;
+
+  &:hover {
+    border-color: $gray-300;
+  }
+
+  &:focus, &:active, &:focus-within {
+    border: solid 1px $purple-400;
+  }
+
+  .input-group-prepend , .input-group-append {
+    background: $gray-600;
+  }
+}
+
+// Generic Input Group Styles
+.input-group {
+  height: 2rem;
+
+  .input-group-prepend , .input-group-append  {
+    color: $gray-200;
+    border: 0;
+    height: 30px;
+    width: 2rem;
+    margin: 0;
+
+    &.grow {
+      width: initial;
+      min-width: 2rem;
+    }
+
+    &.input-group-text {
+      font-size: 14px;
+      line-height: 1.43;
+      color: rgba($gray-100, 0.64);
+      padding: 10px 24px;
+      border: none;
+    }
+
+    &.input-group-icon {
+      display: flex;
+      align-self: center;
+      align-items: center;
+      justify-items: center;
+      justify-content: center;
+    }
+
+    .svg-icon {
+      margin: 0 !important;
+    }
+
+    &.streak-addon .svg-icon {
+      width: 11.6px;
+      height: 7.1px;
+    }
+
+    &.positive-addon .svg-icon {
+      width: 10px;
+      height: 10px;
+    }
+
+    &.negative-addon .svg-icon {
+      width: 10px;
+      height: 2px;
+    }
+  }
+
+  input:not(:first-child) {
+    border-left: none !important;
+  }
+
+  input:first-child {
+    border-right: none !important;
+  }
+
+  input {
+    height: 30px;
+    border: 0;
+    background: $white !important;
+  }
+}
+
+.input-group-spaced {
+  margin-left: 12px;
+  height: 2rem;
+  border-radius: 2px;
+  background-color: $gray-600;
+}
+
+.form-check {
+  margin-bottom: 0.875rem;
+  padding-left: 0px;
+}
+
+// used in checkboxes and radios
+$bg-focused-active-control: $purple-200;
+$bg-disabled-control: $gray-10;
+
+// custom control
+.custom-control {
+  margin-bottom: .5rem;
+
+  &-label {
+    padding-top: 2px;
+    padding-left: 3px;
+
+    font-size: 14px;
+    line-height: 1.71;
+    color: $gray-50;
+
+    &::before {
+      width: 18px;
+      height: 18px;
+      background-size: 75% 75%;
+      background-color: transparent;
+      border: 2px solid $gray-200;
+      transition-property: box-shadow;
+    }
+  }
+}
+
+// checkboxes
+.custom-checkbox {
+  .custom-control-label::before {
+    border-radius: 2px;
+  }
+
+  .custom-control-input {
+    opacity: 0;
+
+    &:checked~.custom-control-label::before {
+      background-color: $purple-400;
+      border-color: $purple-400;
+    }
+
+    &:checked~.custom-control-label::after {
+      width: 18px;
+      height: 18px;
+      background-image: url(~@/assets/svg/for-css/checkbox-white.svg);
+      background-size: 13px 10px;
+    }
+
+    &:active~.custom-control-label::before {
+      background-color: inherit;
+    }
+
+    &:focus:not(:checked):not(:disabled)~.custom-control-label::before, 
+    &:active:not(:checked):not(:disabled)~.custom-control-label::before  {
+      border: 2px solid $gray-300;
+      box-shadow: 0 0 0 2px rgba(146, 92, 243, 0.5);
+    }
+
+    &:focus:checked:not(:disabled)~.custom-control-label::before, 
+    &:active:checked:not(:disabled)~.custom-control-label::before  {
+      box-shadow: 0 0 0 2px rgba(146, 92, 243, 0.5);
+      border-color: 2 px solid $purple-400;
+      background-color: $purple-400;
+    }
+
+    &:focus:disabled~.custom-control-label::before, 
+    &:active:disabled~.custom-control-label::before  {
+      box-shadow: 0 0 0 6px rgba($bg-disabled-control, 0.1);
+    }
+
+    &:disabled:checked~.custom-control-label::before {
+      border-color: $gray-400;
+      background-color: $gray-400;
+    }
+
+    &:disabled:not(:checked)~.custom-control-label::before {
+      border-color: $gray-400;
+      background-color: transparent;
+    }
+  }
+}
+
+.inline-edit-input-group {
+  .input-group-append, .input-group-prepend {
+    cursor: pointer;
+    padding-left: 10px;
+    padding-right: 10px;
+    align-items: center;
+  }
+
+  .destroy-icon.svg-icon {
+    margin-top: 1px !important;
+
+    svg {
+      width: 14px;
+      height: 16px;
+    }
+  }
+}
+
+.inline-edit-input {
+  margin-bottom: 0px;
+  border-radius: 0px;
+  border: none !important;
+  padding-left: 36px;
+}
+
+// radio buttons
+$bg-color: $purple-400;
+
+// svg for the purple dot
+@mixin custom-radio-checked-icon ($bg-color) {
+  background-image: str-replace(url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='-4 -4 8 8'%3E%3Ccircle r='3' fill='#{$bg-color}'/%3E%3C/svg%3E"), "#", "%23");
+}
+
+.custom-radio .custom-control-input {
+  opacity: 0;
+  margin: 15px 25px 34px 25px;
+
+  // outside circle
+  &:checked~.custom-control-label::before {
+    background-color: $gray-700;
+    background-size: 12px 12px;
+    border-color: $purple-400;
+  }
+
+  // checked indicator
+  &:checked~.custom-control-label::after {
+    @include custom-radio-checked-icon($purple-400);
+    width: 18px;
+    height: 18px;
+    background-size: 12px 12px;
+  }
+
+  &:active~.custom-control-label::before {
+    background-color: inherit;
+  }
+
+// focus / not checked / not disabled
+  &:focus:not(:checked):not(:disabled)~.custom-control-label::before,
+  &:active:not(:checked):not(:disabled)~.custom-control-label::before  {
+    border: 2px solid $gray-300;
+    box-shadow: 0 0 0 2px rgba(146, 92, 243, 0.5);
+  }
+
+// focus / checked / not disabled
+  &:focus:checked:not(:disabled)~.custom-control-label::before,
+  &:active:checked:not(:disabled)~.custom-control-label::before  {
+    border: 2px solid $purple-400;
+    box-shadow: 0 0 0 2px rgba(146, 92, 243, 0.5);
+  }
+
+// hover / not checked / not disabled
+  &:hover:not(:checked):not(:disabled)~.custom-control-label::before,
+  &:active:not(:checked):not(:disabled)~.custom-control-label::before  {
+    width: 18px;
+    height: 18px;
+    background: 50%/50% 50% no-repeat;
+    @include custom-radio-checked-icon($purple-400);
+    background-size: 12px 12px;
+    border: solid 2px $purple-400;
+  }
+
+// hover / checked / not disabled
+    &:hover:checked:not(:disabled)~.custom-control-label::before,
+    &:active::checked:not(:disabled)~.custom-control-label::before  {
+    width: 18px;
+    height: 18px;
+    background: 50%/50% 50% no-repeat;
+    @include custom-radio-checked-icon($gray-400);
+    background-size: 12px 12px;
+    border: solid 2px $purple-300;
+  }
+
+// disabled / checked / before
+  &:disabled:checked~.custom-control-label::before {
+    background: 50%/50% 50% no-repeat;
+    @include custom-radio-checked-icon($gray-300);
+    border: 2px solid $gray-200;
+    background-color: transparent;
+    opacity: 0.75;
+  }
+
+// disabled / checked / after
+  &:disabled:checked~.custom-control-label::after {
+    background: 50%/50% 50% no-repeat;
+    @include custom-radio-checked-icon($gray-300);
+    width: 18px;
+    height: 18px;
+    background-size: 12px 12px;
+  }
+
+// disabled / not checked / before
+  &:disabled:not(:checked)~.custom-control-label::before {
+    background-color: $gray-600;
+    border: 2px solid $gray-200;
+  }
+
+// focus and disabled / not checked / before
+  &:focus:disabled~.custom-control-label::before,
+  &:active:disabled~.custom-control-label::before  {
+    background-color: rgba($bg-disabled-control, 0.1);
+    box-shadow: 0 0 0 6px rgba($bg-disabled-control, 0.1);
+    border: 2px solid $gray-200;
+  }
+
+// focus and disabled / checked / before
+  &:focus:disabled:checked~.custom-control-label::before,
+  &:active:disabled:checked~.custom-control-label::before  {
+    background: 50%/50% 50% no-repeat;
+    @include custom-radio-checked-icon($gray-300);
+    border: 2px solid $gray-200;
+  }
+}
+
+.toggle-switch-container.no-margin {
+  margin-top: 0 !important;
+}
+
+
+
+// Disable default style Firefox for invalid elements.
+// Selectors taken from view-source:resource://gre-resources/forms.css on Firefox
+:not(output):-moz-ui-invalid {
+  box-shadow: none;
+}
+
+:not(output):-moz-ui-invalid:-moz-focusring {
+  box-shadow: none;
+}
+
+output:-moz-ui-invalid {
+  color: inherit;
+}

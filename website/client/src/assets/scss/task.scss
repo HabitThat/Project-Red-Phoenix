@@ -1,0 +1,398 @@
+@mixin habit-controls($disabled-color, $active-color) {
+  &-habit-control-disabled {
+    .habit-option-button {
+      border: 2px solid $disabled-color;
+    }
+    // TODO refactor to use more css-vars and less duplicate generated css code
+    &:hover, &:focus, &:active {
+      .habit-option-button {
+        border: 2px solid $active-color;
+      }
+      .habit-option-icon, .habit-option-label { color: $active-color !important; }
+    }
+  }
+}
+
+@mixin modal-text-input($color) {
+  &-text::placeholder { color: $color !important; }
+  &-input {
+    border: 0 !important;
+
+    &:focus, &:active {
+      box-shadow: 0 0 0 1px $color !important;
+    }
+  }
+}
+
+.task {
+  &-worst { // dark red
+    &-control {
+      &-bg {
+        background: $maroon-100 !important;
+        .habit-control:not(.task-not-scoreable):hover { background: rgba($black, 0.5) !important; }
+        .daily-todo-control:not(.task-not-scoreable):hover { background: rgba($white, 0.75) !important; }
+      }
+      &-bg-noninteractive { background: $maroon-100 !important; }
+      &-inner-habit { background: rgba($black, 0.25) !important; }
+      &-inner-habit-noninteractive { border: 1px solid rgba($red-1, 0.5) !important; }
+      &-inner-daily-todo { background: rgba($white, 0.5) !important; }
+      &-checkbox, &-icon { color: $red-1 !important; }
+    }
+
+    &-modal {
+      &-bg { background: $maroon-100 !important; }
+      &-headings { color: $white !important; }
+      &-icon { color: $maroon-100 !important; }
+      &-text { color: $red-1 !important; }
+      &-content {
+        --svg-color: #{$maroon-100};
+      }
+      @include modal-text-input($red-1);
+      &-option-disabled:hover {
+        .svg-icon { color: $maroon-100 !important; }
+        .option-item-label { color: $maroon-50 !important; }
+      }
+      @include habit-controls($gray-300, $maroon-100);
+    }
+  }
+
+  &-worse { // light red
+    &-control {
+      &-bg {
+        background: $red-100 !important;
+        .habit-control:not(.task-not-scoreable):hover { background: rgba($black, 0.5) !important; }
+        .daily-todo-control:not(.task-not-scoreable):hover { background: rgba($white, 0.75) !important; }
+      }
+      &-bg-noninteractive { background: $red-100 !important; }
+      &-inner-habit { background: rgba($black, 0.25) !important; }
+      &-inner-habit-noninteractive { border: 1px solid rgba($red-1, 0.5) !important; }
+      &-inner-daily-todo { background: rgba($white, 0.5) !important; }
+      &-checkbox, &-icon { color: $red-1 !important; }
+    }
+
+    &-modal {
+      &-bg { background: $red-100 !important; }
+      &-headings, &-text { color: $red-1 !important; }
+      &-icon { color: $red-100 !important; }
+      &-content {
+        --svg-color: #{$red-100};
+      }
+      @include modal-text-input($red-1);
+      &-option-disabled:hover {
+        .svg-icon { color: $red-100 !important; }
+        .option-item-label { color: $red-10 !important; }
+      }
+
+      @include habit-controls($gray-300, $red-100);
+    }
+  }
+
+  &-bad { // orange
+    &-control {
+      &-bg {
+        background: $orange-100 !important;
+        .habit-control:not(.task-not-scoreable):hover { background: rgba($orange-1, 0.5) !important; }
+        .daily-todo-control:not(.task-not-scoreable):hover { background: rgba($white, 0.75) !important; }
+      }
+      &-bg-noninteractive { background: $orange-100 !important; }
+      &-inner-habit { background: rgba($orange-1, 0.25) !important; }
+      &-inner-habit-noninteractive { border: 1px solid rgba($orange-1, 0.5) !important; }
+      &-inner-daily-todo { background: rgba($white, 0.5) !important; }
+      &-checkbox, &-icon { color: $orange-1 !important; }
+    }
+
+    &-modal {
+      &-bg { background: $orange-100 !important; }
+      &-headings, &-text { color: $orange-1 !important; }
+      &-icon { color: $orange-100 !important; }
+      &-content {
+        --svg-color: #{$orange-100};
+      }
+      @include modal-text-input($orange-1);
+      &-option-disabled:hover {
+        .svg-icon { color: $orange-100 !important; }
+        .option-item-label { color: $orange-1 !important; }
+      }
+
+      @include habit-controls($gray-300, $orange-100);
+    }
+  }
+
+  &-neutral { // yellow
+    &-control {
+      &-bg {
+        background: $yellow-100 !important;
+        .habit-control:not(.task-not-scoreable):hover { background: rgba($yellow-1, 0.5) !important; }
+        .daily-todo-control:not(.task-not-scoreable):hover { background: rgba($white, 0.75) !important; }
+      }
+      &-bg-noninteractive { background: $yellow-100 !important; }
+      &-inner-habit { background: rgba($yellow-1, 0.25) !important; }
+      &-inner-habit-noninteractive { border: 1px solid rgba($yellow-1, 0.5) !important; }
+      &-inner-daily-todo { background: rgba($white, 0.5) !important; }
+      &-checkbox, &-icon { color: $yellow-1 !important; }
+    }
+
+    &-modal {
+      &-bg { background: $yellow-100 !important; }
+      &-headings, &-text { color: $yellow-1 !important; }
+      &-icon { color: $yellow-100 !important; }
+      @include modal-text-input($yellow-1);
+      &-option-disabled:hover {
+        .svg-icon { color: $yellow-100 !important; }
+        .option-item-label { color: #bf7d1a !important; }
+      }
+      &-content {
+        --svg-color: #{$yellow-100};
+      }
+
+      @include habit-controls($gray-300, $yellow-100);
+    }
+  }
+
+  &-good { // green
+    &-control {
+      &-bg {
+        background: $green-100 !important;
+        .habit-control:not(.task-not-scoreable):hover { background: rgba($black, 0.5) !important; }
+        .daily-todo-control:not(.task-not-scoreable):hover { background: rgba($white, 0.75) !important; }
+      }
+      &-bg-noninteractive { background: $green-100 !important; }
+      &-inner-habit { background: rgba($black, 0.25) !important; }
+      &-inner-habit-noninteractive { border: 1px solid rgba($green-1, 0.5) !important; }
+      &-inner-daily-todo { background: rgba($white, 0.5) !important; }
+      &-checkbox, &-icon { color: $green-1 !important; }
+    }
+
+    &-modal {
+      &-bg { background: $green-100 !important; }
+      &-headings, &-text { color: $green-1 !important; }
+      &-icon { color: $green-10 !important; }
+      &-content {
+        --svg-color: #{$green-100};
+      }
+
+      @include modal-text-input($green-1);
+      &-option-disabled:hover {
+        .svg-icon { color: $green-10 !important; }
+        .option-item-label { color: #1ca372 !important; }
+      }
+
+      @include habit-controls($gray-300, $green-100);
+    }
+  }
+
+  &-better { // teal
+    &-control {
+      &-bg {
+        background: $teal-100 !important;
+        .habit-control:not(.task-not-scoreable):hover { background: rgba($black, 0.5) !important; }
+        .daily-todo-control:not(.task-not-scoreable):hover { background: rgba($white, 0.75) !important; }
+      }
+      &-bg-noninteractive { background: $teal-100 !important; }
+      &-inner-habit { background: rgba($black, 0.25) !important; }
+      &-inner-habit-noninteractive { border: 1px solid rgba($teal-1, 0.5) !important; }
+      &-inner-daily-todo { background: rgba($white, 0.5) !important; }
+      &-checkbox, &-icon { color: $teal-1 !important; }
+    }
+
+    &-modal {
+      &-bg { background: $teal-100 !important; }
+      &-headings, &-text { color: $teal-1 !important; }
+      &-icon { color: $teal-100 !important; }
+      &-content {
+        --svg-color: #{$teal-100};
+      }
+      @include modal-text-input($teal-1);
+      &-option-disabled:hover {
+        .svg-icon { color: $teal-100 !important; }
+        .option-item-label { color: $teal-10 !important; }
+      }
+
+      @include habit-controls($gray-300, $teal-100);
+    }
+  }
+
+  &-best { // blue
+    &-control {
+      &-bg {
+        background: $blue-100 !important;
+        .habit-control:not(.task-not-scoreable):hover { background: rgba($black, 0.5) !important; }
+        .daily-todo-control:not(.task-not-scoreable):hover { background: rgba($white, 0.75) !important; }
+      }
+      &-bg-noninteractive { background: $blue-100 !important; }
+      &-inner-habit { background: rgba($black, 0.25) !important; }
+      &-inner-habit-noninteractive { border: 1px solid rgba($blue-1, 0.5) !important; }
+      &-inner-daily-todo { background: rgba($white, 0.5) !important; }
+      &-checkbox, &-icon { color: $blue-1 !important; }
+    }
+
+    &-modal {
+      &-bg { background: $blue-100 !important; }
+      &-headings, &-text { color: $blue-1 !important; }
+      &-icon { color: $blue-100 !important; }
+      &-content {
+        --svg-color: #{$blue-100};
+      }
+
+      @include modal-text-input($blue-1);
+      &-option-disabled:hover {
+        .svg-icon { color: $blue-50 !important; }
+        .option-item-label { color: $blue-10 !important; }
+      }
+
+      @include habit-controls($gray-300, $blue-100);
+    }
+  }
+
+  &-purple { // purple, only used in modals
+    &-control {
+      &-bg {
+        background: $purple-task !important;
+        .habit-control:not(.task-not-scoreable):hover { background: rgba($black, 0.5) !important; }
+        .daily-todo-control:not(.task-not-scoreable):hover { background: rgba($white, 0.75) !important; }
+      }
+      &-inner-habit { background: rgba($black, 0.25) !important; }
+      &-inner-daily-todo { background: rgba($white, 0.5) !important; }
+      &-checkbox { color: $purple-task !important; }
+    }
+
+    &-modal {
+      &-bg { background: $purple-300 !important; }
+      &-headings { color: $white !important; }
+      &-icon { color: $purple-300 !important; }
+      &-text { color: $black !important; }
+      &-content {
+        --svg-color: #{$purple-300};
+      }
+
+      @include modal-text-input($black);
+      &-option-disabled:hover {
+        .svg-icon { color: $purple-300 !important; }
+        .option-item-label { color: $purple-200 !important; }
+      }
+
+      @include habit-controls($gray-300, $purple-300);
+    }
+  }
+
+  &-reward {
+    &-control {
+      &-bg {
+        background: rgba($yellow-100, 0.15) !important;
+        .small-text { color: $yellow-1 !important; }
+
+        &:hover:not(.task-not-scoreable) { background: rgba($yellow-100, 0.25) !important; }
+      }
+      &-bg-noninteractive {
+        background-color: $gray-500 !important;
+        .small-text { color: $gray-100 !important; }
+      }
+    }
+  }
+
+  &-disabled {
+    &-habit {
+      &-control {
+        &-bg { background: $gray-600; }
+        &-inner {
+          &:not(:focus) {
+            border: 1px solid $gray-300 !important;
+          }
+
+          opacity: 0.75;
+
+          .negative, .positive {
+            color: $gray-200;
+          }
+        }
+      }
+    }
+
+    &-daily-todo {
+      &-control {
+        &-bg {
+          background: $gray-200 !important;
+          .daily-todo-control:not(.task-not-scoreable):hover { background: rgba($white, 0.75) !important; }
+        }
+        &-bg-noninteractive {
+          background: $gray-200 !important;
+        }
+        &-inner { background: rgba($white, 0.5) !important; }
+        &-checkbox { color: $gray-10 !important; }
+        &-content {
+          background: $gray-600;
+
+          .task-title, .task-notes {
+            opacity: 0.75;
+          }
+        }
+      }
+    }
+  }
+}
+
+.task-control {
+  width: 28px;
+  height: 28px;
+}
+
+.habit-control {
+  border-radius: 100px;
+  color: $white;
+
+  &-negative {
+    &-enabled {
+      padding-top: 12px;
+    }
+    &-disabled {
+      padding-top: 12px;
+    }
+  }
+
+  &-positive {
+    &-enabled {
+      padding-top: 8px;
+    }
+    &-disabled {
+      padding-top: 8px;
+    }
+  }
+
+  .svg-icon {
+    width: 10px;
+    height: 10px;
+    margin: 0 auto;
+  }
+
+  .lock {
+    margin-top: 7px;
+    height: 12px;
+    width: 10px;
+
+    &.disabled {
+      color: $gray-10;
+    }
+  }
+}
+
+.daily-todo-control {
+  &:hover {
+    .svg-icon.check {
+      display: block;
+    }
+  }
+
+  .svg-icon.check {
+    display: none;
+
+    &.display-check-icon {
+      display: block;
+    }
+  }
+
+  .svg-icon.lock {
+    margin: 8px auto;
+    height: 12px;
+    width: 10px;
+  }
+}

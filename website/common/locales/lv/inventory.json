@@ -1,0 +1,10 @@
+{
+    "noItemsAvailableForType": "Tev nav neviena <%= type %>.",
+    "foodItemType": "Ēdiens",
+    "eggsItemType": "Olas",
+    "hatchingPotionsItemType": "Perēšanas Dziras",
+    "specialItemType": "Īpašie Objekti",
+    "lockedItem": "Bloķēts Objekts",
+    "petAndMount": "Mājdzīvnieks un Stiprinājums",
+    "allItems": "Visi objekti"
+}

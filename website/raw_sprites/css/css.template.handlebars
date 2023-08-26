@@ -1,0 +1,15 @@
+{{#sprites}}
+.{{name}} {
+  background-image: url('https://habitica-assets.s3.amazonaws.com/mobileApp/images/{{{name}}}.png');
+  width: {{px.width}};
+  height: {{px.height}};
+}
+{{#if custom}}
+.customize-option.{{name}} {
+  background-position: {{custom.px.offsetX}} {{custom.px.offsetY}};
+  background-image: url('https://habitica-assets.s3.amazonaws.com/mobileApp/images/{{{name}}}.png');
+  width: {{custom.px.width}};
+  height: {{custom.px.height}};
+}
+{{/if}}
+{{/sprites}}
