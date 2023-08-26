@@ -36,7 +36,7 @@
     "dompurify": "^3.0.3",
     "eslint": "^6.8.0",
     "eslint-config-habitrpg": "^6.2.0",
-    "eslint-plugin-mocha": "^5.3.0",
+    "eslint-plugin-mocha": "^6.3.0",
     "eslint-plugin-vue": "^6.2.2",
     "habitica-markdown": "^3.0.0",
     "hellojs": "^1.20.0",
