@@ -8,7 +8,7 @@ import sum from 'lodash/sum';
  * Output data on subscribers' task histories, formatted for CSV.
  * User ID,Count of Dailies,Count of Habits,Total History Size,Max History Size,Mean History Size,Median History Size
  */
-const connectionString = 'mongodb://localhost:27017/habitrpg?auto_reconnect=true'; // FOR TEST DATABASE
+const connectionString = 'mongodb://localhost:27017/phoenixlounge?auto_reconnect=true'; // FOR TEST DATABASE
 
 let dbUsers = monk(connectionString).get('users', { castIds: false });
 let dbTasks = monk(connectionString).get('tasks', { castIds: false });
