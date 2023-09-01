@@ -2,7 +2,7 @@ import {
   generateUser,
   generateChallenge,
   createAndPopulateGroup,
-  resetHabiticaDB,
+  resetHabiticaDB, // @TODO STRIPPERS
 } from '../../../../helpers/api-integration/v3';
 import { TAVERN_ID } from '../../../../../website/common/script/constants';
 
@@ -12,7 +12,7 @@ describe('GET challenges/user', () => {
     let groupPlan; let userData; let groupData; let tavern; let tavernData;
 
     before(async () => {
-      await resetHabiticaDB();
+      await resetHabiticaDB();  // @TODO STRIPPERS
 
       const { group, groupLeader, members } = await createAndPopulateGroup({
         groupDetails: {
@@ -240,8 +240,8 @@ describe('GET challenges/user', () => {
 
       officialChallenge = await generateChallenge(user, group, {
         categories: [{
-          name: 'habitica_official',
-          slug: 'habitica_official',
+          name: 'vee_official',
+          slug: 'vee_official',
         }],
       });
       await user.post(`/challenges/${officialChallenge._id}/join`);

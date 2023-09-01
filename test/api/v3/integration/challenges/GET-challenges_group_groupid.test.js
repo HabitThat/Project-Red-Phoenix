@@ -230,8 +230,9 @@ describe('GET challenges/groups/:groupId', () => {
       });
     });
 
-    it('should return tavern challenges using ID "habitrpg"', async () => {
-      const challenges = await user.get('/challenges/groups/habitrpg');
+    // STRIPPERS
+      it('should return tavern challenges using ID "phoenixlounge"', async () => {
+        const challenges = await user.get('/challenges/groups/phoenixlounge');
 
       const foundChallenge1 = _.find(challenges, { _id: challenge._id });
       expect(foundChallenge1).to.exist;
@@ -274,10 +275,12 @@ describe('GET challenges/groups/:groupId', () => {
           balance: 3,
         });
 
+
+        // STRIPPERS
         officialChallenge = await generateChallenge(user, tavern, {
           categories: [{
-            name: 'habitica_official',
-            slug: 'habitica_official',
+            name: 'vee_official',
+            slug: 'vee_official',
           }],
           prize: 1,
         });
@@ -293,25 +296,30 @@ describe('GET challenges/groups/:groupId', () => {
         }
       });
 
+
+      // STRIPPERS
       it('should return official challenges first', async () => {
-        const challenges = await user.get('/challenges/groups/habitrpg');
+        const challenges = await user.get('/challenges/groups/phoenixlounge');
 
         const foundChallengeIndex = _.findIndex(challenges, { _id: officialChallenge._id });
         expect(foundChallengeIndex).to.eql(0);
       });
 
+
+      // STRIPPERS
       it('should return newest challenges first, after official ones', async () => {
-        let challenges = await user.get('/challenges/groups/habitrpg');
+        let challenges = await user.get('/challenges/groups/phoenixlounge');
 
         unofficialChallenges.forEach((chal, index) => {
           const foundChallengeIndex = _.findIndex(challenges, { _id: chal._id });
           expect(foundChallengeIndex).to.eql(10 - index);
         });
 
+        // STRIPPERS
         const newChallenge = await generateChallenge(user, tavern, { prize: 1 });
         await user.post(`/challenges/${newChallenge._id}/join`);
 
-        challenges = await user.get('/challenges/groups/habitrpg');
+        challenges = await user.get('/challenges/groups/phoenixlounge');
 
         const foundChallengeIndex = _.findIndex(challenges, { _id: newChallenge._id });
         expect(foundChallengeIndex).to.eql(1);
