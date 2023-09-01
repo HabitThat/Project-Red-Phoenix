@@ -1,25 +1,25 @@
 apiVersion: v1
 kind: ReplicationController
 metadata:
-  name: habitica
+  name: accomplay
   labels:
-    name: habitica
+    name: accomplay
 spec:
   replicas: 4
   selector:
-    name: habitica
+    name: accomplay
   template:
     metadata:
       labels:
-        name: habitica
+        name: accomplay
     spec:
       containers:
-      - name: habitica
-        image: ksonney/habitrpg:latest
+      - name: accomplay
+        image: ksonney/phoenixlounge:latest
         env:
           - name: NODE_DB_URI
-            value: mongodb://mongosvc/habitrpg
+            value: mongodb://mongosvc/phoenixlounge
         ports:
           - containerPort: 3000
             hostPort: 3000
-            name: habitica
+            name: accomplay
