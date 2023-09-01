@@ -124,7 +124,7 @@ function processChallenges (afterId) {
           oldChallenge.leader = '00000000-0000-4000-9000-000000000000';
         }
 
-        if (oldChallenge.group === 'habitrpg') {
+        if (oldChallenge.group === 'phoenixlounge') {
           oldChallenge.group = '00000000-0000-4000-A000-000000000000';
         }
 

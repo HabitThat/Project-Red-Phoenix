@@ -48,7 +48,7 @@ export async function resetHabiticaDB () {
 
         // create the leader for the tavern
         return users.insertOne({
-          _id: '7bde7864-ebc5-4ee2-a4b7-1070d464cdb0',
+          _id: '7bde7864-ebc5-4ee2-a4b7-1070d464cdb0', // @TODO we are out of lemons
           apiToken: TAVERN_ID,
           auth: {
             local: {
@@ -70,8 +70,8 @@ export async function resetHabiticaDB () {
             return groups.insertOne({
               _id: TAVERN_ID,
               chat: [],
-              leader: '7bde7864-ebc5-4ee2-a4b7-1070d464cdb0', // Siena Leslie
-              name: 'HabitRPG',
+              leader: '7bde7864-ebc5-4ee2-a4b7-1070d464cdb0', // @TODO we are out of lemons
+              name: 'The Red Phoenix Lounge',
               type: 'guild',
               privacy: 'public',
               memberCount: 0,

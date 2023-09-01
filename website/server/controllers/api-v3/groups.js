@@ -377,7 +377,7 @@ api.getGroups = {
  * @apiGroup Group
  *
  * @apiParam (Path) {String} groupId The group _id ('party' for the user party
- *                                   and 'habitrpg' for tavern are accepted)
+ *                                   and 'phoenixlounge' for tavern are accepted)
  *
  * @apiParamExample {String} Tavern:
  *     /api/v3/groups/habitrpg
@@ -436,7 +436,7 @@ api.getGroup = {
  * @apiName UpdateGroup
  * @apiGroup Group
  *
- * @apiParam (Path) {String} groupId The group _id ('party' for the user party and 'habitrpg'
+ * @apiParam (Path) {String} groupId The group _id ('party' for the user party and 'phoenixlounge'
  *                                   for tavern are accepted).
  *
  * @apiParamExample {String} Tavern:
@@ -525,7 +525,7 @@ api.updateGroup = {
  * @apiName JoinGroup
  * @apiGroup Group
  *
- * @apiParam (Path) {UUID} groupId The group _id ('party' for the user party and 'habitrpg'
+ * @apiParam (Path) {UUID} groupId The group _id ('party' for the user party and 'phoenixlounge'
  *                                 for tavern are accepted).
  *
  * @apiParamExample {String} Tavern:
@@ -552,7 +552,7 @@ api.joinGroup = {
     const { user } = res.locals;
     let inviter;
 
-    req.checkParams('groupId', apiError('groupIdRequired')).notEmpty(); // .isUUID(); can't be used because it would block 'habitrpg' or 'party'
+    req.checkParams('groupId', apiError('groupIdRequired')).notEmpty(); // .isUUID(); can't be used because it would block 'phoenixlounge' or 'party'
 
     const validationErrors = req.validationErrors();
     if (validationErrors) throw validationErrors;
@@ -761,7 +761,7 @@ api.joinGroup = {
  * @apiName RejectGroupInvite
  * @apiGroup Group
  *
- * @apiParam (Path) {UUID} groupId The group _id ('party' for the user party and 'habitrpg'
+ * @apiParam (Path) {UUID} groupId The group _id ('party' for the user party and 'phoenixlounge'
  *                                 for tavern are accepted).
  *
  * @apiParamExample {String} party:
@@ -779,7 +779,7 @@ api.rejectGroupInvite = {
   async handler (req, res) {
     const { user } = res.locals;
 
-    req.checkParams('groupId', apiError('groupIdRequired')).notEmpty(); // .isUUID(); can't be used because it would block 'habitrpg' or 'party'
+    req.checkParams('groupId', apiError('groupIdRequired')).notEmpty(); // .isUUID(); can't be used because it would block 'phoenixlounge' or 'party'
 
     const validationErrors = req.validationErrors();
     if (validationErrors) throw validationErrors;
@@ -830,7 +830,7 @@ function _removeMessagesFromMember (member, groupId) {
  * @apiName LeaveGroup
  * @apiGroup Group
  *
- * @apiParam (Path) {String} groupId The group _id ('party' for the user party and 'habitrpg'
+ * @apiParam (Path) {String} groupId The group _id ('party' for the user party and 'phoenixlounge'
  *                                    for tavern are accepted).
  * @apiParam (Query) {String="remove-all","keep-all"} keep=keep-all Whether or not to keep
  *                                                                  challenge tasks belonging to
@@ -922,7 +922,7 @@ function _sendMessageToRemoved (group, removedUser, message, isInGroup) {
  * @apiName RemoveGroupMember
  * @apiGroup Group
  *
- * @apiParam (Path) {String} groupId The group _id ('party' for the user party and 'habitrpg'
+ * @apiParam (Path) {String} groupId The group _id ('party' for the user party and 'phoenixlounge'
  *                                   for tavern are accepted).
  * @apiParam (Path) {UUID} memberId The _id of the member to remove
  * @apiParam (Query) {String} message Query parameter - The message to send to the removed members
@@ -1060,7 +1060,7 @@ api.removeGroupMember = {
  * @apiDescription You can provide both `emails` and `uuids`, or just one.
  * You must provide at least one.
  *
- * @apiParam (Path) {String} groupId The group _id ('party' for the user party and 'habitrpg'
+ * @apiParam (Path) {String} groupId The group _id ('party' for the user party and 'phoenixlounge'
  *                                   for tavern are accepted)
  *
  * @apiParam (Body) {Object[]} [emails] An array of objects, each representing one
@@ -1214,7 +1214,7 @@ api.inviteToGroup = {
  * @apiName AddGroupManager
  * @apiGroup Group
  *
- * @apiParam (Path) {UUID} groupId The group _id ('party' for the user party and 'habitrpg'
+ * @apiParam (Path) {UUID} groupId The group _id ('party' for the user party and 'phoenixlounge'
  *                                 for tavern are accepted).
  *
  * @apiParamExample {String} party:
@@ -1235,7 +1235,7 @@ api.addGroupManager = {
     const { user } = res.locals;
     const { managerId } = req.body;
 
-    req.checkParams('groupId', apiError('groupIdRequired')).notEmpty(); // .isUUID(); can't be used because it would block 'habitrpg' or 'party'
+    req.checkParams('groupId', apiError('groupIdRequired')).notEmpty(); // .isUUID(); can't be used because it would block 'phoenixlounge' or 'party'
     req.checkBody('managerId', apiError('managerIdRequired')).notEmpty();
 
     const validationErrors = req.validationErrors();
@@ -1264,7 +1264,7 @@ api.addGroupManager = {
  * @apiName RemoveGroupManager
  * @apiGroup Group
  *
- * @apiParam (Path) {UUID} groupId The group _id ('party' for the user party and 'habitrpg'
+ * @apiParam (Path) {UUID} groupId The group _id ('party' for the user party and 'phoenixlounge'
  *                                 for tavern are accepted).
  *
  * @apiParamExample {String} party:
@@ -1285,7 +1285,7 @@ api.removeGroupManager = {
     const { user } = res.locals;
     const { managerId } = req.body;
 
-    req.checkParams('groupId', apiError('groupIdRequired')).notEmpty(); // .isUUID(); can't be used because it would block 'habitrpg' or 'party'
+    req.checkParams('groupId', apiError('groupIdRequired')).notEmpty(); // .isUUID(); can't be used because it would block 'phoenixlounge' or 'party'
     req.checkBody('managerId', apiError('managerIdRequired')).notEmpty();
 
     const validationErrors = req.validationErrors();

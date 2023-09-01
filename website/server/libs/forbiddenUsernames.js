@@ -10,12 +10,11 @@ const bannedWords = [
 
 
   'support',
-  'habitica',
-  'habitrpg',
+  'phoenixwright',
   'admin',
   'administrator',
   'moderator',
-  'gryphon',
+  'burrito',
 ];
 
 export default bannedWords;

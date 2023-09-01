@@ -64,7 +64,7 @@ function textContainsBannedSlur (message) {
  * @apiDescription Fetches an array of messages from a group
  *
  * @apiParam (Path) {String} groupId The group _id ('party' for the user party and
- *                                   'habitrpg' for tavern are accepted).
+ *                                   'phoenixlounge' for tavern are accepted).
  *
  * @apiSuccess {Array} data An array of <a href='https://github.com/HabitRPG/habitica/blob/develop/website/server/models/group.js#L51' target='_blank'>chat messages</a>
  *
@@ -102,7 +102,7 @@ function getBannedWordsFromText (message) {
  * @apiGroup Chat
  * @apiDescription Posts a chat message to a group
  *
- * @apiParam (Path) {UUID} groupId The group _id ('party' for the user party and 'habitrpg'
+ * @apiParam (Path) {UUID} groupId The group _id ('party' for the user party and 'phoenixlounge'
  *                                 for tavern are accepted)
  * @apiParam (Body) {String} message Message The message to post
  * @apiParam (Query) {UUID} previousMsg The previous chat message's UUID which will
@@ -305,7 +305,7 @@ api.postChat = {
  * @apiGroup Chat
  * @apiDescription Likes a chat message from a group
  *
- * @apiParam (Path) {UUID} groupId The group _id ('party' for the user party and 'habitrpg'
+ * @apiParam (Path) {UUID} groupId The group _id ('party' for the user party and 'phoenixlounge'
  *                                 for tavern are accepted).
  * @apiParam (Path) {UUID} chatId The chat message _id
  *
@@ -356,7 +356,7 @@ api.likeChat = {
  * @apiName FlagChat
  * @apiGroup Chat
  *
- * @apiParam (Path) {UUID} groupId The group id ('party' for the user party and 'habitrpg'
+ * @apiParam (Path) {UUID} groupId The group id ('party' for the user party and 'phoenixlounge'
  *                                 for tavern are accepted)
  * @apiParam (Path) {UUID} chatId The chat message id
  * @apiParam (Body) {String} [comment] explain why the message was flagged
@@ -399,7 +399,7 @@ api.flagChat = {
  * @apiName ClearFlags
  * @apiGroup Chat
  *
- * @apiParam (Path) {UUID} groupId The group id ('party' for the user party and 'habitrpg'
+ * @apiParam (Path) {UUID} groupId The group id ('party' for the user party and 'phoenixlounge'
  *                                 for tavern are accepted)
  * @apiParam (Path) {UUID} chatId The chat message id
  *
@@ -476,7 +476,7 @@ api.clearChatFlags = {
  * @apiName SeenChat
  * @apiGroup Chat
  *
- * @apiParam (Path) {UUID} groupId The group _id ('party' for the user party and 'habitrpg'
+ * @apiParam (Path) {UUID} groupId The group _id ('party' for the user party and 'phoenixlounge'
  *                                 for tavern are accepted)
  *
  * @apiSuccess {Object} data An empty object
@@ -539,7 +539,7 @@ api.seenChat = {
  * @apiParam (Query) {UUID} previousMsg The last message's ID fetched by the
  *                                      client so that the whole chat will be returned only
  *                                      if new messages have been posted in the meantime.
- * @apiParam (Path) {UUID} groupId The group _id ('party' for the user party and 'habitrpg'
+ * @apiParam (Path) {UUID} groupId The group _id ('party' for the user party and 'phoenixlounge'
  *                                 for tavern are accepted).
  * @apiParam (Path) {UUID} chatId The chat message id
  *
