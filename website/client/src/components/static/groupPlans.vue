@@ -109,7 +109,7 @@
 </template>
 
 <style lang='scss' scoped>
-  @import url('https://fonts.googleapis.com/css?family=Varela+Round');
+  @import url('https://fonts.bunny.net/css?family=Varela+Round');
 
   h1, h2 {
     font-family: 'Varela Round', sans-serif;

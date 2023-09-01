@@ -362,7 +362,7 @@
 <style lang="scss" scoped>
 @import '~@/assets/scss/colors.scss';
 
-@import url('https://fonts.googleapis.com/css?family=Varela+Round');
+@import url('https://fonts.bunny.net/css?family=Varela+Round');
 
   #front {
     .container-fluid {
