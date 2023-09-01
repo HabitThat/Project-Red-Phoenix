@@ -64,7 +64,7 @@ function createSpritesStream (name, src) {
 }
 
 gulp.task('sprites:main', () => {
-  const mainSrc = sync('habitica-images/**/*.png');
+  const mainSrc = sync('accomplay-images/**/*.png');
   return createSpritesStream('main', mainSrc);
 });
 
