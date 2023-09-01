@@ -1,3 +1,5 @@
+// @TODO STRIPPERS (paint?)
+
 /**
  * Migrate old pets to new system
  * these, unlike hats, go to deilann
