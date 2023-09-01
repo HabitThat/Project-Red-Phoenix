@@ -3,7 +3,7 @@
  * However, it requires the user only be to one party. That should be the case anyway, but user.party.current was letting
  * us look past the fact that a user was erroneously subscribed to multiple parties. This fixes
  *
- * mongo habitrpg ./node_modules/underscore/underscore.js ./migrations/20130508_fix_duff_party_subscriptions.js
+ * mongo phoenixlounge ./node_modules/underscore/underscore.js ./migrations/20130508_fix_duff_party_subscriptions.js
  */
 
 // IMPORTANT NOTE: this migration was written when we were using version 3 of lodash.

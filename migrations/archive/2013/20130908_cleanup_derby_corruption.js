@@ -1,4 +1,4 @@
-// mongo habitrpg ./node_modules/lodash/lodash.js migrations/20130908_cleanup_derby_corruption.js
+// mongo phoenixlounge ./node_modules/lodash/lodash.js migrations/20130908_cleanup_derby_corruption.js
 
 // Racer was notorious for adding duplicates, randomly deleting documents, etc. Once we pull the plug on old.habit,
 // run this migration to cleanup all the corruption

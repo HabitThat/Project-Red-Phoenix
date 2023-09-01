@@ -1,4 +1,4 @@
-// mongo habitrpg ./node_modules/lodash/lodash.js ./migrations/20131028_task_subdocs_tags_invites.js
+// mongo phoenixlounge ./node_modules/lodash/lodash.js ./migrations/20131028_task_subdocs_tags_invites.js
 
 db.challenges.find().forEach(function (chal) {
   _.each(chal.habits.concat(chal.dailys).concat(chal.todos).concat(chal.rewards), function (task) {

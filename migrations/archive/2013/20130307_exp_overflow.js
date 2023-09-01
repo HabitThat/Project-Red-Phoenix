@@ -1,4 +1,4 @@
-// mongo habitrpg ./node_modules/underscore/underscore.js ./migrations/20130307_normalize_algo_values.js
+// mongo phoenixlounge ./node_modules/underscore/underscore.js ./migrations/20130307_normalize_algo_values.js
 
 /**
  * Make sure people aren't overflowing their exp with the new system
