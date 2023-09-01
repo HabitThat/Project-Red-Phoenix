@@ -1,3 +1,5 @@
+# @TODO STRIPPERS (paint?)
+
 ###
 Huge migration:
 - Customization Redo: https://trello.com/c/YKXmHNjY/306-customization-redo

@@ -1,3 +1,5 @@
+// @TODO STRIPPERS (paint?)
+
 db.users.find(
   {$where: 'Array.isArray(this.items.pets) || Array.isArray(this.items.eggs) || Array.isArray(this.items.hatchingPotions)'},
   {backer: 1, items: 1}

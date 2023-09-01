@@ -14,8 +14,8 @@ let _ = require('lodash');
 // be checked for compatibility against the v4 changelog and changed if necessary.
 // https://github.com/lodash/lodash/wiki/Changelog#v400
 
-let backupUsers = mongo.db('localhost:27017/habitrpg_old?auto_reconnect').collection('users');
-let liveUsers = mongo.db('localhost:27017/habitrpg_new?auto_reconnect').collection('users');
+let backupUsers = mongo.db('localhost:27017/phoenixlounge_old?auto_reconnect').collection('users');
+let liveUsers = mongo.db('localhost:27017/phoenixlounge_new?auto_reconnect').collection('users');
 
 backupUsers.count(function (err, count) {
   if (err) return console.error(err);
