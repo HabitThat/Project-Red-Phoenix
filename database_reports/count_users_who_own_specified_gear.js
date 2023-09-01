@@ -3,7 +3,7 @@ var authorUuid = 'd904bd62-da08-416b-a816-ba797c9ee265'; //... own data is done
 
 /**
  * database_reports/count_users_who_own_specified_gear.js
- * https://github.com/HabitRPG/habitica/pull/3884
+ * PR 3884
  */
 
 var thingsOfInterest = {
@@ -11,25 +11,25 @@ var thingsOfInterest = {
         'data_path': 'items.gear.owned',
         'identifyOwnershipWith': 'exists',
         'items': [
-            'eyewear_special_wondercon_red',
-            'eyewear_special_wondercon_black',
-            'back_special_wondercon_black',
-            'back_special_wondercon_red',
-            'body_special_wondercon_red',
-            'body_special_wondercon_black',
-            'body_special_wondercon_gold'
+            'eyewear_special_wondercon_red', // @TODO STRIPPERS
+            'eyewear_special_wondercon_black', // @TODO STRIPPERS
+            'back_special_wondercon_black', // @TODO STRIPPERS
+            'back_special_wondercon_red', // @TODO STRIPPERS
+            'body_special_wondercon_red', // @TODO STRIPPERS
+            'body_special_wondercon_black', // @TODO STRIPPERS
+            'body_special_wondercon_gold' // @TODO STRIPPERS
         ],
     },
-    'Spooky Skins purchases': {
+    'Spooky Skins purchases': { // @TODO STRIPPERS
         'data_path': 'purchased.skin',
         'identifyOwnershipWith': 'true',
         'items': [
-            'monster',
-            'pumpkin',
-            'skeleton',
-            'zombie',
-            'ghost',
-            'shadow'
+            'monster', // @TODO STRIPPERS
+            'pumpkin', // @TODO STRIPPERS
+            'skeleton', // @TODO STRIPPERS
+            'zombie', // @TODO STRIPPERS
+            'ghost', // @TODO STRIPPERS
+            'shadow' // @TODO STRIPPERS
         ]
     }
 };
@@ -37,12 +37,13 @@ var thingsOfInterest = {
 var mongo = require('mongoskin');
 var _ = require('lodash');
 
-var dbUsers = mongo.db('localhost:27017/habitrpg?auto_reconnect').collection('users');
+var dbUsers = mongo.db('localhost:27017/phoenixlounge?auto_reconnect').collection('users');
 
 var thingsFound = {};  // each key is one "thing" from thingsOfInterest,
         // and the value for that key is the number of users who own it
         // (for items, 'owned' values of both true and false are counted
         // to include items lost on death)
+        // lost hats should be left with slappy
 
 var query  = {}; // Not worth limiting search data with query and fields since
 var fields = {}; // this will be run over a local copy of the database?
@@ -160,38 +161,8 @@ All users found.
 
 CSV DATA:
 
-"Unconventional Armor ownership"
-"date","back_special_wondercon_black","back_special_wondercon_red","body_special_wondercon_black","body_special_wondercon_gold","body_special_wondercon_red","eyewear_special_wondercon_black","eyewear_special_wondercon_red"
-"2014-09-01","7","7","7","7","7","7","9"
+memory is a fickle thing and TS Eliot was a modernist
 
-"Spooky Skins purchases"
-"date","ghost","monster","pumpkin","shadow","skeleton","zombie"
-"2014-09-01","2","3","3","6","4","3"
-
-
-READABLE DATA:
-
-2014-09-01
-
-Unconventional Armor ownership:
-    back_special_wondercon_black: 7
-    back_special_wondercon_red: 7
-    body_special_wondercon_black: 7
-    body_special_wondercon_gold: 7
-    body_special_wondercon_red: 7
-    eyewear_special_wondercon_black: 7
-    eyewear_special_wondercon_red: 9
-
-Spooky Skins purchases:
-    ghost: 2
-    monster: 3
-    pumpkin: 3
-    shadow: 6
-    skeleton: 4
-    zombie: 3
-
-
-
-400100 users searched (should be >400k)
+400100 users searched (should be >9000)
 
 */
