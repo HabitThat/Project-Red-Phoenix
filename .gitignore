@@ -47,3 +47,13 @@ webpack.webstorm.config
 # mongodb replica set for local dev
 mongodb-*.tgz
 /mongodb-data
+
+# sst
+.sst
+.build
+
+# opennext
+.open-next
+
+# local env files
+.env*.local
