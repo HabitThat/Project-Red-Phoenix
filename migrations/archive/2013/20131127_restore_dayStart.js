@@ -9,8 +9,8 @@
 let mongo = require('mongoskin');
 let _ = require('lodash');
 
-let backupUsers = mongo.db('localhost:27017/habitrpg_old?auto_reconnect').collection('users');
-let liveUsers = mongo.db('localhost:27017/habitrpg_new?auto_reconnect').collection('users');
+let backupUsers = mongo.db('localhost:27017/accomplay_old?auto_reconnect').collection('users');
+let liveUsers = mongo.db('localhost:27017/accomplay_new?auto_reconnect').collection('users');
 
 let query = {'preferences.dayStart': {$exists: 1, $ne: 0}};
 let select = {'preferences.dayStart': 1};

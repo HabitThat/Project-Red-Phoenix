@@ -1,4 +1,4 @@
-// mongo habitrpg ./node_modules/lodash/lodash.js migrations/20130602_survey_rewards.js
+// mongo phoenixlounge ./node_modules/lodash/lodash.js migrations/20130602_survey_rewards.js
 
 // IMPORTANT NOTE: this migration was written when we were using version 3 of lodash.
 // We've now upgraded to lodash v4 but the code used in this migration has not been

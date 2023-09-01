@@ -2,7 +2,7 @@
  * Applies backer tokens & items (this file will be updated periodically
  */
 
-// mongo habitrpg ./node_modules/underscore/underscore.js migrations/20130327_apply_tokens.js
+// mongo phoenixlounge ./node_modules/underscore/underscore.js migrations/20130327_apply_tokens.js
 
 // IMPORTANT NOTE: this migration was written when we were using version 3 of lodash.
 // We've now upgraded to lodash v4 but the code used in this migration has not been

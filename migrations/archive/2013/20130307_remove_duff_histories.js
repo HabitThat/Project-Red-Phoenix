@@ -1,7 +1,7 @@
 /**
  * Remove duff histories for dailies
  */
-// mongo habitrpg ./node_modules/underscore/underscore.js ./migrations/20130307_remove_duff_histories.js
+// mongo phoenixlounge ./node_modules/underscore/underscore.js ./migrations/20130307_remove_duff_histories.js
 db.users.find().forEach(function (user) {
   _.each(user.tasks, function (task, key) {
     if (task.type === 'daily') {

@@ -2,7 +2,7 @@
 
 /**
  * After the great challenges migration, quite a few things got inadvertently dropped from tasks since their
- * schemas became more strict. See conversation at https://github.com/HabitRPG/habitrpg/issues/1712 ,
+ * schemas became more strict. See conversation at issue 1712 ,
  * this restores task tags, streaks, due-dates, values
  */
 let mongo = require('mongoskin');

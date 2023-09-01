@@ -1,7 +1,7 @@
 /**
  * For users who already have max gear, they earned the achievement
  */
-// mongo habitrpg ./node_modules/underscore/underscore.js ./migrations/20130503_max_gear_achievement.js
+// mongo phoenixlounge ./node_modules/underscore/underscore.js ./migrations/20130503_max_gear_achievement.js
 db.users.find().forEach(function (user) {
   let items = user.items;
   if (!items) {

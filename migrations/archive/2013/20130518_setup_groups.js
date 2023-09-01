@@ -3,16 +3,16 @@
  * into one collection: groups, with group.type either 'party' or 'guild'. We are also creating the 'phoenixlounge' guild,
  * which everyone is auto-subscribed to, and moving tavern chat into that guild
  *
- * mongo habitrpg ./node_modules/lodash/lodash.js ./migrations/20130518_setup_groups.js
+ * mongo phoenixlounge ./node_modules/lodash/lodash.js ./migrations/20130518_setup_groups.js
  */
 
 /**
  * TODO
  * 1) rename collection parties => groups
  * 2) add group.type = 'party' for each current group
- * 3) create habitrpg group, .type='guild'
- * 4) move tavern.chat.chat into habitrpg guild
- * 5) subscribe everyone to habitrpg (be sure to set that for default user too!)
+ * 3) create phoenixlounge group, .type='guild'
+ * 4) move tavern.chat.chat into phoenixlounge guild
+ * 5) subscribe everyone to phoenixlounge (be sure to set that for default user too!)
  */
 
 db.parties.renameCollection('groups', true);
