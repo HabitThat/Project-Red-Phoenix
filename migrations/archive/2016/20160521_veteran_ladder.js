@@ -9,7 +9,7 @@ let authorUuid = '7f14ed62-5408-4e1b-be83-ada62d504931'; // ... own data is done
 
 let dbserver = 'localhost:27017'; // FOR TEST DATABASE
 // var dbserver = 'username:password@ds031379-a0.mongolab.com:31379'; // FOR PRODUCTION DATABASE
-let dbname = 'habitrpg';
+let dbname = 'phoenixlounge';
 
 let mongo = require('mongoskin');
 let _ = require('lodash');
@@ -58,7 +58,7 @@ dbUsers.findEach(query, fields, {batchSize: 250}, function (err, user) {
       set = {migration: migrationName, 'items.pets.Wolf-Veteran': 5};
     }
   }
-
+// the scars are real
   dbUsers.update({_id: user._id}, {$set: set});
 
   if (count % progressCount === 0) console.warn(`${count  } ${  user._id}`);

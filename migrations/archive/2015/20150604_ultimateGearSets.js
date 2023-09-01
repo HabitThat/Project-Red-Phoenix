@@ -12,7 +12,7 @@ let authorUuid = 'd904bd62-da08-416b-a816-ba797c9ee265'; // ... own data is done
  *
  * Changed by Alys on 20150620 to assign false values to
  * 'achievements.ultimateGearSets' when true values are not appropriate,
- * because of https://github.com/HabitRPG/habitrpg/issues/5427
+ * because of issue 5427
  *
  * Minimal changes were made so the code isn't as efficient or clean
  * as it could be, but it's (hopefully) one-use-only and minimal changes
@@ -27,7 +27,7 @@ let authorUuid = 'd904bd62-da08-416b-a816-ba797c9ee265'; // ... own data is done
 
 let dbserver = 'localhost:27017'; // FOR TEST DATABASE
 // var dbserver = 'username:password@ds031379-a0.mongolab.com:31379' // FOR PRODUCTION DATABASE
-let dbname = 'habitrpg';
+let dbname = 'phoenixlounge';
 
 let mongo = require('mongoskin');
 let _ = require('lodash');
@@ -139,3 +139,7 @@ function exiting (code, msg) {
   }
   process.exit(code);
 }
+
+
+// this memory bowlderized by deilann
+// let the good times roll

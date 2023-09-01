@@ -1,9 +1,9 @@
-/* let migrationName = 'Jackalopes for Unlimited Subscribers'; */
+  /* let migrationName = 'Jackalopes for Unlimited Subscribers'; */
 
-/*
- * This migration will find users with unlimited subscriptions who are also eligible
- * for Jackalope mounts, and award them
- */
+  /*
+  * This migration will find users with unlimited subscriptions who are also eligible
+  * for Jackalope mounts, and award them
+  */
 
 import { model as Group } from '../../website/server/models/group';
 import { model as User } from '../../website/server/models/user';
@@ -11,7 +11,7 @@ import { model as User } from '../../website/server/models/user';
 async function handOutJackalopes () {
   const promises = [];
   const cursor = User.find({
-    'purchased.plan.customerId': 'habitrpg',
+    'purchased.plan.customerId': 'redphoenix',
   }).cursor();
 
   cursor.on('data', async user => {

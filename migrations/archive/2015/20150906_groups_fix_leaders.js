@@ -46,7 +46,7 @@ function findGroups (gt) {
         if (err) return cb1(err);
 
         // If leader has deleted account
-        if (!user && group._id !== 'habitrpg' && members && members[0]) {
+        if (!user && group._id !== 'phoenixlounge' && members && members[0]) {
           dbGroups.update({
             _id: group._id,
           }, {

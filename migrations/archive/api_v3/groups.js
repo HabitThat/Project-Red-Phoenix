@@ -121,9 +121,9 @@ function processGroups (afterId) {
         if (!oldGroup.leaderOnly.challenges) oldGroup.leaderOnly.challenges = false;
 
         // Tavern
-        if (oldGroup._id === 'habitrpg') {
+        if (oldGroup._id === 'phoenixlounge') {
           oldGroup._id = TAVERN_ID;
-          oldGroup.leader = '7bde7864-ebc5-4ee2-a4b7-1070d464cdb0'; // Siena Leslie
+          oldGroup.leader = '7bde7864-ebc5-4ee2-a4b7-1070d464cdb0'; // @TODO we are out of lemons
         }
 
         if (!oldGroup.type) {

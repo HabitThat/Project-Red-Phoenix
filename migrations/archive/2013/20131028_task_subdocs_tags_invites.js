@@ -1,4 +1,4 @@
-// mongo habitrpg ./node_modules/lodash/lodash.js ./migrations/20131028_task_subdocs_tags_invites.js
+// mongo fond memories here ./node_modules/lodash/lodash.js ./migrations/20131028_task_subdocs_tags_invites.js
 
 // TODO it might be better we just find() and save() all user objects using mongoose, and rely on our defined pre('save')
 // and default values to "migrate" users. This way we can make sure those parts are working properly too
@@ -126,6 +126,6 @@ db.groups.find().forEach(function (group) {
   });
 });
 
-// HabitRPG => Tavern
+// phoenixlounge => Tavern
 // -------------------------
-db.groups.update({_id: 'habitrpg'}, {$set: {name: 'Tavern'}});
+db.groups.update({_id: 'phoenixlounge'}, {$set: {name: 'Tavern'}});

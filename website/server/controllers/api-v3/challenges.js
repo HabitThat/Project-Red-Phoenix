@@ -486,7 +486,7 @@ api.getUserChallenges = {
  * @apiName GetGroupChallenges
  * @apiGroup Challenge
  *
- * @apiParam (Path) {UUID} groupId The group id ('party' for the user party and 'habitrpg'
+ * @apiParam (Path) {UUID} groupId The group id ('party' for the user party and 'phoenixlounge'
  *                                 for tavern are accepted)
  *
  * @apiSuccess {Array} data An array of challenges sorted with official challenges first,
@@ -514,7 +514,7 @@ api.getGroupChallenges = {
     if (validationErrors) throw validationErrors;
 
     if (groupId === 'party') groupId = user.party._id;
-    if (groupId === 'habitrpg') groupId = TAVERN_ID;
+    if (groupId === 'phoenixlounge') groupId = TAVERN_ID;
 
     const group = await Group.getGroup({ user, groupId });
     if (!group) throw new NotFound(res.t('groupNotFound'));
