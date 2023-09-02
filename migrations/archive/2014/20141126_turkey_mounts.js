@@ -1,3 +1,5 @@
+// @TODO STRIPPERS (paint?)
+
 db.users.update(
   {'items.pets.Turkey-Base': {$ne: null}},
   {$set: {'items.mounts.Turkey-Base': true}},

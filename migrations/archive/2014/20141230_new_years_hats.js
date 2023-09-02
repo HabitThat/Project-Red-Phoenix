@@ -1,3 +1,5 @@
+// @TODO STRIPPERS (paint?)
+
 db.users.update(
   {'items.gear.owned.head_special_nye': {$ne: null}},
   {$set: {'items.gear.owned.head_special_nye2014': false}},

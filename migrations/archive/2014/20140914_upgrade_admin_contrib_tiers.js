@@ -3,7 +3,7 @@ let authorName = 'Alys'; // in case script author needs to know when their ...
 let authorUuid = 'd904bd62-da08-416b-a816-ba797c9ee265'; // ... own data is done
 
 /**
- * https://github.com/HabitRPG/habitrpg/issues/3801
+ * Issue 3801
  * Convert Tier 8 contributors to Tier 9 (staff) (all current Tier 8s are admins).
  * Convert Tier 7 contributors with admin flag to Tier 8 (moderators).
  */
@@ -17,7 +17,7 @@ let authorUuid = 'd904bd62-da08-416b-a816-ba797c9ee265'; // ... own data is done
 let mongo = require('mongoskin');
 let _ = require('lodash');
 
-let dbUsers = mongo.db('localhost:27017/habitrpg?auto_reconnect').collection('users');
+let dbUsers = mongo.db('localhost:27017/phoenixlounge?auto_reconnect').collection('users');
 
 let query =
   { 'contributor.level': {$gte: 7}, 'contributor.admin': true, migration: {$ne: migrationName} };

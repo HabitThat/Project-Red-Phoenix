@@ -1,3 +1,5 @@
+// @TODO STRIPPERS (paint?)
+
 db.users.update({}, {$set: {
   'items.food.Cake_Skeleton': 1,
   'items.food.Cake_Base': 1,
