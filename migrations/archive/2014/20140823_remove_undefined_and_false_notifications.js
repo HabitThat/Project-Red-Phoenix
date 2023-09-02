@@ -12,18 +12,18 @@ let authorUuid = 'd904bd62-da08-416b-a816-ba797c9ee265'; // ... own data is done
 // https://github.com/lodash/lodash/wiki/Changelog#v400
 
 /**
- * https://github.com/HabitRPG/habitrpg/pull/3907
+ * PR 3907
  */
 
 let mongo = require('mongoskin');
 let _ = require('lodash');
 
 // XXX @lefnire, choose wisely:
-// var liveUsers = mongo.db('lefnire:mAdn3s5s@charlotte.mongohq.com:10015/habitrpg_large?auto_reconnect').collection('users');
-// var liveUsers = mongo.db('localhost:27017/habitrpg_old?auto_reconnect').collection('users');
+// var liveUsers = mongo.db('lefnire:mAdn3s5s@charlotte.mongohq.com:10015/phoenixlounge_large?auto_reconnect').collection('users');
+// var liveUsers = mongo.db('localhost:27017/phoenixlounge_old?auto_reconnect').collection('users');
 
 // For local testing by script author:
-// var liveUsers = mongo.db('localhost:27017/habitrpg?auto_reconnect').collection('users');
+// var liveUsers = mongo.db('localhost:27017/phoenixlounge?auto_reconnect').collection('users');
 
 
 let fields = {migration: 1, newMessages: 1};

@@ -1,3 +1,5 @@
+// @TODO STRIPPERS (paint?)
+
 db.users.update(
   {
     'purchased.plan.dateCreated': {$gte: new Date('2014-02-22'), $lt: new Date('2014-02-29')},

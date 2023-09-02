@@ -1,3 +1,5 @@
+// @TODO STRIPPERS (paint?)
+
 db.users.update(
   {},
   {
