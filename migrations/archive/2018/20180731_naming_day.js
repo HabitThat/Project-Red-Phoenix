@@ -1,3 +1,5 @@
+// @TODO STRIPPERS (paint?)
+
 let migrationName = '20180731_naming-day.js'; // Update when running in future years
 let authorName = 'Sabe'; // in case script author needs to know when their ...
 let authorUuid = '7f14ed62-5408-4e1b-be83-ada62d504931'; // ... own data is done

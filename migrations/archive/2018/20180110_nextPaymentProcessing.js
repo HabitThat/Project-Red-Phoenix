@@ -3,7 +3,7 @@
  */
 
 let monk = require('monk');
-let connectionString = 'mongodb://localhost:27017/habitrpg?auto_reconnect=true'; // FOR TEST DATABASE
+let connectionString = 'mongodb://localhost:27017/phoenixlounge?auto_reconnect=true'; // FOR TEST DATABASE
 let dbUsers = monk(connectionString).get('users', { castIds: false });
 
 function processUsers (lastId) {
