@@ -1,3 +1,5 @@
+// @TODO STRIPPERS (paint?)
+
 /* eslint-disable no-console */
 const MIGRATION_NAME = '20220201_pet_group_achievements';
 import { model as User } from '../../../website/server/models/user';

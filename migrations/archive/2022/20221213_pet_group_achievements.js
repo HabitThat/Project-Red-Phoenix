@@ -1,3 +1,5 @@
+// @TODO STRIPPERS (paint?)
+
 /* eslint-disable no-console */
 const MIGRATION_NAME = '20221213_pet_group_achievements';
 import { model as User } from '../../../website/server/models/user';
@@ -63,7 +65,7 @@ async function updateUser (user) {
       && pets['Wolf-Shade']
       && pets['Wolf-Skeleton']
       && pets['Wolf-White']
-      && pets['Wolf-Zombie'] {
+      && pets['Wolf-Zombie']) {
         set['achievements.polarPro'] = true;
       }
   }
