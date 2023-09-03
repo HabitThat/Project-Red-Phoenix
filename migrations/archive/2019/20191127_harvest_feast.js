@@ -1,3 +1,5 @@
+// @TODO STRIPPERS (paint?)
+
 /* eslint-disable no-console */
 const MIGRATION_NAME = '20191127_harvest_feast';
 import { v4 as uuid } from 'uuid';
