@@ -1,3 +1,5 @@
+// @TODO STRIPPERS (paint?)
+
 import { selectGearToPin } from '../website/common/script/ops/pinnedGearUtils';
 
 let getItemInfo = require('../website/common/script/libs/getItemInfo');
@@ -12,7 +14,7 @@ let authorUuid = 'ed4c688c-6652-4a92-9d03-a5a79844174a'; // ... own data is done
  */
 
 let monk = require('monk');
-let connectionString = 'mongodb://localhost:27017/habitrpg?auto_reconnect=true'; // FOR TEST DATABASE
+let connectionString = 'mongodb://localhost:27017/phoenixlounge?auto_reconnect=true'; // FOR TEST DATABASE
 let dbUsers = monk(connectionString).get('users', { castIds: false });
 
 function processUsers (lastId) {

@@ -1,3 +1,5 @@
+// @TODO STRIPPERS (paint?)
+
 let migrationName = '20171030_jackolanterns.js';
 let authorName = 'Sabe'; // in case script author needs to know when their ...
 let authorUuid = '7f14ed62-5408-4e1b-be83-ada62d504931'; // ... own data is done
@@ -11,7 +13,7 @@ let authorUuid = '7f14ed62-5408-4e1b-be83-ada62d504931'; // ... own data is done
  */
 
 let monk = require('monk');
-let connectionString = 'mongodb://localhost:27017/habitrpg?auto_reconnect=true'; // FOR TEST DATABASE
+let connectionString = 'mongodb://localhost:27017/phoenixlounge?auto_reconnect=true'; // FOR TEST DATABASE
 let dbUsers = monk(connectionString).get('users', { castIds: false });
 
 function processUsers (lastId) {
