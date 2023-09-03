@@ -1,9 +1,11 @@
+// @TODO STRIPPERS (paint?)
+
 /*
  * Fix JackOLantern-Base for users that signed up recently
  */
 /* eslint-disable no-console */
 
-const MIGRATION_NAME = '20201102_fix_habitoween'; // Update when running in future years
+const MIGRATION_NAME = '20201102_fix_halloween'; // Update when running in future years
 
 import { model as User } from '../../../website/server/models/user';
 
