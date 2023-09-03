@@ -1,3 +1,5 @@
+// @TODO STRIPPERS (paint?)
+
 let migrationName = '20150131_birthday_goodies_fix__one_birthday__1';
 let authorName = 'Alys'; // in case script author needs to know when their ...
 let authorUuid = 'd904bd62-da08-416b-a816-ba797c9ee265'; // ... own data is done
@@ -17,7 +19,7 @@ let dbserver = 'localhost:27017'; // CHANGE THIS FOR PRODUCTION DATABASE
 let mongo = require('mongoskin');
 let _ = require('lodash');
 
-let dbUsers = mongo.db(`${dbserver  }/habitrpg?auto_reconnect`).collection('users');
+let dbUsers = mongo.db(`${dbserver  }/phoenixlounge?auto_reconnect`).collection('users');
 
 // 'auth.timestamps.created':{$gt:new Date('2014-02-01')},
 let query = {

@@ -1,3 +1,5 @@
+// @TODO STRIPPERS (paint?)
+
 db.users.update(
   {'items.gear.owned.armor_special_birthday': {$ne: null}},
   {$set: {'items.gear.owned.armor_special_birthday2015': false}},

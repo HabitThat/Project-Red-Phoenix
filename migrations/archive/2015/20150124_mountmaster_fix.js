@@ -1,9 +1,11 @@
+// @TODO STRIPPERS (paint?)
+
 let migrationName = '20150124_mountmaster_fix.js';
 let authorName = 'Alys'; // in case script author needs to know when their ...
 let authorUuid = 'd904bd62-da08-416b-a816-ba797c9ee265'; // ... own data is done
 
 /**
- * https://github.com/HabitRPG/habitrpg/pull/4374#issuecomment-71038795
+ * PR 4374 comment-71038795
  * Convert false to null for mounts that used to be owned.
  */
 
@@ -18,7 +20,7 @@ let dbserver = 'localhost:27017'; // CHANGE THIS FOR PRODUCTION DATABASE
 let mongo = require('mongoskin');
 let _ = require('lodash');
 
-let dbUsers = mongo.db(`${dbserver  }/habitrpg?auto_reconnect`).collection('users');
+let dbUsers = mongo.db(`${dbserver  }/phoenixlounge?auto_reconnect`).collection('users');
 
 let query = {
   'items.mounts': {$exists: true},

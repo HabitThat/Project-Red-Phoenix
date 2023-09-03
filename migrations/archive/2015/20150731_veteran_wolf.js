@@ -1,3 +1,5 @@
+// @TODO STRIPPERS (paint?)
+
 // Run after the Veteran Tiger script, not before!
 
 db.users.update(

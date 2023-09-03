@@ -1,3 +1,5 @@
+// @TODO STRIPPERS (paint?)
+
 // var migrationName = '20150604_ultimateGearSets';
 // var authorName = 'Sabe'; // in case script author needs to know when their ...
 // var authorUuid = '7f14ed62-5408-4e1b-be83-ada62d504931'; //... own data is done

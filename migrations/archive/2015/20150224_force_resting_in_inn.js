@@ -17,7 +17,7 @@ let dbserver = 'localhost:27017'; // CHANGE THIS FOR PRODUCTION DATABASE
 let mongo = require('mongoskin');
 let _ = require('lodash');
 
-let dbUsers = mongo.db(`${dbserver  }/habitrpg?auto_reconnect`).collection('users');
+let dbUsers = mongo.db(`${dbserver  }/phoenixlounge?auto_reconnect`).collection('users');
 
 let query = {
   'auth.timestamps.loggedin': {$gt: new Date('2015-02-22')},
