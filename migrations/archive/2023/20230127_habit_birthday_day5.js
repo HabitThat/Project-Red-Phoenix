@@ -1,3 +1,5 @@
+// @TODO STRIPPERS (paint?)
+
 /* eslint-disable no-console */
 import { v4 as uuid } from 'uuid';
 import { model as User } from '../../../website/server/models/user';

@@ -1,9 +1,9 @@
 /*
- * Award Habitoween ladder items to participants in this month's Habitoween festivities
+ * Award Halloween ladder items to participants in this month's Halloween festivities
  */
 /* eslint-disable no-console */
 
-const MIGRATION_NAME = '20211028_habitoween_ladder'; // Update when running in future years
+const MIGRATION_NAME = '20211028_halloween_ladder'; // Update when running in future years
 
 import { model as User } from '../../../website/server/models/user';
 
