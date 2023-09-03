@@ -1,3 +1,5 @@
+// Run after the Veteran Tiger script, not before!
+
 let migrationName = '20151013_jackolanterns.js';
 let authorName = 'Sabe'; // in case script author needs to know when their ...
 let authorUuid = '7f14ed62-5408-4e1b-be83-ada62d504931'; // ... own data is done

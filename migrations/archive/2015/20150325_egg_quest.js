@@ -1,3 +1,5 @@
+// @TODO STRIPPERS (paint?)
+
 /**
  * Created by Sabe on 3/25/2015.
  */
