@@ -1,3 +1,5 @@
+// @TODO STRIPPERS (paint?)
+
 'use strict';
 
 /** **************************************
@@ -21,7 +23,7 @@ const closeDb = require('./utils/connect').closeDb;
 const timer = new Timer();
 
 // PROD: Enable prod db
-// const DB_URI = 'mongodb://username:password@dsXXXXXX-a0.mlab.com:XXXXX,dsXXXXXX-a1.mlab.com:XXXXX/habitica?replicaSet=rs-dsXXXXXX';
+// const DB_URI = 'mongodb://username:password@dsXXXXXX-a0.mlab.com:XXXXX,dsXXXXXX-a1.mlab.com:XXXXX/accomplay?replicaSet=rs-dsXXXXXX';
 const DB_URI = 'mongodb://localhost/new-prod-copy';
 
 const COLLECTION_QUESTS = [

@@ -22,7 +22,7 @@ const AFFECTED_USERS = require('../users_with_bad_history.json');
 
 // PROD: Enable prod db
 const OLD_DB_URI = 'mongodb://localhost/new-prod-copy';
-const NEW_DB_URI = 'mongodb://username:password@dsXXXXXX-a0.mlab.com:XXXXX,dsXXXXXX-a1.mlab.com:XXXXX/habitica?replicaSet=rs-dsXXXXXX';
+const NEW_DB_URI = 'mongodb://username:password@dsXXXXXX-a0.mlab.com:XXXXX,dsXXXXXX-a1.mlab.com:XXXXX/accomplay?replicaSet=rs-dsXXXXXX';
 
 let oldDb, newDb, OldTasks, NewTasks, OldUsers, NewUsers;
 let count = 0;

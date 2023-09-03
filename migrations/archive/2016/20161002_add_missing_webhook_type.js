@@ -19,7 +19,7 @@ const validator = require('validator');
 const timer = new Timer();
 const MIGRATION_NAME = '20161002_add_missing_webhook_type.js';
 
-// const DB_URI = 'mongodb://username:password@dsXXXXXX-a0.mlab.com:XXXXX,dsXXXXXX-a1.mlab.com:XXXXX/habitica?replicaSet=rs-dsXXXXXX';
+// const DB_URI = 'mongodb://username:password@dsXXXXXX-a0.mlab.com:XXXXX,dsXXXXXX-a1.mlab.com:XXXXX/accomplay?replicaSet=rs-dsXXXXXX';
 const DB_URI = 'mongodb://localhost/prod-copy-1';
 
 const LOGGEDIN_DATE_RANGE = {
