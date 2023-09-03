@@ -1,3 +1,5 @@
+// @TODO STRIPPERS (paint?)
+
 /* eslint-disable no-console */
 const MIGRATION_NAME = '20181023_veteran_pet_ladder';
 import { model as User } from '../../website/server/models/user';

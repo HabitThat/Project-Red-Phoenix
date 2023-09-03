@@ -1,3 +1,5 @@
+// @TODO STRIPPERS (paint?)
+
 /* eslint-disable no-console */
 const MIGRATION_NAME = '20181122_turkey_day';
 import mongoose from 'mongoose';

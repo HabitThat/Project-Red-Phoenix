@@ -1,10 +1,12 @@
+// @TODO STRIPPERS (paint?)
+
 /*
- * Award Habitoween ladder items to participants in this month's Habitoween festivities
+ * Award Halloween ladder items to participants in this month's Halloween festivities
  */
 
 import monk from 'monk';
 import nconf from 'nconf';
-const MIGRATION_NAME = '20181030_habitoween_ladder.js'; // Update when running in future years
+const MIGRATION_NAME = '20181030_halloween_ladder.js'; // Update when running in future years
 const CONNECTION_STRING = nconf.get('MIGRATION_CONNECT_STRING');
 const AUTHOR_NAME = 'Sabe'; // in case script author needs to know when their ...
 const AUTHOR_UUID = '7f14ed62-5408-4e1b-be83-ada62d504931'; // ... own data is done
