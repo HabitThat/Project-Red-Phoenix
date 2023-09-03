@@ -1,3 +1,5 @@
+// @TODO STRIPPERS (paint?)
+
 /* eslint-disable no-console */
 const MIGRATION_NAME = '20200721_summer_splash_orcas';
 
