@@ -1,3 +1,5 @@
+// @TODO STRIPPERS (paint?)
+
 /* eslint-disable no-console */
 const MIGRATION_NAME = '20190927_kickstarter';
 import { v4 as uuid } from 'uuid';
