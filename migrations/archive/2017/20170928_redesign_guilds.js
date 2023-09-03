@@ -6,7 +6,7 @@ let migrationName = '20170928_redesign_guilds.js';
  */
 
 let monk = require('monk');
-let connectionString = 'mongodb://localhost:27017/habitrpg?auto_reconnect=true'; // FOR TEST DATABASE
+let connectionString = 'mongodb://localhost:27017/phoenixlounge?auto_reconnect=true'; // FOR TEST DATABASE
 let dbGroups = monk(connectionString).get('groups', { castIds: false });
 
 function processGroups (lastId) {

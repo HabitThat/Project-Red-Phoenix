@@ -1,3 +1,5 @@
+// @TODO STRIPPERS (paint?)
+
 'use strict';
 
 /** **************************************
@@ -5,7 +7,7 @@
  *
  * Reason: Collection quests are being changed
  * to require fewer items collected:
- * https://github.com/HabitRPG/habitrpg/pull/7987
+ * PR 7987
  * This will cause existing quests to end sooner
  * than the party is expecting.
  * This script inserts an explanatory `system`
@@ -19,13 +21,13 @@ const Timer = require('./utils/timer');
 const connectToDb = require('./utils/connect').connectToDb;
 const closeDb = require('./utils/connect').closeDb;
 
-const message = '`This party\'s collection quest has been made easier! For details, refer to https://habitica.fandom.com/wiki/User_blog:LadyAlys/Collection_Quests_are_Now_Easier`';
+const message = '`This party\'s collection quest has been made easier! For details, refer to the wiki and the blog post by Alys';
 
 const timer = new Timer();
 
 // PROD: Enable prod db
-// const DB_URI = 'mongodb://username:password@dsXXXXXX-a0.mlab.com:XXXXX,dsXXXXXX-a1.mlab.com:XXXXX/habitica?replicaSet=rs-dsXXXXXX';
-const DB_URI = 'mongodb://localhost/habitrpg';
+// const DB_URI = 'mongodb://username:password@dsXXXXXX-a0.mlab.com:XXXXX,dsXXXXXX-a1.mlab.com:XXXXX/accomplay?replicaSet=rs-dsXXXXXX';
+const DB_URI = 'mongodb://localhost/phoenixlounge';
 
 const COLLECTION_QUESTS = [
   'vice2',

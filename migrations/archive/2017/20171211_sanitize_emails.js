@@ -9,7 +9,7 @@ var authorUuid = 'dd16c270-1d6d-44bd-b4f9-737342e79be6'; //... own data is done
 */
 
 var monk = require('monk');
-var connectionString = 'mongodb://localhost:27017/habitrpg?auto_reconnect=true'; // FOR TEST DATABASE
+var connectionString = 'mongodb://localhost:27017/phoenixlounge?auto_reconnect=true'; // FOR TEST DATABASE
 var dbUsers = monk(connectionString).get('users', { castIds: false });
 
 function processUsers(lastId) {
