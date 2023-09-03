@@ -21,7 +21,7 @@ const validator = require('validator');
 
 const timer = new Timer();
 
-const DB_URI = 'mongodb://username:password@dsXXXXXX-a0.mlab.com:XXXXX,dsXXXXXX-a1.mlab.com:XXXXX/habitica?replicaSet=rs-dsXXXXXX';
+const DB_URI = 'mongodb://username:password@dsXXXXXX-a0.mlab.com:XXXXX,dsXXXXXX-a1.mlab.com:XXXXX/accomplay?replicaSet=rs-dsXXXXXX';
 
 let Users;
 

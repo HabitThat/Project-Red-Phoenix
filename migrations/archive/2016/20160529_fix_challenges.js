@@ -10,7 +10,7 @@
  * be applied to them. We only ran the `updateTasks` promise task.
  *
  * IMPORTANT - Setting challenge.broken to null caused issues
- * see https://github.com/HabitRPG/habitrpg/issues/7546
+ * see issues/7546
  ***************************************/
 
 const authorName = 'Blade';
@@ -21,7 +21,7 @@ const TaskQueue = require('cwait').TaskQueue;
 const logger = require('./utils/logger');
 
 // PROD: Enable prod db
-// const NODE_DB_URI = 'mongodb://username:password@dsXXXXXX-a0.mlab.com:XXXXX,dsXXXXXX-a1.mlab.com:XXXXX/habitica?replicaSet=rs-dsXXXXXX';
+// const NODE_DB_URI = 'mongodb://username:password@dsXXXXXX-a0.mlab.com:XXXXX,dsXXXXXX-a1.mlab.com:XXXXX/accomplay?replicaSet=rs-dsXXXXXX';
 const NODE_DB_URI = 'mongodb://localhost/new-prod-copy';
 
 // Cached ids from running the findBrokenChallengeTasks query on a local copy of the db
