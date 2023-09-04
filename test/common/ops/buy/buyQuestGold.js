@@ -123,16 +123,16 @@ describe('shared.ops.buyQuest', () => {
     }
   });
 
-  it('does not buy the Mystery of the Masterclassers', async () => {
+  it('does not buy the Mystery of the Endgoalss', async () => {
     try {
       await buyQuest(user, {
         params: {
-          key: 'lostMasterclasser1',
+          key: 'lostEndgoals1',
         },
       });
     } catch (err) {
       expect(err).to.be.an.instanceof(NotAuthorized);
-      expect(err.message).to.equal(i18n.t('questUnlockLostMasterclasser'));
+      expect(err.message).to.equal(i18n.t('questUnlockLostEndgoals'));
       expect(user.items.quests).to.eql({});
     }
   });

@@ -953,55 +953,6 @@ describe('Group Model', () => {
         translationCheck(toJSON.chat[0].text);
       });
 
-      it('translate tavern_quest_completed', async () => {
-        questLeader.preferences.language = 'en';
-        party.chat = [{
-          info: {
-            type: 'tavern_quest_completed',
-            quest: 'stressbeast',
-          },
-        }];
-        const toJSON = await Group.toJSONCleanChat(party, questLeader);
-        translationCheck(toJSON.chat[0].text);
-      });
-
-      it('translate tavern_boss_rage_tired', async () => {
-        questLeader.preferences.language = 'en';
-        party.chat = [{
-          info: {
-            type: 'tavern_boss_rage_tired',
-            quest: 'stressbeast',
-          },
-        }];
-        const toJSON = await Group.toJSONCleanChat(party, questLeader);
-        translationCheck(toJSON.chat[0].text);
-      });
-
-      it('translate tavern_boss_rage', async () => {
-        questLeader.preferences.language = 'en';
-        party.chat = [{
-          info: {
-            type: 'tavern_boss_rage',
-            quest: 'dysheartener',
-            scene: 'market',
-          },
-        }];
-        const toJSON = await Group.toJSONCleanChat(party, questLeader);
-        translationCheck(toJSON.chat[0].text);
-      });
-
-      it('translate tavern_boss_desperation', async () => {
-        questLeader.preferences.language = 'en';
-        party.chat = [{
-          info: {
-            type: 'tavern_boss_desperation',
-            quest: 'stressbeast',
-          },
-        }];
-        const toJSON = await Group.toJSONCleanChat(party, questLeader);
-        translationCheck(toJSON.chat[0].text);
-      });
-
       it('translate claim_task', async () => {
         questLeader.preferences.language = 'en';
         party.chat = [{
@@ -2163,31 +2114,6 @@ describe('Group Model', () => {
         expect(options.quest.key).to.eql(quest.key);
       });
 
-      context('World quests in Tavern', () => {
-        let tavernQuest;
-
-        beforeEach(() => {
-          party._id = TAVERN_ID;
-          party.quest.key = 'stressbeast';
-          tavernQuest = questScrolls.stressbeast;
-        });
-
-        it('updates all users with rewards', async () => {
-          sandbox.spy(User, 'updateMany');
-          await party.finishQuest(tavernQuest);
-
-          expect(User.updateMany).to.be.calledOnce;
-          expect(User.updateMany).to.be.calledWithMatch({});
-        });
-
-        it('sets quest completed to the world quest key', async () => {
-          await party.finishQuest(tavernQuest);
-
-          const updatedLeader = await User.findById(questLeader._id);
-
-          expect(updatedLeader.party.quest.completed).to.eql(tavernQuest.key);
-        });
-      });
     });
 
     describe('sendGroupChatReceivedWebhooks', () => {

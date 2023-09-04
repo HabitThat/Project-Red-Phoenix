@@ -2,10 +2,10 @@ import t from '../translation';
 
 const QUEST_GENERIC = {
   basilist: {
-    text: t('questBasilistText'),
-    notes: t('questBasilistNotes'),
+    text: t('questBasic1Text'),
+    notes: t('questBasic1Notes'),
     group: 'questGroupEarnable',
-    completion: t('questBasilistCompletion'),
+    completion: t('questBasic1Completion'),
     goldValue: 100,
     category: 'unlockable',
     unlockCondition: {
@@ -13,7 +13,7 @@ const QUEST_GENERIC = {
       text: t('inviteFriends'),
     },
     boss: {
-      name: t('questBasilistBoss'),
+      name: t('questBasic1Boss'),
       hp: 100,
       str: 0.5,
     },

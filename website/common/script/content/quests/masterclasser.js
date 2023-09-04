@@ -479,10 +479,10 @@ const QUEST_MASTERCLASSER = {
   },
   // final quest series in Masterclasser
   lostMasterclasser1: {
-    text: t('questLostMasterclasser1Text'),
-    notes: t('questLostMasterclasser1Notes'),
-    group: 'questGroupLostMasterclasser',
-    completion: t('questLostMasterclasser1Completion'),
+    text: t('questLostEndgoals1Text'),
+    notes: t('questLostEndgoals1Notes'),
+    group: 'questGroupLostEndgoals',
+    completion: t('questLostEndgoals1Completion'),
     value: 4,
     prereqQuests: [
       'dilatoryDistress1',
@@ -502,15 +502,15 @@ const QUEST_MASTERCLASSER = {
     category: 'gold',
     collect: {
       ancientTome: {
-        text: t('questLostMasterclasser1CollectAncientTomes'),
+        text: t('questLostEndgoals1CollectItem1'),
         count: 40,
       },
       forbiddenTome: {
-        text: t('questLostMasterclasser1CollectForbiddenTomes'),
+        text: t('questLostEndgoals1CollectItem2'),
         count: 40,
       },
       hiddenTome: {
-        text: t('questLostMasterclasser1CollectHiddenTomes'),
+        text: t('questLostEndgoals1CollectItem3'),
         count: 40,
       },
     },
@@ -559,11 +559,11 @@ const QUEST_MASTERCLASSER = {
     },
   },
   lostMasterclasser2: {
-    text: t('questLostMasterclasser2Text'),
-    notes: t('questLostMasterclasser2Notes'),
-    group: 'questGroupLostMasterclasser',
+    text: t('questLostEndgoals2Text'),
+    notes: t('questLostEndgoals2Notes'),
+    group: 'questGroupLostEndgoals',
     previous1: 'lostMasterclasser1',
-    completion: t('questLostMasterclasser2Completion'),
+    completion: t('questLostEndgoals2Completion'),
     prereqQuests: [
       'lostMasterclasser1',
     ],
@@ -571,7 +571,7 @@ const QUEST_MASTERCLASSER = {
     goldValue: 500,
     category: 'gold',
     boss: {
-      name: t('questLostMasterclasser2Boss'),
+      name: t('questLostEndgoals2Boss'),
       hp: 1500,
       str: 2.5,
     },
@@ -616,7 +616,7 @@ const QUEST_MASTERCLASSER = {
         }, {
           type: 'gear',
           key: 'eyewear_special_aetherMask',
-          text: t('questLostMasterclasser2DropEyewear'),
+          text: t('questLostEndgoals2Drop'),
         },
       ],
       gp: 0,
@@ -624,9 +624,9 @@ const QUEST_MASTERCLASSER = {
     },
   },
   lostMasterclasser3: {
-    text: t('questLostMasterclasser3Text'),
+    text: t('questLostEndgoals3Text'),
     notes: t('questLostMasterclasser3Notes'),
-    group: 'questGroupLostMasterclasser',
+    group: 'questGroupLostEndgoals',
     completion: t('questLostMasterclasser3Completion'),
     previous: 'lostMasterclasser2',
     prereqQuests: [
@@ -683,7 +683,7 @@ const QUEST_MASTERCLASSER = {
   lostMasterclasser4: {
     text: t('questLostMasterclasser4Text'),
     notes: t('questLostMasterclasser4Notes'),
-    group: 'questGroupLostMasterclasser',
+    group: 'questGroupLostEndgoals',
     completion: t('questLostMasterclasser4Completion'),
     previous: 'lostMasterclasser3',
     prereqQuests: [

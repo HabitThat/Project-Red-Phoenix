@@ -253,8 +253,8 @@
   width: 60px;
   height: 64px;
 }
-.achievement-lostMasterclasser2x {
-  background-image: url('https://habitica-assets.s3.amazonaws.com/mobileApp/images/achievement-lostMasterclasser2x.png');
+.achievement-lostEndgoals2x {
+  background-image: url('https://habitica-assets.s3.amazonaws.com/mobileApp/images/achievement-lostEndgoals2x.png');
   width: 48px;
   height: 52px;
 }
@@ -36428,18 +36428,18 @@
   width: 216px;
   height: 177px;
 }
-.quest_lostMasterclasser1 {
-  background-image: url('https://habitica-assets.s3.amazonaws.com/mobileApp/images/quest_lostMasterclasser1.png');
+.quest_lostEndgoals1 {
+  background-image: url('https://habitica-assets.s3.amazonaws.com/mobileApp/images/quest_lostEndgoals1.png');
   width: 219px;
   height: 219px;
 }
-.quest_lostMasterclasser2 {
-  background-image: url('https://habitica-assets.s3.amazonaws.com/mobileApp/images/quest_lostMasterclasser2.png');
+.quest_lostEndgoals2 {
+  background-image: url('https://habitica-assets.s3.amazonaws.com/mobileApp/images/quest_lostEndgoals2.png');
   width: 219px;
   height: 219px;
 }
-.quest_lostMasterclasser3 {
-  background-image: url('https://habitica-assets.s3.amazonaws.com/mobileApp/images/quest_lostMasterclasser3.png');
+.quest_lostEndgoals3 {
+  background-image: url('https://habitica-assets.s3.amazonaws.com/mobileApp/images/quest_lostEndgoals3.png');
   width: 219px;
   height: 219px;
 }
@@ -36748,18 +36748,18 @@
   width: 48px;
   height: 51px;
 }
-.quest_lostMasterclasser1_ancientTome {
-  background-image: url('https://habitica-assets.s3.amazonaws.com/mobileApp/images/quest_lostMasterclasser1_ancientTome.png');
+.quest_lostEndgoals1_ancientTome {
+  background-image: url('https://habitica-assets.s3.amazonaws.com/mobileApp/images/quest_lostEndgoals1_ancientTome.png');
   width: 33px;
   height: 42px;
 }
-.quest_lostMasterclasser1_forbiddenTome {
-  background-image: url('https://habitica-assets.s3.amazonaws.com/mobileApp/images/quest_lostMasterclasser1_forbiddenTome.png');
+.quest_lostEndgoals1_forbiddenTome {
+  background-image: url('https://habitica-assets.s3.amazonaws.com/mobileApp/images/quest_lostEndgoals1_forbiddenTome.png');
   width: 33px;
   height: 42px;
 }
-.quest_lostMasterclasser1_hiddenTome {
-  background-image: url('https://habitica-assets.s3.amazonaws.com/mobileApp/images/quest_lostMasterclasser1_hiddenTome.png');
+.quest_lostEndgoals1_hiddenTome {
+  background-image: url('https://habitica-assets.s3.amazonaws.com/mobileApp/images/quest_lostEndgoals1_hiddenTome.png');
   width: 33px;
   height: 42px;
 }
@@ -37148,43 +37148,43 @@
   width: 68px;
   height: 68px;
 }
-.inventory_quest_scroll_lostMasterclasser1 {
-  background-image: url('https://habitica-assets.s3.amazonaws.com/mobileApp/images/inventory_quest_scroll_lostMasterclasser1.png');
+.inventory_quest_scroll_lostEndgoals1 {
+  background-image: url('https://habitica-assets.s3.amazonaws.com/mobileApp/images/inventory_quest_scroll_lostEndgoals1.png');
   width: 68px;
   height: 68px;
 }
-.inventory_quest_scroll_lostMasterclasser1_locked {
-  background-image: url('https://habitica-assets.s3.amazonaws.com/mobileApp/images/inventory_quest_scroll_lostMasterclasser1_locked.png');
+.inventory_quest_scroll_lostEndgoals1_locked {
+  background-image: url('https://habitica-assets.s3.amazonaws.com/mobileApp/images/inventory_quest_scroll_lostEndgoals1_locked.png');
   width: 68px;
   height: 68px;
 }
-.inventory_quest_scroll_lostMasterclasser2 {
-  background-image: url('https://habitica-assets.s3.amazonaws.com/mobileApp/images/inventory_quest_scroll_lostMasterclasser2.png');
+.inventory_quest_scroll_lostEndgoals2 {
+  background-image: url('https://habitica-assets.s3.amazonaws.com/mobileApp/images/inventory_quest_scroll_lostEndgoals2.png');
   width: 68px;
   height: 68px;
 }
-.inventory_quest_scroll_lostMasterclasser2_locked {
-  background-image: url('https://habitica-assets.s3.amazonaws.com/mobileApp/images/inventory_quest_scroll_lostMasterclasser2_locked.png');
+.inventory_quest_scroll_lostEndgoals2_locked {
+  background-image: url('https://habitica-assets.s3.amazonaws.com/mobileApp/images/inventory_quest_scroll_lostEndgoals2_locked.png');
   width: 68px;
   height: 68px;
 }
-.inventory_quest_scroll_lostMasterclasser3 {
-  background-image: url('https://habitica-assets.s3.amazonaws.com/mobileApp/images/inventory_quest_scroll_lostMasterclasser3.png');
+.inventory_quest_scroll_lostEndgoals3 {
+  background-image: url('https://habitica-assets.s3.amazonaws.com/mobileApp/images/inventory_quest_scroll_lostEndgoals3.png');
   width: 68px;
   height: 68px;
 }
-.inventory_quest_scroll_lostMasterclasser3_locked {
-  background-image: url('https://habitica-assets.s3.amazonaws.com/mobileApp/images/inventory_quest_scroll_lostMasterclasser3_locked.png');
+.inventory_quest_scroll_lostEndgoals3_locked {
+  background-image: url('https://habitica-assets.s3.amazonaws.com/mobileApp/images/inventory_quest_scroll_lostEndgoals3_locked.png');
   width: 68px;
   height: 68px;
 }
-.inventory_quest_scroll_lostMasterclasser4 {
-  background-image: url('https://habitica-assets.s3.amazonaws.com/mobileApp/images/inventory_quest_scroll_lostMasterclasser4.png');
+.inventory_quest_scroll_lostEndgoals4 {
+  background-image: url('https://habitica-assets.s3.amazonaws.com/mobileApp/images/inventory_quest_scroll_lostEndgoals4.png');
   width: 68px;
   height: 68px;
 }
-.inventory_quest_scroll_lostMasterclasser4_locked {
-  background-image: url('https://habitica-assets.s3.amazonaws.com/mobileApp/images/inventory_quest_scroll_lostMasterclasser4_locked.png');
+.inventory_quest_scroll_lostEndgoals4_locked {
+  background-image: url('https://habitica-assets.s3.amazonaws.com/mobileApp/images/inventory_quest_scroll_lostEndgoals4_locked.png');
   width: 68px;
   height: 68px;
 }

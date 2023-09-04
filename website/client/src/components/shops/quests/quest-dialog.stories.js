@@ -17,7 +17,7 @@ stories
     data () {
       return {
         quest: quests.goldenknight2,
-        questWithDrop: quests.stressbeast,
+        questWithDrop: quests.dysheartener,
         questWithGear: quests.moon1,
         evilsanta: quests.evilsanta,
       };

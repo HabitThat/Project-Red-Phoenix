@@ -14,14 +14,14 @@ const QUEST_SEASONAL = {
     canBuy () {
       return this.event && moment().isBetween(this.event.start, this.event.end);
     },
-    text: t('questEvilSantaText'),
-    notes: t('questEvilSantaNotes'),
+    text: t('questWinter1Text'),
+    notes: t('questWinter1Notes'),
     addlNotes: t('evilSantaAddlNotes'),
-    completion: t('questEvilSantaCompletion'),
+    completion: t('questWinter1Completion'),
     value: 4,
     category: 'pet',
     boss: {
-      name: t('questEvilSantaBoss'),
+      name: t('questWinter1Boss'),
       hp: 300,
       str: 1,
     },
@@ -30,7 +30,7 @@ const QUEST_SEASONAL = {
         {
           type: 'mounts',
           key: 'BearCub-Polar',
-          text: t('questEvilSantaDropBearCubPolarMount'),
+          text: t('questWinter1Drop'),
         },
       ],
       gp: 20,
@@ -42,19 +42,19 @@ const QUEST_SEASONAL = {
     canBuy () {
       return this.event && moment().isBetween(this.event.start, this.event.end);
     },
-    text: t('questEvilSanta2Text'),
-    notes: t('questEvilSanta2Notes'),
+    text: t('questWinter2Text'),
+    notes: t('questWinter2Notes'),
     addlNotes: t('evilSantaAddlNotes'),
-    completion: t('questEvilSanta2Completion'),
+    completion: t('questWinter2Completion'),
     value: 4,
     category: 'pet',
     collect: {
       tracks: {
-        text: t('questEvilSanta2CollectTracks'),
+        text: t('questWinter2Collect1'),
         count: 20,
       },
       branches: {
-        text: t('questEvilSanta2CollectBranches'),
+        text: t('questWinter2Collect2'),
         count: 10,
       },
     },
@@ -63,7 +63,7 @@ const QUEST_SEASONAL = {
         {
           type: 'pets',
           key: 'BearCub-Polar',
-          text: t('questEvilSanta2DropBearCubPolarPet'),
+          text: t('questWinter2Drop'),
         },
       ],
       gp: 20,
@@ -76,14 +76,14 @@ const QUEST_SEASONAL = {
     canBuy () {
       return this.event && moment().isBetween('2023-03-28T08:00-05:00', this.event.end);
     },
-    text: t('questEggHuntText'),
-    notes: t('questEggHuntNotes'),
-    completion: t('questEggHuntCompletion'),
+    text: t('questBasic2Text'),
+    notes: t('questBasic2Notes'),
+    completion: t('questBasic2Completion'),
     value: 1,
     category: 'pet',
     collect: {
       plainEgg: {
-        text: t('questEggHuntCollectPlainEgg'),
+        text: t('questBasic2Collect'),
         count: 40,
       },
     },
@@ -92,43 +92,43 @@ const QUEST_SEASONAL = {
         {
           type: 'eggs',
           key: 'Egg',
-          text: t('questEggHuntDropPlainEgg'),
+          text: t('questBasic2Drop'),
         }, {
           type: 'eggs',
           key: 'Egg',
-          text: t('questEggHuntDropPlainEgg'),
+          text: t('questBasic2Drop'),
         }, {
           type: 'eggs',
           key: 'Egg',
-          text: t('questEggHuntDropPlainEgg'),
+          text: t('questBasic2Drop'),
         }, {
           type: 'eggs',
           key: 'Egg',
-          text: t('questEggHuntDropPlainEgg'),
+          text: t('questBasic2Drop'),
         }, {
           type: 'eggs',
           key: 'Egg',
-          text: t('questEggHuntDropPlainEgg'),
+          text: t('questBasic2Drop'),
         }, {
           type: 'eggs',
           key: 'Egg',
-          text: t('questEggHuntDropPlainEgg'),
+          text: t('questBasic2Drop'),
         }, {
           type: 'eggs',
           key: 'Egg',
-          text: t('questEggHuntDropPlainEgg'),
+          text: t('questBasic2Drop'),
         }, {
           type: 'eggs',
           key: 'Egg',
-          text: t('questEggHuntDropPlainEgg'),
+          text: t('questBasic2Drop'),
         }, {
           type: 'eggs',
           key: 'Egg',
-          text: t('questEggHuntDropPlainEgg'),
+          text: t('questBasic2Drop'),
         }, {
           type: 'eggs',
           key: 'Egg',
-          text: t('questEggHuntDropPlainEgg'),
+          text: t('questBasic2Drop'),
         },
       ],
       gp: 0,
