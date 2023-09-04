@@ -1,4 +1,4 @@
-// mongo habitrpg ./node_modules/lodash/index.js ./migrations/find_unique_user.js
+// mongo phoenixlounge ./node_modules/lodash/index.js ./migrations/find_unique_user.js
 
 /**
  * There are some rare instances of lost user accounts, due to a corrupt user auth variable

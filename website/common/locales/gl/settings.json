@@ -190,7 +190,7 @@
     "giftedSubscriptionWinterPromo": "Ola <%= username %>, recibiches <%= monthCount %> meses de subscrición como parte da nosa promoción de agasallar de festas!",
     "giftSubscriptionRateText": "<strong><%= price %> $ USD</strong> por <strong><%= months %> meses</strong>",
     "dayStartAdjustment": "Axuste do comezo do día",
-    "chatExtension": "<a target='blank' href='https://chrome.google.com/webstore/detail/habitrpg-chat-client/hidkdfgonpoaiannijofifhjidbnilbb'>Extensión de conversa de Chrome</a> e <a target='blank' href='https://addons.mozilla.org/en-US/firefox/addon/accomplay-chat-client-2/'>extensión de conversa de Firefox</a>",
+    "chatExtension": "<a target='blank' href='https://chrome.google.com/webstore/detail/phoenixlounge-chat-client/hidkdfgonpoaiannijofifhjidbnilbb'>Extensión de conversa de Chrome</a> e <a target='blank' href='https://addons.mozilla.org/en-US/firefox/addon/accomplay-chat-client-2/'>extensión de conversa de Firefox</a>",
     "chatExtensionDesc": "A extensión de conversa de Accomplay engade unha caixa de conversa intuitiva a todo accomplay.com. Permite á xente conversar na taberna, no seu equipo, e nos seus gremios.",
     "newPMNotificationTitle": "Nova mensaxe de <%= name %>",
     "nextHourglass": "Seguinte reloxo de area",

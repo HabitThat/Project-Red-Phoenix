@@ -19,7 +19,7 @@ const authorUuid = '3e595299-3d8a-4a10-bfe0-88f555e4aa0c'; // ... own data is do
  *
  */
 
-const connectionString = 'mongodb://localhost:27017/habitrpg?auto_reconnect=true'; // FOR TEST DATABASE
+const connectionString = 'mongodb://localhost:27017/phoenixlounge?auto_reconnect=true'; // FOR TEST DATABASE
 
 const monk = require('monk'); // eslint-disable-line import/no-extraneous-dependencies
 

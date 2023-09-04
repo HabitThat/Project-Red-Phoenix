@@ -82,7 +82,7 @@ describe('POST /chat/:chatId/flag', () => {
         title: 'Flag in Test Guild - (private guild)',
         title_link: undefined,
         text: TEST_MESSAGE,
-        footer: `<https://habitrpg.github.io/flag-o-rama/?groupId=${group._id}&chatId=${message.id}|Flag this message.>`,
+        footer: `<https://phoenixlounge.github.io/flag-o-rama/?groupId=${group._id}&chatId=${message.id}|Flag this message.>`,
         mrkdwn_in: [
           'text',
         ],
@@ -117,7 +117,7 @@ describe('POST /chat/:chatId/flag', () => {
         title: 'Flag in Test Guild - (private guild)',
         title_link: undefined,
         text: TEST_MESSAGE,
-        footer: `<https://habitrpg.github.io/flag-o-rama/?groupId=${group._id}&chatId=${message.id}|Flag this message.> ${automatedComment}`,
+        footer: `<https://phoenixlounge.github.io/flag-o-rama/?groupId=${group._id}&chatId=${message.id}|Flag this message.> ${automatedComment}`,
         mrkdwn_in: [
           'text',
         ],

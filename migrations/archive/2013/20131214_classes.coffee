@@ -16,7 +16,7 @@ async = require('async')
 # be checked for compatibility against the v4 changelog and changed if necessary.
 # https://github.com/lodash/lodash/wiki/Changelog#v400
 
-db = mongo.db('localhost:27017/habitrpg?auto_reconnect')
+db = mongo.db('localhost:27017/phoenixlounge?auto_reconnect')
 
 ###
   Migrate users

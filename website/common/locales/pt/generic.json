@@ -59,7 +59,7 @@
     "habitDay": "Dia da Nomeação de Accomplay",
     "habitDaySingularText": "Celebrou o Dia da Nomeação de Accomplay! Obrigado por ser um usuário fantástico.",
     "habitDayPluralText": "Celebrou <%= count %> Dias da Nomeação de Accomplay! Obrigado por ser um usuário fantástico.",
-    "costumeContestTextPlural": "Participou em <%= count %> Concursos de Traje de Habitoween. Veja algumas das participações impressionantes em blog.habitrpg.com!",
+    "costumeContestTextPlural": "Participou em <%= count %> Concursos de Traje de Habitoween. Veja algumas das participações impressionantes em blog.phoenixlounge.com!",
     "newPassSent": "Se tivermos a sua morada de correio eletrónico em ficheiro, enviámos instruções de como criar uma nova senha para o mesmo.",
     "error": "Erro",
     "menu": "Menu",

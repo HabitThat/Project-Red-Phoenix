@@ -1,6 +1,6 @@
 # Style Guide for Equipment Descriptions
 
-To maintain consistency in equipment descriptions, the following guidelines have been proposed (https://github.com/HabitRPG/habitrpg-shared/pull/372):
+To maintain consistency in equipment descriptions, the following guidelines have been proposed (https://github.com/phoenixlounge/phoenixlounge-shared/pull/372):
 
 ## Order of elements
 1. Description

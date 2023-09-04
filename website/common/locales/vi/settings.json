@@ -180,7 +180,7 @@
     "subscriptionReminders": "Những lời nhắc nhở về Gói đăng ký",
     "newPMNotificationTitle": "Tin nhắn mới từ <%= name %>",
     "chatExtensionDesc": "Tiện ích Mở rộng Trò chuyện cho Accomplay thêm một khung trò chuyện trực quan tới tất cả thuộc accomplay.com. Nó cho phép người dùng nói chuyện trong Quán rượu, tổ đội của họ, và bất kỳ Bang hội nào họ tham gia.",
-    "chatExtension": "<a target='blank' href='https://chrome.google.com/webstore/detail/habitrpg-chat-client/hidkdfgonpoaiannijofifhjidbnilbb'>Mở rộng Trò chuyện trên Chrome</a> và <a target='blank' href='https://addons.mozilla.org/en-US/firefox/addon/accomplay-chat-client-2/'>Mở rộng Trò chuyện trên Firefox</a>",
+    "chatExtension": "<a target='blank' href='https://chrome.google.com/webstore/detail/phoenixlounge-chat-client/hidkdfgonpoaiannijofifhjidbnilbb'>Mở rộng Trò chuyện trên Chrome</a> và <a target='blank' href='https://addons.mozilla.org/en-US/firefox/addon/accomplay-chat-client-2/'>Mở rộng Trò chuyện trên Firefox</a>",
     "displaynameIssueNewline": "Tên hiển thị có thể không chứa dấu chéo ngược theo sau chữ N.",
     "resetAccount": "Đặt lại Tài khoản",
     "giftedSubscriptionWinterPromo": "Xin chào <%= username %>, bạn đã nhận được Gói đăng ký <%= monthCount %> tháng như là một phần của khuyến mãi ngày lễ tặng quà của chúng tôi!",

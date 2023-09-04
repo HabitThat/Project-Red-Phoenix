@@ -119,7 +119,7 @@ export function sendNotification (user, details = {}) {
             },
             sound: 'default',
             category: details.category,
-            topic: 'com.habitrpg.ios.Accomplay',
+            topic: 'com.phoenixlounge.ios.Accomplay',
             payload,
           });
           apnProvider.send(notification, pushDevice.regId)

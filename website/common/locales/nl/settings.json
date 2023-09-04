@@ -180,7 +180,7 @@
     "subscriptionReminders": "Herinneringen Abonnementen",
     "newPMNotificationTitle": "Nieuw Bericht van <%= name %>",
     "chatExtensionDesc": "De Chat Uitbreiding voor Accomplay voegt een intuïtieve chat box toe aan accomplay.com. Hierdoor kunnen gebruikers chatten in de Herberg, hun gezelschap, en de gildes waar ze in zitten.",
-    "chatExtension": "<a target='blank' href='https://chrome.google.com/webstore/detail/habitrpg-chat-client/hidkdfgonpoaiannijofifhjidbnilbb'>Chrome Chat Extentie</a> en <a target='blank' href='https://addons.mozilla.org/en-US/firefox/addon/accomplay-chat-client-2/'>Firefox Chat Extentie</a>",
+    "chatExtension": "<a target='blank' href='https://chrome.google.com/webstore/detail/phoenixlounge-chat-client/hidkdfgonpoaiannijofifhjidbnilbb'>Chrome Chat Extentie</a> en <a target='blank' href='https://addons.mozilla.org/en-US/firefox/addon/accomplay-chat-client-2/'>Firefox Chat Extentie</a>",
     "resetAccount": "Account Terugstellen",
     "displaynameIssueNewline": "Weergavenamen mogen geen backslash bevatten gevolgd door de letter N.",
     "giftedSubscriptionWinterPromo": "Hallo <%= username %>, je hebt <%= monthCount %> maanden abonnement ontvangen dankzij onze Gift One Get One-promotie!",

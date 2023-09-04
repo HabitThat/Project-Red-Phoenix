@@ -180,5 +180,5 @@
     "subscriptionReminders": "Tilausmuistutukset",
     "newPMNotificationTitle": "Uusi Viesti käyttäjältä <%= name %>",
     "chatExtensionDesc": "Accomplayer Chat-liitännäinen lisää intuitiivisen chat-ikkunan kaikkialle accomplay.com:iin. Sen avulla käyttäjät voivat jutella Tavernassa, partiossaan ja kaikissa killoissaan.",
-    "chatExtension": "<a target='blank' href='https://chrome.google.com/webstore/detail/habitrpg-chat-client/hidkdfgonpoaiannijofifhjidbnilbb'>Chat-liitännäinen Chromelle</a> ja <a target='blank' href='https://addons.mozilla.org/en-US/firefox/addon/accomplay-chat-client-2/'>Chat-liitännäinen Firefoxille</a>"
+    "chatExtension": "<a target='blank' href='https://chrome.google.com/webstore/detail/phoenixlounge-chat-client/hidkdfgonpoaiannijofifhjidbnilbb'>Chat-liitännäinen Chromelle</a> ja <a target='blank' href='https://addons.mozilla.org/en-US/firefox/addon/accomplay-chat-client-2/'>Chat-liitännäinen Firefoxille</a>"
 }

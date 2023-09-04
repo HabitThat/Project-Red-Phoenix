@@ -1,11 +1,11 @@
-// node habitrpg ./migrations/metrics.js
+// node phoenixlounge ./migrations/metrics.js
 
 let EXPORT_EMAILS = true;
 let mongo = require('mongoskin');
 let csv = require('csv');
 let _ = require('lodash');
 let moment = require('moment');
-let db = mongo.db('localhost:27017/habitrpg?auto_reconnect');
+let db = mongo.db('localhost:27017/phoenixlounge?auto_reconnect');
 let twoWeeksAgo = moment().subtract(14, 'days');
 let angularRewrite = moment('07/09/2013');
 

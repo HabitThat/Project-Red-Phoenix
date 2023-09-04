@@ -180,5 +180,5 @@
     "subscriptionReminders": "Абонаментни Напомняния",
     "newPMNotificationTitle": "Ново съобщение от <%= name %>",
     "chatExtensionDesc": "Чат Разширението за Accomplay добавя интуитивен чат прозорец за цялата accomplay.com. Позволява на потребителите да чатят в Кръчмата, групата им и в гилдиите, в които са членове.",
-    "chatExtension": "<a target='blank' href='https://chrome.google.com/webstore/detail/habitrpg-chat-client/hidkdfgonpoaiannijofifhjidbnilbb'>Chrome Чат Разширение</a> и <a target='blank' href='https://addons.mozilla.org/en-US/firefox/addon/accomplay-chat-client-2/'>Firefox Чат Разширение</a>"
+    "chatExtension": "<a target='blank' href='https://chrome.google.com/webstore/detail/phoenixlounge-chat-client/hidkdfgonpoaiannijofifhjidbnilbb'>Chrome Чат Разширение</a> и <a target='blank' href='https://addons.mozilla.org/en-US/firefox/addon/accomplay-chat-client-2/'>Firefox Чат Разширение</a>"
 }

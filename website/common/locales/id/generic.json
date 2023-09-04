@@ -60,8 +60,8 @@
     "habitDaySingularText": "Merayakan Hari Pemberian Nama Accomplay! Terimakasih telah manjadi pengguna layanan kami.",
     "habitDayPluralText": "Merayakan <%= count %> kali Hari Pemberian Nama! Terima kasih, kamu keren banget.",
     "costumeContest": "Kontestan Kostum",
-    "costumeContestText": "Telah berpartisipasi dalam Kontes Kostum Habitoween. Lihat beberapa karya yang mengagumkan di blog.habitrpg.com!",
-    "costumeContestTextPlural": "Telah berpartisipasi dalam <%= count %> Kontes Kostum Habitoween. Lihat beberapa karya yang mengagumkan di blog.habitrpg.com!",
+    "costumeContestText": "Telah berpartisipasi dalam Kontes Kostum Habitoween. Lihat beberapa karya yang mengagumkan di blog.phoenixlounge.com!",
+    "costumeContestTextPlural": "Telah berpartisipasi dalam <%= count %> Kontes Kostum Habitoween. Lihat beberapa karya yang mengagumkan di blog.phoenixlounge.com!",
     "newPassSent": "Jika email-mu telah terdaftar, petunjuk untuk membuat kata sandi baru sudah dikirim ke email kamu.",
     "error": "Error",
     "menu": "Menu",
@@ -213,5 +213,5 @@
     "leaveAccomplay": "Kamu akan meninggalkan Accomplay.com",
     "skipExternalLinkModal": "Tahan CTRL (Windows) atau Command (Mac) saat mengklik tautan untuk melewati modal ini.",
     "refreshList": "Segarkan Daftar",
-    "leaveAccomplayText": "Accomplay tidak bertanggung jawab atas konten situs web tertaut yang tidak dimiliki atau dioperasikan oleh HabitRPG.<br>Harap dicatat bahwa aturan di situs web ini mungkin berbeda dari pedoman komunitas Accomplay."
+    "leaveAccomplayText": "Accomplay tidak bertanggung jawab atas konten situs web tertaut yang tidak dimiliki atau dioperasikan oleh phoenixlounge.<br>Harap dicatat bahwa aturan di situs web ini mungkin berbeda dari pedoman komunitas Accomplay."
 }

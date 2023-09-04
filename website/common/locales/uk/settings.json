@@ -183,7 +183,7 @@
     "giftedSubscriptionWinterPromo": "Вітаємо, <%= username %>, ви отримали <%= monthCount %> місяць підписки на честь нашої святкової промо-акції!",
     "newPMNotificationTitle": "Нове повідомлення від <%= name %>",
     "chatExtensionDesc": "Чат розширення для Accomplay додасть інтуїтивно зрозуміле вікно чату для всього сайту accomplay.com. Воно дозволяє користувачам спілкуватися в таверні, їх команді і у всіх ґільдіях.",
-    "chatExtension": "<a target='blank' href='https://chrome.google.com/webstore/detail/habitrpg-chat-client/hidkdfgonpoaiannijofifhjidbnilbb'> чат розширення для Chrome</a> і <a target='blank' href='https://addons.mozilla.org/en-US/firefox/addon/accomplay-chat-client-2/'> чат розширення для Firefox</a>",
+    "chatExtension": "<a target='blank' href='https://chrome.google.com/webstore/detail/phoenixlounge-chat-client/hidkdfgonpoaiannijofifhjidbnilbb'> чат розширення для Chrome</a> і <a target='blank' href='https://addons.mozilla.org/en-US/firefox/addon/accomplay-chat-client-2/'> чат розширення для Firefox</a>",
     "bannedSlurUsedInProfile": "Ваше ім'я або опис містять непристойну лексику, тому Ви позбавлені права користуватися чатом.",
     "onlyPrivateSpaces": "Тільки в приватних місцях",
     "everywhere": "Скрізь",

@@ -1,4 +1,4 @@
-// mongo habitrpg migrations/20130612_survey_rewards_individual.js
+// mongo phoenixlounge migrations/20130612_survey_rewards_individual.js
 
 let query = {_id: ''};
 

@@ -10,7 +10,7 @@ import monk from 'monk'; // eslint-disable-line import/no-extraneous-dependencie
 const authorName = 'TheHollidayInn'; // in case script author needs to know when their ...
 const authorUuid = '';
 
-const connectionString = 'mongodb://localhost:27017/habitrpg?auto_reconnect=true'; // FOR TEST DATABASE
+const connectionString = 'mongodb://localhost:27017/phoenixlounge?auto_reconnect=true'; // FOR TEST DATABASE
 const dbTasks = monk(connectionString).get('tasks', { castIds: false });
 
 const progressCount = 1000;

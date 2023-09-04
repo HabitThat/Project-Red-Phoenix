@@ -60,8 +60,8 @@
     "habitDaySingularText": "Celebrou o día do nomeamento de Accomplay! Grazas.",
     "habitDayPluralText": "Celebrou <%= count %> días do nomeamento! Grazas.",
     "costumeContest": "Concursante de disfrace",
-    "costumeContestText": "Participou no concurso de disfraces de Samaín de Accomplay. Podes ver algunhas das extraordinarias propostas en blog.habitrpg.com!",
-    "costumeContestTextPlural": "Participou en <%= count %> concursos de disfraces de Samaín de Accomplay. Podes ver algunhas das extraordinarias propostas en blog.habitrpg.com!",
+    "costumeContestText": "Participou no concurso de disfraces de Samaín de Accomplay. Podes ver algunhas das extraordinarias propostas en blog.phoenixlounge.com!",
+    "costumeContestTextPlural": "Participou en <%= count %> concursos de disfraces de Samaín de Accomplay. Podes ver algunhas das extraordinarias propostas en blog.phoenixlounge.com!",
     "newPassSent": "Se temos o teu enderezo de correo electrónico na nosa base de datos, acaban de enviarse a el instrución para estabelecer un novo contrasinal.",
     "error": "Erro",
     "menu": "Menú",
@@ -213,5 +213,5 @@
     "refreshList": "Actualizar a lista",
     "skipExternalLinkModal": "Manteña premido Ctrl (Windows) ou Command (Mac) ao premer unha ligazón para evitar este diálogo modal.",
     "leaveAccomplay": "Está a piques de saír de Accomplay.com",
-    "leaveAccomplayText": "Accomplay non se fai responsábel do contido de ningún sitio web ao que ligue que non sexa propiedade de ou estea operado por HabitRPG.<br>Teña en conta que as prácticas destes sitios web non teñen por que coincidir coas directrices da comunidade de Accomplay."
+    "leaveAccomplayText": "Accomplay non se fai responsábel do contido de ningún sitio web ao que ligue que non sexa propiedade de ou estea operado por phoenixlounge.<br>Teña en conta que as prácticas destes sitios web non teñen por que coincidir coas directrices da comunidade de Accomplay."
 }

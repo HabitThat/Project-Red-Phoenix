@@ -28,8 +28,8 @@ import { EVENTS } from './constants';
     In the case of `self` skills,
     you act on `user` instead of `target`. You can trust these are the correct objects,
     as long as the `target` attr of the
-    spell is correct. Take a look at habitrpg/website/server/models/user.js and
-    habitrpg/website/server/models/task.js for what attributes are
+    spell is correct. Take a look at /website/server/models/user.js and
+    /website/server/models/task.js for what attributes are
     available on each model. Note `task.value` is its "redness".
     If party is passed in, it's an array of users,
     so you'll want to iterate over them like: `_.each(target,function(member){...})`

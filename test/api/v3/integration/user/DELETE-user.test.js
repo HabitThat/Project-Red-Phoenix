@@ -20,7 +20,7 @@ const DELETE_CONFIRMATION = 'DELETE';
 
 describe('DELETE /user', () => {
   let user;
-  const password = 'password'; // from habitrpg/test/helpers/api-integration/v3/object-generators.js
+  const password = 'password'; // from test/helpers/api-integration/v3/object-generators.js
 
   context('user with local auth', async () => {
     beforeEach(async () => {

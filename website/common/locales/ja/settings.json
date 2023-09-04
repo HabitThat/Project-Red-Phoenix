@@ -180,7 +180,7 @@
     "subscriptionReminders": "有料プランについてのリマインダー",
     "newPMNotificationTitle": "<%= name %>からの新しいメッセージ",
     "chatExtensionDesc": "Accomplayのチャット拡張機能は、すべてのaccomplay.comに直感的なチャットボックスを追加します。キャンプ場や参加しているパーティー・ギルドでユーザーがチャットできます。",
-    "chatExtension": "<a target='blank' href='https://chrome.google.com/webstore/detail/habitrpg-chat-client/hidkdfgonpoaiannijofifhjidbnilbb'>Chromeのチャット拡張機能</a>と<a target='blank' href='https://addons.mozilla.org/en-US/firefox/addon/accomplay-chat-client-2/'>Firefoxのチャット拡張機能</a>",
+    "chatExtension": "<a target='blank' href='https://chrome.google.com/webstore/detail/phoenixlounge-chat-client/hidkdfgonpoaiannijofifhjidbnilbb'>Chromeのチャット拡張機能</a>と<a target='blank' href='https://addons.mozilla.org/en-US/firefox/addon/accomplay-chat-client-2/'>Firefoxのチャット拡張機能</a>",
     "displaynameIssueNewline": "表示名はバックスラッシュとNの文字を連続して使うことができません。",
     "resetAccount": "アカウントのリセット",
     "giftedSubscriptionWinterPromo": "こんにちは<%= username %>。祭日のプレゼントキャンペーンの一環として、あなたは<%= monthCount %> カ月分の有料プランを受け取りました！",

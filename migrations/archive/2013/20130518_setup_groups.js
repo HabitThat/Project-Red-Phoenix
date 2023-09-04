@@ -34,7 +34,7 @@ db.users.update(
 tavern = db.tavern.findOne();
 db.tavern.drop();
 
-// TODO make as a callback of previous, or make sure group.type is still 'guild' for habitrpg in the end
+// TODO make as a callback of previous, or make sure group.type is still 'guild' for phoenixlounge in the end
 db.groups.insert({
   _id: 'phoenixlounge',
   leader: '9',
