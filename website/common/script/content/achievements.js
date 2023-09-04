@@ -396,11 +396,6 @@ const specialAchievs = {
     pluralTitleKey: 'helped',
     pluralTextKey: 'surveysMultiple',
   },
-  kickstarter2019: {
-    icon: 'achievement-kickstarter2019',
-    titleKey: 'achievementKickstarter2019',
-    textKey: 'achievementKickstarter2019Text',
-  },
   groupsBeta2022: {
     icon: 'achievement-groupsBeta2022',
     titleKey: 'achievementGroupsBeta2022',
