@@ -62,7 +62,7 @@
     "onlyLeaderCancelQuest": "Only th' crew or adventure leader can cancel th' quest.",
     "questNotPending": "There be no adventure t' start.",
     "questOrGroupLeaderOnlyStartQuest": "Only th' adventure leader or crew leader can force start th' adventure",
-    "loginIncentiveQuest": "T' unlock this adventure, check in t' Habitica on <%= count %> diff'rent days!",
+    "loginIncentiveQuest": "T' unlock this adventure, check in t' Accomplay on <%= count %> diff'rent days!",
     "loginReward": "<%= count %> Check-ins",
     "questBundles": "Discount'd Adventure Bundles",
     "noQuestToStart": "Can't find an adventure t' start? Try checkin' out th' Adventure Shop in th' Market fer new releases!",

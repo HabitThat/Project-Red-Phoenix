@@ -14,7 +14,7 @@
 
     <div class="modal-footer d-flex align-items-center pb-0">
       <a
-        href="https://habitica.fandom.com/wiki/Whats_New"
+        href="https://accomplay.fandom.com/wiki/Whats_New"
         target="_blank"
         class="mr-auto"
       >{{ $t('newsArchive') }}</a>

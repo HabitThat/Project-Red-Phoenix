@@ -78,7 +78,7 @@ export default {
     },
   },
   mounted () {
-    this.$root.$on('habitica:challenge:member-progress', data => {
+    this.$root.$on('accomplay:challenge:member-progress', data => {
       if (!data.progressMemberId) return;
       this.memberId = data.progressMemberId;
       this.isLeader = data.isLeader;
@@ -87,7 +87,7 @@ export default {
     });
   },
   beforeDestroy () {
-    this.$root.$off('habitica:challenge:member-progress');
+    this.$root.$off('accomplay:challenge:member-progress');
   },
   methods: {
     async closeChallenge () {

@@ -702,7 +702,7 @@ export default {
             this.$root.$emit('bv::show::modal', 'rebirth-enabled');
             break;
           case 'WON_CHALLENGE':
-            this.$root.$emit('habitica:won-challenge', notification);
+            this.$root.$emit('accomplay:won-challenge', notification);
             break;
           case 'REBIRTH_ACHIEVEMENT':
             this.playSound('Achievement_Unlocked');

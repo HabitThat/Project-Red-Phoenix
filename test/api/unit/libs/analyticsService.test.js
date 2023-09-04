@@ -46,7 +46,7 @@ describe('analyticsService', () => {
         resting: true,
         cronCount: 5,
         headers: {
-          'x-client': 'habitica-web',
+          'x-client': 'accomplay-web',
           'user-agent': '',
         },
       };
@@ -71,7 +71,7 @@ describe('analyticsService', () => {
 
       context('platform', () => {
         it('logs web platform', () => {
-          data.headers = { 'x-client': 'habitica-web' };
+          data.headers = { 'x-client': 'accomplay-web' };
 
           return analyticsService.track(eventType, data)
             .then(() => {
@@ -82,7 +82,7 @@ describe('analyticsService', () => {
         });
 
         it('logs iOS platform', () => {
-          data.headers = { 'x-client': 'habitica-ios' };
+          data.headers = { 'x-client': 'accomplay-ios' };
 
           return analyticsService.track(eventType, data)
             .then(() => {
@@ -93,7 +93,7 @@ describe('analyticsService', () => {
         });
 
         it('logs Android platform', () => {
-          data.headers = { 'x-client': 'habitica-android' };
+          data.headers = { 'x-client': 'accomplay-android' };
 
           return analyticsService.track(eventType, data)
             .then(() => {
@@ -144,8 +144,8 @@ describe('analyticsService', () => {
 
         it('sets iOS', () => {
           data.headers = {
-            'x-client': 'habitica-ios',
-            'user-agent': 'Habitica/148 (iPhone; iOS 9.3; Scale/2.00)',
+            'x-client': 'accomplay-ios',
+            'user-agent': 'Accomplay/148 (iPhone; iOS 9.3; Scale/2.00)',
           };
 
           return analyticsService.track(eventType, data)
@@ -159,7 +159,7 @@ describe('analyticsService', () => {
 
         it('sets Android', () => {
           data.headers = {
-            'x-client': 'habitica-android',
+            'x-client': 'accomplay-android',
             'user-agent': 'Mozilla/5.0 (Linux; Android 4.0.4; Galaxy Nexus Build/IMM76B) AppleWebKit/535.19 (KHTML, like Gecko) Chrome/18.0.1025.133 Mobile Safari/535.19',
           };
 
@@ -367,7 +367,7 @@ describe('analyticsService', () => {
         gift: false,
         quantity: 1,
         headers: {
-          'x-client': 'habitica-web',
+          'x-client': 'accomplay-web',
           'user-agent': '',
         },
       };
@@ -392,7 +392,7 @@ describe('analyticsService', () => {
 
       context('platform', () => {
         it('logs web platform', () => {
-          data.headers = { 'x-client': 'habitica-web' };
+          data.headers = { 'x-client': 'accomplay-web' };
 
           return analyticsService.trackPurchase(data)
             .then(() => {
@@ -403,7 +403,7 @@ describe('analyticsService', () => {
         });
 
         it('logs iOS platform', () => {
-          data.headers = { 'x-client': 'habitica-ios' };
+          data.headers = { 'x-client': 'accomplay-ios' };
 
           return analyticsService.trackPurchase(data)
             .then(() => {
@@ -414,7 +414,7 @@ describe('analyticsService', () => {
         });
 
         it('logs Android platform', () => {
-          data.headers = { 'x-client': 'habitica-android' };
+          data.headers = { 'x-client': 'accomplay-android' };
 
           return analyticsService.trackPurchase(data)
             .then(() => {
@@ -465,8 +465,8 @@ describe('analyticsService', () => {
 
         it('sets iOS', () => {
           data.headers = {
-            'x-client': 'habitica-ios',
-            'user-agent': 'Habitica/148 (iPhone; iOS 9.3; Scale/2.00)',
+            'x-client': 'accomplay-ios',
+            'user-agent': 'Accomplay/148 (iPhone; iOS 9.3; Scale/2.00)',
           };
 
           return analyticsService.trackPurchase(data)
@@ -480,7 +480,7 @@ describe('analyticsService', () => {
 
         it('sets Android', () => {
           data.headers = {
-            'x-client': 'habitica-android',
+            'x-client': 'accomplay-android',
             'user-agent': 'Mozilla/5.0 (Linux; Android 4.0.4; Galaxy Nexus Build/IMM76B) AppleWebKit/535.19 (KHTML, like Gecko) Chrome/18.0.1025.133 Mobile Safari/535.19',
           };
 

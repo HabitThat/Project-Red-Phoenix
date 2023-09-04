@@ -29,10 +29,10 @@ const api = {};
  *                          Not used if the spell is case on the user or the user's current party.
  * @apiParamExample {json} Query example:
  * Cast "Pickpocket" on a task:
- *  https://habitica.com/api/v3/user/class/cast/pickPocket?targetId=fd427623...
+ *  https://accomplay.com/api/v3/user/class/cast/pickPocket?targetId=fd427623...
  *
  * Cast "Tools of the Trade" on the party:
- *  https://habitica.com/api/v3/user/class/cast/toolsOfTrade
+ *  https://accomplay.com/api/v3/user/class/cast/toolsOfTrade
  *
  * @apiSuccess data Will return the modified targets.
  *                  For party members only the necessary fields will be populated.

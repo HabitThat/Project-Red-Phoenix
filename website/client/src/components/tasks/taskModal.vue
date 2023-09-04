@@ -86,7 +86,7 @@
           >
             <a
               target="_blank"
-              href="https://habitica.fandom.com/wiki/Markdown_Cheat_Sheet"
+              href="https://accomplay.fandom.com/wiki/Markdown_Cheat_Sheet"
               :class="cssClass('headings')"
             >{{ $t('markdownHelpLink') }}</a>
           </small>

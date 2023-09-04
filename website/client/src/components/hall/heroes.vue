@@ -66,7 +66,7 @@
                 <small>
                   1-7 for normal contributors, 8 for moderators, 9 for staff. This determines which items, pets, and mounts are available, and name-tag coloring. Tiers 8 and 9 are automatically given admin status.&nbsp; <!-- eslint-disable-line max-len -->
                   <a
-                    href="https://habitica.fandom.com/wiki/Contributor_Rewards"
+                    href="https://accomplay.fandom.com/wiki/Contributor_Rewards"
                     target="_blank"
                   >More details</a>
                 </small>

@@ -296,7 +296,7 @@
         <sidebar-section :title="$t('helpfulLinks')">
           <ul>
             <li>
-              <a href="mailto:admin@habitica.com">
+              <a href="mailto:admin@accomplay.com">
                 {{ $t('reportCommunityIssues') }}
               </a>
             </li>
@@ -333,14 +333,14 @@
             <li>
               <a
                 v-once
-                href="https://habitica.fandom.com/wiki/Habitica_Wiki"
+                href="https://accomplay.fandom.com/wiki/Accomplay_Wiki"
                 target="_blank"
               >{{ $t('wiki') }}</a>
             </li>
             <li>
               <a
                 v-once
-                href="https://tools.habitica.com/"
+                href="https://tools.accomplay.com/"
                 target="_blank"
               >{{ $t('dataDisplayTool') }}</a>
             </li>

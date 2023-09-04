@@ -208,7 +208,7 @@ async function registerLocal (req, res, { isV3 = false }) {
     .remove({ email: savedUser.auth.local.email })
     .then(() => {
       if (existingUser) return;
-      if (newUser.registeredThrough === 'habitica-web') {
+      if (newUser.registeredThrough === 'accomplay-web') {
         sendTxnEmail(savedUser, 'welcome-v2b');
       } else {
         sendTxnEmail(savedUser, 'welcome');

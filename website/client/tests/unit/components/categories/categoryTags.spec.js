@@ -34,11 +34,11 @@ describe('Category Tags', () => {
     });
   });
 
-  it('displays a habitica official in purple', () => {
+  it('displays an official in purple', () => {
     wrapper.setProps({
       categories: [
         {
-          name: 'habitica_official',
+          name: 'accomplay_official',
         },
       ],
     });

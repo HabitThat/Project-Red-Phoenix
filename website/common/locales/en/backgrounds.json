@@ -126,12 +126,12 @@
   "backgroundTwinklyPartyLightsNotes": "Dance under Twinkly Party Lights!",
 
   "backgrounds092015": "SET 16: Released September 2015",
-  "backgroundMarketText": "Habitica Market",
-  "backgroundMarketNotes": "Shop in the Habitica Market.",
-  "backgroundStableText": "Habitica Stable",
-  "backgroundStableNotes": "Tend mounts in the Habitica Stable.",
-  "backgroundTavernText": "Habitica Tavern",
-  "backgroundTavernNotes": "Visit the Habitica Tavern.",
+  "backgroundMarketText": "Accomplay Market",
+  "backgroundMarketNotes": "Shop in the Accomplay Market.",
+  "backgroundStableText": "Accomplay Stable",
+  "backgroundStableNotes": "Tend mounts in the Accomplay Stable.",
+  "backgroundTavernText": "Accomplay Tavern",
+  "backgroundTavernNotes": "Visit the Accomplay Tavern.",
 
   "backgrounds102015": "SET 17: Released October 2015",
   "backgroundHarvestMoonText": "Harvest Moon",
@@ -329,7 +329,7 @@
   "backgroundDesertDunesText": "Desert Dunes",
   "backgroundDesertDunesNotes": "Boldly explore the Desert Dunes.",
   "backgroundSummerFireworksText": "Summer Fireworks",
-  "backgroundSummerFireworksNotes": "Celebrate Habitica's Naming Day with Summer Fireworks!",
+  "backgroundSummerFireworksNotes": "Celebrate Accomplay's Naming Day with Summer Fireworks!",
 
   "backgrounds092017": "SET 40: Released September 2017",
   "backgroundBesideWellText": "Beside a Well",
@@ -557,7 +557,7 @@
 
   "backgrounds012020": "SET 68: Released January 2020",
   "backgroundBirthdayPartyText": "Birthday Party",
-  "backgroundBirthdayPartyNotes": "Celebrate the Birthday Party of your favorite Habitican.",
+  "backgroundBirthdayPartyNotes": "Celebrate the Birthday Party of your favorite Accomplayn.",
   "backgroundDesertWithSnowText": "Snowy Desert",
   "backgroundDesertWithSnowNotes": "Witness the rare and quiet beauty of a Snowy Desert.",
   "backgroundSnowglobeText": "Snowglobe",
@@ -909,5 +909,5 @@
 
   "eventBackgrounds": "Event Backgrounds",
   "backgroundBirthdayBashText": "Birthday Bash",
-  "backgroundBirthdayBashNotes": "Habitica's having a birthday party, and everyone's invited!"
+  "backgroundBirthdayBashNotes": "Accomplay's having a birthday party, and everyone's invited!"
 }

@@ -20,7 +20,7 @@ let isUserLoggedIn = false;
 // eg, -240 - this will be converted on server as (offset/60)
 const browserTimezoneUtcOffset = moment().utcOffset();
 
-axios.defaults.headers.common['x-client'] = 'habitica-web';
+axios.defaults.headers.common['x-client'] = 'accomplay-web';
 
 let AUTH_SETTINGS = window.localStorage.getItem('habit-mobile-settings');
 if (AUTH_SETTINGS) {
@@ -28,7 +28,7 @@ if (AUTH_SETTINGS) {
   isUserLoggedIn = setUpAxios(AUTH_SETTINGS);
 }
 
-const i18nData = window && window['habitica-i18n'];
+const i18nData = window && window['accomplay-i18n'];
 
 let availableLanguages = [];
 let selectedLanguage = {};
@@ -51,7 +51,7 @@ export default function () {
     getters,
     state: {
       serverAppVersion: null,
-      title: 'Habitica',
+      title: 'Accomplay',
       isUserLoggedIn,
       // Means the user and the user's tasks are ready
       // @TODO use store.user.loaded since it's an async resource?
@@ -61,7 +61,7 @@ export default function () {
       // Keep track of the ids of notifications that have been removed
       // to make sure they don't get shown again. It happened due to concurrent requests
       // which in some cases could result in a read notification showing up again
-      // see https://github.com/HabitRPG/habitica/issues/9242
+      // see issue 9242
       notificationsRemoved: [],
       worldState: asyncResourceFactory(),
       credentials: isUserLoggedIn ? {

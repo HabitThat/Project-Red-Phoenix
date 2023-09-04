@@ -18,7 +18,7 @@ const api = {};
 
 /**
  * @api {get} /api/v3/hall/patrons Get all patrons
- * @apiDescription Returns an array of objects containing the patrons who backed Habitica's
+ * @apiDescription Returns an array of objects containing the patrons who backed Accomplay's
  * original kickstarter. The array is sorted by the backer tier in descending order.
  * By default, only the first 50 patrons are returned. More can be accessed by passing ?page=n
  * @apiName GetPatrons
@@ -99,7 +99,7 @@ api.getPatrons = {
  * @apiGroup Hall
  *
  * @apiDescription Returns an array of objects containing the heroes who have
- * contributed for Habitica. The array is sorted by the contribution level in descending order.
+ * contributed for Accomplay. The array is sorted by the contribution level in descending order.
  *
  * @apiSuccess {Array} heroes An array of heroes
  *
@@ -268,7 +268,7 @@ api.updateHero = {
     if (!hero) throw new NotFound(res.t('userWithIDNotFound', { userId: heroId }));
 
     if (updateData.balance && updateData.balance !== hero.balance) {
-      await hero.updateBalance(updateData.balance - hero.balance, 'admin_update_balance', '', 'Given by Habitica staff');
+      await hero.updateBalance(updateData.balance - hero.balance, 'admin_update_balance', '', 'Given by Accomplay staff');
 
       hero.balance = updateData.balance;
     }
@@ -288,7 +288,7 @@ api.updateHero = {
           if (changedHourglassTrinkets !== 0) {
             await hero.updateHourglasses(
               changedHourglassTrinkets,
-              'admin_update_hourglasses', '', 'Updated by Habitica staff',
+              'admin_update_hourglasses', '', 'Updated by Accomplay staff',
             );
           }
 

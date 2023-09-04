@@ -23,14 +23,14 @@
         ></div>
       </div>
       <h2>
-        {{ $t('leaveHabitica') }}
+        {{ $t('leaveAccomplay') }}
       </h2>
     </div>
 
     <!-- BODY -->
     <div
       class="row leave-warning-text"
-      v-html="$t('leaveHabiticaText')"
+      v-html="$t('leaveAccomplayText')"
     >
     </div>
     <div
@@ -188,13 +188,13 @@ export default {
     };
   },
   mounted () {
-    this.$root.$on('habitica:external-link', url => {
+    this.$root.$on('accomplay:external-link', url => {
       this.url = url;
       this.$root.$emit('bv::show::modal', 'external-link-modal');
     });
   },
   beforeDestroy () {
-    this.$root.$off('habitica:external-link');
+    this.$root.$off('accomplay:external-link');
   },
   methods: {
     close () {

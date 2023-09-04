@@ -58,7 +58,7 @@
                 :disabled="!hasPermission(user, 'fullAccess')"
                 type="checkbox"
               >
-              Challenge Admin (can create official habitica challenges and admin all challenges)
+              Challenge Admin (can create official accomplay challenges and admin all challenges)
             </label>
           </div>
           <div class="checkbox">

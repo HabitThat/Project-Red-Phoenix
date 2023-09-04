@@ -9,6 +9,6 @@ export { requester };
 export { server };
 
 export { translate } from '../../translate';
-export { checkExistence, getProperty, resetHabiticaDB } from '../../mongo';
+export { checkExistence, getProperty, resetAccomplayDB } from '../../mongo';
 export * from './object-generators';
 export { sleep } from '../../sleep';

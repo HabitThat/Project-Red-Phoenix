@@ -25,7 +25,7 @@ async function updateUser (user) {
     data: {
       icon: 'notif_head_special_nye',
       title: 'Birthday Bash Day 5!',
-      text: 'Come celebrate by wearing your new Habitica Hero Cape, Collar, and Mask!',
+      text: 'Come celebrate by wearing your new Accomplay Hero Cape, Collar, and Mask!',
       destination: 'equipment',
     },
     seen: false,

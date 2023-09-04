@@ -221,7 +221,7 @@ export default {
       this.loadChallenges();
     },
     createChallenge () {
-      this.$root.$emit('habitica:create-challenge');
+      this.$root.$emit('accomplay:create-challenge');
     },
     async loadChallenges () {
       this.loading = true;

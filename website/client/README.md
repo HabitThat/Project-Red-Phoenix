@@ -1,4 +1,4 @@
-# Habitica Client
+# Accomplay Client
 
 ## Project setup
 ```

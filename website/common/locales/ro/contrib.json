@@ -1,5 +1,5 @@
 {
-    "playerTiersDesc": "Numele de utilizator colorat pe care îl vezi în chat reprezintă nivelul de contribuție a unei persoane. Cu cât este mai ridicat nivelul, cu atât persoana respectivă a contribuit mai mult la Habitica prin artă, programare, în comunitate, sau altele!",
+    "playerTiersDesc": "Numele de utilizator colorat pe care îl vezi în chat reprezintă nivelul de contribuție a unei persoane. Cu cât este mai ridicat nivelul, cu atât persoana respectivă a contribuit mai mult la Accomplay prin artă, programare, în comunitate, sau altele!",
     "tier1": "Nivelul 1 (Prieten)",
     "tier2": "Nivelul 2 (Prieten)",
     "tier3": "Nivel 3 (Elită)",
@@ -19,13 +19,13 @@
     "staff": "Angajați",
     "heroic": "Eroic",
     "modalContribAchievement": "Realizare de contribuitor!",
-    "contribModal": "<%= name %>, ești o persoană nemaipomenită! Ai primit nivelul <%= level %> de contribuție pentru ajutorarea Habitica.",
+    "contribModal": "<%= name %>, ești o persoană nemaipomenită! Ai primit nivelul <%= level %> de contribuție pentru ajutorarea Accomplay.",
     "contribLink": "Vezi ce premii ai câștigat pentru contribuția ta!",
     "contribName": "Contribuitor",
-    "contribText": "A contribuit la Habitica, fie prin programare, artă, muzică, scris, sau alte metode. Pentru a învăța mai multe, alătură-te Aspiring Legends Guild!",
+    "contribText": "A contribuit la Accomplay, fie prin programare, artă, muzică, scris, sau alte metode. Pentru a învăța mai multe, alătură-te Aspiring Legends Guild!",
     "kickstartName": "Susținător Kickstarter - Nivel $<%= key %>",
     "kickstartText": "A susținut proiectul Kickstarter",
-    "helped": "A ajutat Habitica să crească",
+    "helped": "A ajutat Accomplay să crească",
     "hall": "Sala Eroilor",
     "contribTitle": "Titlu de Contribuitor (ex. „Fierar”)",
     "contribLevel": "Nivelul Contribuției",
@@ -49,9 +49,9 @@
     "balance": "Balanță",
     "playerTiers": "Niveluri de jucător",
     "tier": "Nivel",
-    "conRewardsURL": "http://habitica.fandom.com/wiki/Contributor_Rewards",
-    "surveysSingle": "A ajutat Habitica să crească, fie prin completarea unui formular sau ajutând la o testare majoră. Mulțumim!",
-    "surveysMultiple": "A ajutat Habitica să crească în <%= count %> cazuri, fie prin completarea unui formular sau ajutând la o testare majoră. Mulțumim!",
-    "blurbHallPatrons": "Aceasta este Sala Patronilor, unde îi onorăm pe nobilii aventurieri care au susținut Kickstarter-ul original Habitica. Le mulțumim că ne ajută să aducem Habitica la viață!",
-    "blurbHallContributors": "Aceasta este Sala Contribuitorilor, unde contribuitorii open-source ai Habitica sunt onorați. Prin programare, artă, muzică, scris. sau prin ajutor general, au primit <a href='http://habitica.fandom.com/wiki/Contributor_Rewards' target='_blank'> nestemate, echipament exclusiv</a>, <a href='http://habitica.fandom.com/wiki/Contributor_Titles' target='_blank'>titluri prestigioase</a>. Și tu poți contribui la Habitica! <a href='http://habitica.fandom.com/wiki/Contributing_to_Habitica' target='_blank'>Află mai multe aici.</a>"
+    "conRewardsURL": "http://accomplay.fandom.com/wiki/Contributor_Rewards",
+    "surveysSingle": "A ajutat Accomplay să crească, fie prin completarea unui formular sau ajutând la o testare majoră. Mulțumim!",
+    "surveysMultiple": "A ajutat Accomplay să crească în <%= count %> cazuri, fie prin completarea unui formular sau ajutând la o testare majoră. Mulțumim!",
+    "blurbHallPatrons": "Aceasta este Sala Patronilor, unde îi onorăm pe nobilii aventurieri care au susținut Kickstarter-ul original Accomplay. Le mulțumim că ne ajută să aducem Accomplay la viață!",
+    "blurbHallContributors": "Aceasta este Sala Contribuitorilor, unde contribuitorii open-source ai Accomplay sunt onorați. Prin programare, artă, muzică, scris. sau prin ajutor general, au primit <a href='http://accomplay.fandom.com/wiki/Contributor_Rewards' target='_blank'> nestemate, echipament exclusiv</a>, <a href='http://accomplay.fandom.com/wiki/Contributor_Titles' target='_blank'>titluri prestigioase</a>. Și tu poți contribui la Accomplay! <a href='http://accomplay.fandom.com/wiki/Contributing_to_Accomplay' target='_blank'>Află mai multe aici.</a>"
 }

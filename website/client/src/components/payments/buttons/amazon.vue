@@ -97,7 +97,7 @@ export default {
 
             this.$set(this.amazonPayments, 'loggedIn', true);
 
-            return this.$root.$emit('habitica::pay-with-amazon', this.amazonPayments);
+            return this.$root.$emit('accomplay::pay-with-amazon', this.amazonPayments);
           },
           authorization: () => {
             if (this.disabled === true) return;

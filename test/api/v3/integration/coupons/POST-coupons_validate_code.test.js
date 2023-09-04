@@ -1,14 +1,14 @@
 import {
   generateUser,
   requester,
-  resetHabiticaDB,
+  resetAccomplayDB,
 } from '../../../../helpers/api-integration/v3';
 
 describe('POST /coupons/validate/:code', () => {
   const api = requester();
 
   before(async () => {
-    await resetHabiticaDB();
+    await resetAccomplayDB();
   });
 
   it('returns an error if code is missing', async () => {

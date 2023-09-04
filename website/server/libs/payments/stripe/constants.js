@@ -1,9 +1,9 @@
 export default {
   // CURRENCY_CODE: 'USD',
-  // SELLER_NOTE: 'Habitica Payment',
-  // SELLER_NOTE_SUBSCRIPTION: 'Habitica Subscription',
-  // SELLER_NOTE_ATHORIZATION_SUBSCRIPTION: 'Habitica Subscription Payment',
-  // STORE_NAME: 'Habitica',
+  // SELLER_NOTE: 'Accomplay Payment',
+  // SELLER_NOTE_SUBSCRIPTION: 'Accomplay Subscription',
+  // SELLER_NOTE_ATHORIZATION_SUBSCRIPTION: 'Accomplay Subscription Payment',
+  // STORE_NAME: 'Accomplay',
   //
   // GIFT_TYPE_GEMS: 'gems',
   // GIFT_TYPE_SUBSCRIPTION: 'subscription',

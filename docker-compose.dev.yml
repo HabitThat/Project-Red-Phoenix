@@ -9,13 +9,13 @@ services:
     environment:
       - BASE_URL=http://server:3000
     networks:
-      - habitica
+      - accomplay
     ports:
       - "8080:8080"
     volumes:
-      - .:/usr/src/habitica
-      - /usr/src/habitica/node_modules
-      - /usr/src/habitica/website/client/node_modules
+      - .:/usr/src/accomplay
+      - /usr/src/accomplay/node_modules
+      - /usr/src/accomplay/website/client/node_modules
   server:
     build:
       context: .
@@ -26,18 +26,18 @@ services:
     environment:
       - NODE_DB_URI=mongodb://mongo/habitrpg
     networks:
-      - habitica
+      - accomplay
     ports:
       - "3000:3000"
     volumes:
-      - .:/usr/src/habitica
-      - /usr/src/habitica/node_modules
+      - .:/usr/src/accomplay
+      - /usr/src/accomplay/node_modules
   mongo:
     image: mongo:3.6
     networks:
-      - habitica
+      - accomplay
     ports:
       - "27017:27017"
 networks:
-  habitica:
+  accomplay:
     driver: bridge

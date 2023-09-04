@@ -62,7 +62,7 @@
     "onlyLeaderCancelQuest": "Only the group or quest leader can cancel the quest.",
     "questNotPending": "There is no quest to start.",
     "questOrGroupLeaderOnlyStartQuest": "Only the quest leader or group leader can force start the quest",
-    "loginIncentiveQuest": "To unlock this quest, check in to Habitica on <%= count %> different days!",
+    "loginIncentiveQuest": "To unlock this quest, check in to Accomplay on <%= count %> different days!",
     "loginReward": "<%= count %> Consignatia",
     "questBundles": "Discounted Quest Bundles",
     "noQuestToStart": "Can’t find a quest to start? Try checking out the Quest Shop in the Market for new releases!",

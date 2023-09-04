@@ -25,7 +25,7 @@ async function updateUser (user) {
     'items.food.Cake_Skeleton': 1,
     'items.food.Cake_White': 1,
     'items.food.Cake_Zombie': 1,
-    'achievements.habiticaDays': 1,
+    'achievements.habitDays': 1,
   };
 
   if (user && user.items && user.items.gear && user.items.gear.owned && typeof user.items.gear.owned.back_special_namingDay2020 !== 'undefined') {
@@ -36,7 +36,7 @@ async function updateUser (user) {
         data: {
           icon: 'notif_namingDay_cake',
           title: 'Happy Naming Day!',
-          text: 'To celebrate the day we became Habitica, we’ve awarded you some cake!',
+          text: 'To celebrate the day we became Accomplay, we’ve awarded you some cake!',
           destination: '/inventory/items',
         },
         seen: false,
@@ -50,7 +50,7 @@ async function updateUser (user) {
         data: {
           icon: 'notif_namingDay_back',
           title: 'Happy Naming Day!',
-          text: 'To celebrate the day we became Habitica, we’ve awarded you a Royal Purple Gryphon Tail and cake!',
+          text: 'To celebrate the day we became Accomplay, we’ve awarded you a Royal Purple Gryphon Tail and cake!',
           destination: '/inventory/equipment',
         },
         seen: false,
@@ -64,7 +64,7 @@ async function updateUser (user) {
         data: {
           icon: 'notif_namingDay_body',
           title: 'Happy Naming Day!',
-          text: 'To celebrate the day we became Habitica, we’ve awarded you a Royal Purple Gryphon Cloak and cake!',
+          text: 'To celebrate the day we became Accomplay, we’ve awarded you a Royal Purple Gryphon Cloak and cake!',
           destination: '/inventory/equipment',
         },
         seen: false,
@@ -78,7 +78,7 @@ async function updateUser (user) {
         data: {
           icon: 'notif_namingDay_head',
           title: 'Happy Naming Day!',
-          text: 'To celebrate the day we became Habitica, we’ve awarded you a Royal Purple Gryphon Helm and cake!',
+          text: 'To celebrate the day we became Accomplay, we’ve awarded you a Royal Purple Gryphon Helm and cake!',
           destination: '/inventory/equipment',
         },
         seen: false,
@@ -92,7 +92,7 @@ async function updateUser (user) {
         data: {
           icon: 'notif_namingDay_pet',
           title: 'Happy Naming Day!',
-          text: 'To celebrate the day we became Habitica, we’ve awarded you a Royal Purple Gryphon Pet and cake!',
+          text: 'To celebrate the day we became Accomplay, we’ve awarded you a Royal Purple Gryphon Pet and cake!',
           destination: '/inventory/stable',
         },
         seen: false,
@@ -106,7 +106,7 @@ async function updateUser (user) {
         data: {
           icon: 'notif_namingDay_mount',
           title: 'Happy Naming Day!',
-          text: 'To celebrate the day we became Habitica, we’ve awarded you a Royal Purple Gryphon Mount and cake!',
+          text: 'To celebrate the day we became Accomplay, we’ve awarded you a Royal Purple Gryphon Mount and cake!',
           destination: '/inventory/stable',
         },
         seen: false,

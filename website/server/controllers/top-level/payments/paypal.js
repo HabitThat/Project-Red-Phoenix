@@ -165,7 +165,7 @@ api.subscribeCancel = {
   },
 };
 
-// General IPN handler. We catch cancelled Habitica subscriptions
+// General IPN handler. We catch cancelled Accomplay subscriptions
 // for users who manually cancel their recurring paypal payments in their paypal dashboard.
 // TODO ? Remove this when we can move to webhooks or some other solution
 

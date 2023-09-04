@@ -424,7 +424,7 @@ export default {
     },
     isOfficial () {
       return this.challenge.official
-        || this.challenge.categories.map(category => category.slug).includes('habitica_official');
+        || this.challenge.categories.map(category => category.slug).includes('accomplay_official');
     },
     tasksData () {
       return [

@@ -254,10 +254,10 @@ export default {
   },
   methods: {
     showSuggested (guildId) {
-      const habiticaHelpingGuildId = '5481ccf3-5d2d-48a9-a871-70a7380cee5a';
+      const accomplayHelpingGuildId = '5481ccf3-5d2d-48a9-a871-70a7380cee5a';
       const sixtyDaysAgoFromNow = moment().subtract(60, 'days');
       const isUserNew = moment(this.user.auth.timestamps.created).isAfter(sixtyDaysAgoFromNow);
-      return guildId === habiticaHelpingGuildId && isUserNew;
+      return guildId === accomplayHelpingGuildId && isUserNew;
     },
     async join () {
       // @TODO: This needs to be in the notifications where users will now accept invites

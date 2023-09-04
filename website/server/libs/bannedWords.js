@@ -15,7 +15,7 @@
 //
 // If you think this file needs to be changed please do NOT create a
 // pull request or issue in GitHub!
-// Email admin@habitica.com to discuss the change you want made.
+// Email admin@accomplay.com to discuss the change you want made.
 //
 // All updates to this file must be done through a direct commit to limit
 // the words visibility in GitHub to protect our coders, socialites, and

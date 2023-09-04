@@ -21,11 +21,9 @@ const api = {};
  *                                   cast on a party member or task. Not used if the spell
  *                                   is casted on the user or the user's current party.
  * @apiParamExample {json} Query example:
- * Cast "Pickpocket" on a task:
- *  https://habitica.com/api/v3/user/class/cast/pickPocket?targetId=fd427623...
+ * Cast "Pickpocket" on a task
  *
- * Cast "Tools of the Trade" on the party:
- *  https://habitica.com/api/v3/user/class/cast/toolsOfTrade
+ * Cast "Tools of the Trade" on the party
  *
  * @apiSuccess data Will return the modified targets. For party members only
  *                  the necessary fields will be populated. The user is always returned.

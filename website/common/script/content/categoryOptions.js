@@ -1,7 +1,7 @@
 const categoryOptions = [
   {
-    label: 'habitica_official',
-    key: 'habitica_official',
+    label: 'accomplay_official',
+    key: 'accomplay_official',
   },
   {
     label: 'academics',

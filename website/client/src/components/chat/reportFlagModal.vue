@@ -111,10 +111,10 @@ export default {
     };
   },
   mounted () {
-    this.$root.$on('habitica::report-chat', this.handleReport);
+    this.$root.$on('accomplay::report-chat', this.handleReport);
   },
   beforeDestroy () {
-    this.$root.$off('habitica::report-chat', this.handleReport);
+    this.$root.$off('accomplay::report-chat', this.handleReport);
   },
   methods: {
     close () {
@@ -129,7 +129,7 @@ export default {
         comment: this.reportComment,
       });
 
-      this.$root.$emit('habitica:report-result', result);
+      this.$root.$emit('accomplay:report-result', result);
 
       this.close();
     },

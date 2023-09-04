@@ -21,8 +21,6 @@ const ContactPage = () => import(/* webpackChunkName: "static" */'@/components/s
 const FAQPage = () => import(/* webpackChunkName: "static" */'@/components/static/faq');
 const FeaturesPage = () => import(/* webpackChunkName: "static" */'@/components/static/features');
 const GroupPlansPage = () => import(/* webpackChunkName: "static" */'@/components/static/groupPlans');
-// Commenting out merch page see
-// https://github.com/HabitRPG/habitica/issues/12039
 // const MerchPage = () => import(/* webpackChunkName: "static" */'@/components/static/merch');
 const NewsPage = () => import(/* webpackChunkName: "static" */'@/components/static/newStuff');
 const OverviewPage = () => import(/* webpackChunkName: "static" */'@/components/static/overview');
@@ -477,7 +475,7 @@ router.beforeEach(async (to, from, next) => {
     if (to.params.startingPage !== undefined) {
       startingPage = to.params.startingPage;
     }
-    router.app.$emit('habitica:show-profile', {
+    router.app.$emit('accomplay:show-profile', {
       userId: to.params.userId,
       startingPage,
       path: to.path,
@@ -492,7 +490,7 @@ router.beforeEach(async (to, from, next) => {
   }
 
   if ((to.name === 'stats' || to.name === 'achievements' || to.name === 'profile') && from.name !== null) {
-    router.app.$emit('habitica:show-profile', {
+    router.app.$emit('accomplay:show-profile', {
       startingPage: to.name,
       path: to.path,
     });

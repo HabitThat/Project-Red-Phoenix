@@ -35,7 +35,7 @@ export async function getProperty (collectionName, id, path) {
 
 // Specifically helpful for the GET /groups tests,
 // resets the db to an empty state and creates a tavern document
-export async function resetHabiticaDB () {
+export async function resetAccomplayDB () {
   return new Promise((resolve, reject) => {
     mongoose.connection.dropDatabase(dbErr => {
       if (dbErr) return reject(dbErr);
@@ -125,7 +125,7 @@ export async function getDocument (collectionName, doc) {
 before(done => {
   mongoose.connection.on('open', err => {
     if (err) return done(err);
-    return resetHabiticaDB()
+    return resetAccomplayDB()
       .then(() => done())
       .catch(done);
   });

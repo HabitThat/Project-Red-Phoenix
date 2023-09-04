@@ -66,7 +66,7 @@
   "questNotPending": "There is no quest to start.",
   "membersParticipating": "<%= accepted %> / <%= invited %> Members participating",
   "questOrGroupLeaderOnlyStartQuest": "Only the quest leader or group leader can force start the quest",
-  "loginIncentiveQuest": "To unlock this quest, check in to Habitica on <%= count %> different days!",
+  "loginIncentiveQuest": "To unlock this quest, check in to Accomplay on <%= count %> different days!",
   "loginReward": "<%= count %> Check-ins",
   "questBundles": "Discounted Quest Bundles",
   "noQuestToStartTitle": "Can’t find a Quest to start?",

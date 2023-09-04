@@ -82,7 +82,7 @@
 </style>
 
 <script>
-import helloNametag from '@/assets/svg/hello-habitican.svg';
+import helloNametag from '@/assets/svg/hello-accomplayer.svg';
 import usernameForm from './usernameForm';
 
 export default {

@@ -26,7 +26,7 @@
     "seasonalShop": "Mevsimsel Dükkan",
     "seasonalShopClosedTitle": "<%= linkStart %>Leslie<%= linkEnd %>",
     "seasonalShopTitle": "<%= linkStart %>Mevsimsel Büyücü<%= linkEnd %>",
-    "seasonalShopClosedText": "Mevsimsel Dükkan şu anda kapalı!! Sadece Habitica'nın dört Büyük Bayram'ında açılmaktadır.",
+    "seasonalShopClosedText": "Mevsimsel Dükkan şu anda kapalı!! Sadece Accomplay'nın dört Büyük Bayram'ında açılmaktadır.",
     "seasonalShopSummerText": "Mutlu Yaz Sıçramaları!! Birkaç seyrek eşya satın almak ister misiniz? Gala bitmeden aldığınızdan emin olun!",
     "seasonalShopFallText": "Mutlu Güz Festivali! Birkaç seyrek eşya satın almak ister misiniz? Gala bitmeden aldığınıza emin olun!",
     "seasonalShopWinterText": "Mutlu Kış Harikalar Diyarı! Birkaç seyrek eşya satın almak ister misiniz? Gala bitmeden aldığınıza emin olun!",

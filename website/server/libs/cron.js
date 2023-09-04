@@ -453,7 +453,7 @@ export async function cron (options = {}) {
       tasksByType.todos,
       taskType => taskType._id === taskOrderId && taskType.completed === false,
     ));
-  // TODO also adjust tasksOrder arrays to remove deleted tasks of any kind (including rewards), ensure that all existing tasks are in the arrays, no tasks IDs are duplicated -- https://github.com/HabitRPG/habitica/issues/7645
+  // TODO also adjust tasksOrder arrays to remove deleted tasks of any kind (including rewards), ensure that all existing tasks are in the arrays, no tasks IDs are duplicated -- Issue 7645
 
   // preen user history so that it doesn't become a performance problem
   // also for subscribed users but differently

@@ -25,7 +25,7 @@
         ></span>
       </template>
       <!-- Show flower ALL THE TIME!!!-->
-      <!-- See https://github.com/HabitRPG/habitica/issues/7133-->
+      <!-- See https://github.com/HabitRPG/accomplay/issues/7133-->
       <span :class="'hair_flower_' + member.preferences.hair.flower"></span>
       <!-- Show avatar only if not currently affected by visual buff-->
       <template v-if="showAvatar()">

@@ -7,7 +7,7 @@ import { encrypt } from '../../../../../website/server/libs/encryption';
 
 describe('GET /email/unsubscribe', () => {
   let user;
-  const testEmail = 'test@habitica.com';
+  const testEmail = 'test@accomplay.com';
 
   beforeEach(async () => {
     user = await generateUser();
@@ -53,7 +53,7 @@ describe('GET /email/unsubscribe', () => {
 
     const unsubscribedMessage = await user.get(`/email/unsubscribe?code=${code}`);
 
-    expect(unsubscribedMessage).to.equal('<h1>Unsubscribed successfully!</h1> You won\'t receive any other email from Habitica.');
+    expect(unsubscribedMessage).to.equal('<h1>Unsubscribed successfully!</h1> You won\'t receive any other email from Accomplay.');
   });
 
   it('returns okay when email is already unsubscribed', async () => {
@@ -63,6 +63,6 @@ describe('GET /email/unsubscribe', () => {
 
     const unsubscribedMessage = await user.get(`/email/unsubscribe?code=${code}`);
 
-    expect(unsubscribedMessage).to.equal('<h1>Unsubscribed successfully!</h1> You won\'t receive any other email from Habitica.');
+    expect(unsubscribedMessage).to.equal('<h1>Unsubscribed successfully!</h1> You won\'t receive any other email from Accomplay.');
   });
 });

@@ -30,14 +30,14 @@ paypal.configure({
 });
 
 // https://developer.paypal.com/docs/api/#billing-plans-and-agreements
-const billingPlanTitle = 'Habitica Subscription';
+const billingPlanTitle = 'Accomplay Subscription';
 const billingPlanAttributes = {
   description: billingPlanTitle,
   type: 'INFINITE',
   merchant_preferences: {
     auto_bill_amount: 'yes',
-    cancel_url: live ? 'https://habitica.com' : 'http://localhost:3000',
-    return_url: `${live ? 'https://habitica.com' : 'http://localhost:3000'}/paypal/subscribe/success`,
+    cancel_url: live ? 'https://accomplay.com' : 'http://localhost:3000',
+    return_url: `${live ? 'https://accomplay.com' : 'http://localhost:3000'}/paypal/subscribe/success`,
   },
   payment_definitions: [{
     type: 'REGULAR',
@@ -76,7 +76,7 @@ switch (OP) {
       op: 'replace',
       path: '/merchant_preferences',
       value: {
-        cancel_url: 'https://habitica.com',
+        cancel_url: 'https://accomplay.com',
       },
     };
     paypal.billingPlan.update(nconf.get('PAYPAL_BILLING_PLANS_basic_12mo'), updatePayload, (err, res) => {
@@ -109,7 +109,7 @@ switch (OP) {
     break;
   case 'create-webprofile':
     const webexpinfo = {
-      name: 'HabiticaProfile',
+      name: 'AccomplayProfile',
       input_fields: {
         no_shipping: 1,
       },

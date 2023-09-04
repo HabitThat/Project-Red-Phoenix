@@ -28,7 +28,7 @@
     "prize": "Cena",
     "prizePopTavern": "Pokud někdo může 'vyhrát' tvou výzvu, můžeš jej odměnit drahokamy. Maximum = počet tvých drahokamů. Poznámka: Výhra nemůže být později změněna a výhra z výzev v Krčmě se nevrací, pokud je výzva zrušena.",
     "publicChallengesTitle": "Veřejné výzvy",
-    "officialChallenge": "Oficiální Habitica výzva",
+    "officialChallenge": "Oficiální Accomplay výzva",
     "by": "od",
     "participants": "<%= membercount %> účastníků",
     "join": "Přidej se",

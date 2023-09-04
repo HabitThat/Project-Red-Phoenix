@@ -62,7 +62,7 @@
     "onlyLeaderCancelQuest": "Só a persoa líder do grupo ou misión pode cancelar a misión.",
     "questNotPending": "Non hai misión que comezar.",
     "questOrGroupLeaderOnlyStartQuest": "Só a persoa líder do grupo ou misión pode comezar a misión",
-    "loginIncentiveQuest": "Para desbloquear esta misión, accede a Habitica <%= count %> días distintos!",
+    "loginIncentiveQuest": "Para desbloquear esta misión, accede a Accomplay <%= count %> días distintos!",
     "loginReward": "<%= count %> accesos",
     "questBundles": "Lote de misións con desconto",
     "noQuestToStart": "Bota un ollo ás novas na <a href=\"<%= questShop %>\">tenda de misións</a>!",

@@ -15,7 +15,7 @@ const allModels = ['user', 'tag', 'challenge', 'group'].concat(tasksModels);
                     "daily","todo","reward"} model The name of the model
  *
  * @apiExample {curl} Tag
- * curl https://habitica.com/api/v3/models/tag/paths
+ * curl https://accomplay.com/api/v3/models/tag/paths
  *
  * @apiSuccess {Object} data A key-value object made of fieldPath: fieldType
                              (like {'field.nested': Boolean})

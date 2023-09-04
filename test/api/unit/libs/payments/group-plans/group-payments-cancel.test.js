@@ -37,7 +37,7 @@ describe('Canceling a subscription for group', () => {
       customerId: 'customer-id',
       paymentMethod: 'Payment Method',
       headers: {
-        'x-client': 'habitica-web',
+        'x-client': 'accomplay-web',
         'user-agent': '',
       },
     };
@@ -188,7 +188,7 @@ describe('Canceling a subscription for group', () => {
       customerId: 'customer-id',
       paymentMethod: 'Payment Method',
       headers: {
-        'x-client': 'habitica-web',
+        'x-client': 'accomplay-web',
         'user-agent': '',
       },
     };

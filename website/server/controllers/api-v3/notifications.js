@@ -39,7 +39,7 @@ api.readNotification = {
 
     // Update the user version field manually,
     // it cannot be updated in the pre update hook
-    // See https://github.com/HabitRPG/habitica/pull/9321#issuecomment-354187666 for more info
+    // See PR 9321#issuecomment-354187666 for more info
     user._v += 1;
 
     await user.update({
@@ -86,7 +86,7 @@ api.readNotifications = {
 
     // Update the user version field manually,
     // it cannot be updated in the pre update hook
-    // See https://github.com/HabitRPG/habitica/pull/9321#issuecomment-354187666 for more info
+    // See PR 9321#issuecomment-354187666 for more info
     user._v += 1;
 
     res.respond(200, user.notifications);
@@ -138,7 +138,7 @@ api.seeNotification = {
 
     // Update the user version field manually,
     // it cannot be updated in the pre update hook
-    // See https://github.com/HabitRPG/habitica/pull/9321#issuecomment-354187666 for more info
+    // See PR 9321#issuecomment-354187666 for more info
     user._v += 1;
 
     res.respond(200, notification);

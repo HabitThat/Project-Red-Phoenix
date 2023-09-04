@@ -62,7 +62,7 @@
     "onlyLeaderCancelQuest": "Doar grupul sau liderul aventurii poate anula o aventură.",
     "questNotPending": "Nu există nicio aventură pentru a începe.",
     "questOrGroupLeaderOnlyStartQuest": "Numai liderul aventurii sau liderul grupului poate forța începerea aventurii",
-    "loginIncentiveQuest": "To unlock this quest, check in to Habitica on <%= count %> different days!",
+    "loginIncentiveQuest": "To unlock this quest, check in to Accomplay on <%= count %> different days!",
     "loginReward": "<%= count %> Check-ins",
     "questBundles": "Discounted Quest Bundles",
     "noQuestToStart": "Încearcă să verifici <a href=\"<%= questShop %>\">Quest Shop</a> pentru a găsi noile versiuni!",

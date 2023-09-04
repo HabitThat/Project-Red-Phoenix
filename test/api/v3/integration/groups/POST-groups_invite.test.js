@@ -266,7 +266,7 @@ describe('Post /groups/:groupId/invite', () => {
   });
 
   describe('email invites', () => {
-    const testInvite = { name: 'test', email: 'test@habitica.com' };
+    const testInvite = { name: 'test', email: 'test@accomplay.com' };
 
     it('returns an error when inviter has no chat privileges', async () => {
       const inviterMuted = await inviter.update({ 'flags.chatRevoked': true });
@@ -318,7 +318,7 @@ describe('Post /groups/:groupId/invite', () => {
       const emails = [];
 
       for (let i = 0; i < 101; i += 1) {
-        emails.push(`${generateUUID()}@habitica.com`);
+        emails.push(`${generateUUID()}@accomplay.com`);
       }
 
       await expect(inviter.post(`/groups/${group._id}/invite`, {
@@ -362,7 +362,7 @@ describe('Post /groups/:groupId/invite', () => {
 
     it('invites multiple users to a group by email', async () => {
       const res = await inviter.post(`/groups/${group._id}/invite`, {
-        emails: [testInvite, { name: 'test2', email: 'test2@habitica.com' }],
+        emails: [testInvite, { name: 'test2', email: 'test2@accomplay.com' }],
       });
 
       const updatedUser = await inviter.sync();
@@ -387,7 +387,7 @@ describe('Post /groups/:groupId/invite', () => {
       const uuids = [];
 
       for (let i = 0; i < 50; i += 1) {
-        emails.push(`${generateUUID()}@habitica.com`);
+        emails.push(`${generateUUID()}@accomplay.com`);
       }
 
       for (let i = 0; i < 51; i += 1) {
@@ -409,7 +409,7 @@ describe('Post /groups/:groupId/invite', () => {
       const newUser = await generateUser();
       const invite = await inviter.post(`/groups/${group._id}/invite`, {
         uuids: [newUser._id],
-        emails: [{ name: 'test', email: 'test@habitica.com' }],
+        emails: [{ name: 'test', email: 'test@accomplay.com' }],
       });
       const invitedUser = await newUser.get('/user');
 
@@ -427,7 +427,7 @@ describe('Post /groups/:groupId/invite', () => {
       const newUser = await generateUser();
       const invite = await inviter.post(`/groups/${cancelledPlanGroup._id}/invite`, {
         uuids: [newUser._id],
-        emails: [{ name: 'test', email: 'test@habitica.com' }],
+        emails: [{ name: 'test', email: 'test@accomplay.com' }],
       });
       const invitedUser = await newUser.get('/user');
 

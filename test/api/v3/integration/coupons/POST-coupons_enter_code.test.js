@@ -1,7 +1,7 @@
 import {
   generateUser,
   translate as t,
-  resetHabiticaDB,
+  resetAccomplayDB,
 } from '../../../../helpers/api-integration/v3';
 
 describe('POST /coupons/enter/:code', () => {
@@ -9,7 +9,7 @@ describe('POST /coupons/enter/:code', () => {
   let sudoUser;
 
   before(async () => {
-    await resetHabiticaDB();
+    await resetAccomplayDB();
   });
 
   beforeEach(async () => {

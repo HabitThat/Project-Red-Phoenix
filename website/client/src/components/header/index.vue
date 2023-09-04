@@ -268,7 +268,7 @@ export default {
       this.membersLoaded = true;
       this.members = this.partyMembers;
       this.$store.state.memberModalOptions.loading = false;
-      this.$root.$emit('habitica:show-member-modal', {
+      this.$root.$emit('accomplay:show-member-modal', {
         groupId: this.group._id,
         group: this.group,
         memberCount: this.group.memberCount,

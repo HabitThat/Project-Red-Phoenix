@@ -376,7 +376,7 @@ export default {
       this.foundUser = result;
     }, 500),
     selectUser () {
-      this.$root.$emit('habitica::send-gift', this.foundUser);
+      this.$root.$emit('accomplay::send-gift', this.foundUser);
       this.close();
     },
     onHide () {

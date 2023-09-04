@@ -25,8 +25,8 @@
     "beastAchievement": "لقد ربحت \"وحش رئيسي \" إنجاز جمع كل الحيوانات الأليفة!",
     "beastMasterProgress": "تقدم الوحش الرئيسي",
     "premiumPotionNoDropExplanation": "لا يمكن استخدام جرعات التفقيس السحرية على البيض المستلم من المهام.الطريقة الوحيدة للحصول على جرعات التفقيس السحرية هي عن طريق شراؤهم بالأسفل.ليس من المقطورات العشوائية.",
-    "dropsExplanationEggs": "أنفق الجواهر لتحصل على المزيد من البيض بسرهة,إذا كنت لاتريد أن تنتظر البيض الأساسي أسقطه, أو كررالتنقيب لإدخارالبيض المنقب <a href=\"https://habitica.fandom.com/wiki/Drops\">Learn more about the drop system.</a>",
-    "dropsExplanation": "احصل على هذه العناصر بشكل أسرع مع الجواهر إذا كنت لا ترغب في انتظار إسقاطها عند إكمال مهمة. <a href=\"https://habitica.fandom.com/wiki/Drops\"> تعرف على المزيد حول نظام الإفلات. </a>",
+    "dropsExplanationEggs": "أنفق الجواهر لتحصل على المزيد من البيض بسرهة,إذا كنت لاتريد أن تنتظر البيض الأساسي أسقطه, أو كررالتنقيب لإدخارالبيض المنقب <a href=\"https://accomplay.fandom.com/wiki/Drops\">Learn more about the drop system.</a>",
+    "dropsExplanation": "احصل على هذه العناصر بشكل أسرع مع الجواهر إذا كنت لا ترغب في انتظار إسقاطها عند إكمال مهمة. <a href=\"https://accomplay.fandom.com/wiki/Drops\"> تعرف على المزيد حول نظام الإفلات. </a>",
     "veteranTiger": "النمر المحارب",
     "veteranWolf": "الذئب المحارب",
     "etherealLion": "الأسد السماوي",
@@ -98,5 +98,5 @@
     "keyToBothDesc": "حرر جميع الحيوانات الأليفة وحيوانات الركوب القياسية حتى تتمكن من جمعها مرة أخرى. (لا تتأثر Quest Pets / Mounts والحيوانات الأليفة النادرة /حيوانات الركوب.)",
     "releaseBothConfirm": "هل أنت متأكد من إطلاق حيواناتك الأليفة وحيوانات الركوب القياسية؟",
     "mountsAndPetsReleased": "الحيوانات الأليفة وحيوانات الركوب القياسية تم إطلاقها",
-    "petLikeToEatText": "ستنمو الحيوانات الأليفة بغض النظر عما تطعمه ، لكنها ستنمو بشكل أسرع إذا أطعمتها طعام الحيوانات الأليفة الذي تفضله أكثر. جرب لمعرفة النمط ، أو شاهد الإجابات هنا: <br/> <a href=\"https://habitica.fandom.com/wiki/Food_Preferences\" target=\"_blank\"> https: //habitica.fandom. com / wiki / Food_Preferences </a>"
+    "petLikeToEatText": "ستنمو الحيوانات الأليفة بغض النظر عما تطعمه ، لكنها ستنمو بشكل أسرع إذا أطعمتها طعام الحيوانات الأليفة الذي تفضله أكثر. جرب لمعرفة النمط ، أو شاهد الإجابات هنا: <br/> <a href=\"https://accomplay.fandom.com/wiki/Food_Preferences\" target=\"_blank\"> https: //accomplay.fandom. com / wiki / Food_Preferences </a>"
 }

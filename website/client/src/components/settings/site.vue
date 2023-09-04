@@ -787,7 +787,7 @@ export default {
       } else if (attribute === 'password') {
         this.passwordUpdates = {};
         this.$store.dispatch('snackbars:add', {
-          title: 'Habitica',
+          title: 'Accomplay',
           text: this.$t('passwordSuccess'),
           type: 'success',
           timeout: true,

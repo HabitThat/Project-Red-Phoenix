@@ -22,8 +22,8 @@ schema.plugin(baseModel, {
 
 /**
  * Remove invalid data from an array of push devices.
- * Fix for https://github.com/HabitRPG/habitica/issues/11805
- * and https://github.com/HabitRPG/habitica/issues/11868
+ * Fix for issue 11805
+ * and issue 11868
  * Called by user's post init hook (models/user/hooks.js)
  */
 schema.statics.cleanupCorruptData = function cleanupCorruptPushDevicesData (pushDevices) {

@@ -33,7 +33,7 @@ async function deleteAmplitudeData (userId, email) {
   }
 }
 
-async function deleteHabiticaData (user, email) {
+async function deleteAccomplayData (user, email) {
   const set = {
     'auth.blocked': false,
     'auth.local.hashed_password': '$2a$10$QDnNh1j1yMPnTXDEOV38xOePEWFd4X8DSYwAM8XTmqmacG5X0DKjW',
@@ -62,9 +62,9 @@ async function deleteHabiticaData (user, email) {
 
   if (response) {
     if (response.status === 200) {
-      console.log(`${user._id} (${email}) removed from Habitica. Last login: ${user.auth.timestamps.loggedin}`);
+      console.log(`${user._id} (${email}) removed from Accomplay. Last login: ${user.auth.timestamps.loggedin}`);
     } else {
-      console.log(`${user._id} (${email}) Habitica response: ${response.status} ${response.statusText}`);
+      console.log(`${user._id} (${email}) Accomplay response: ${response.status} ${response.statusText}`);
     }
   }
 }
@@ -99,7 +99,7 @@ async function processEmailAddress (email) {
   await new Promise(resolve => setTimeout(resolve, 1000));
   return Promise.all(users.map(user => (async () => {
     await deleteAmplitudeData(user._id, email); // eslint-disable-line no-await-in-loop
-    await deleteHabiticaData(user, email); // eslint-disable-line no-await-in-loop
+    await deleteAccomplayData(user, email); // eslint-disable-line no-await-in-loop
   })()));
 }
 

@@ -1,5 +1,5 @@
 {
-    "playerTiersDesc": "Txatean ikusten dituzun erabiltzaile izen koloredunek, pertsona horren laguntzaile maila adierazten du. Zenbat eta maila altuagoa, are eta haundiagoa pertsona horrek Habitica-ri eskaini dion laguntza, artearekin, kodearekin, komunitatearekin edo beste bide batez!",
+    "playerTiersDesc": "Txatean ikusten dituzun erabiltzaile izen koloredunek, pertsona horren laguntzaile maila adierazten du. Zenbat eta maila altuagoa, are eta haundiagoa pertsona horrek Accomplay-ri eskaini dion laguntza, artearekin, kodearekin, komunitatearekin edo beste bide batez!",
     "tier1": "1. maila (Lagun)",
     "tier2": "2. maila (Lagun)",
     "tier3": "3. maila (Elite)",
@@ -19,7 +19,7 @@
     "staff": "Langilea",
     "heroic": "Heroiko",
     "modalContribAchievement": "Laguntzaile lorpena!",
-    "contribModal": "<%= name %>, zu pertsona bikaina, zu! Now <%= level %>. mailako laguntzailea zara, Habitica-ri eskeinitako laguntzarengaitik.",
+    "contribModal": "<%= name %>, zu pertsona bikaina, zu! Now <%= level %>. mailako laguntzailea zara, Accomplay-ri eskeinitako laguntzarengaitik.",
     "contribLink": "Ikusi zure laguntzagaitik irabazi dituzun sariak!",
     "contribName": "Laguntzailea",
     "contribText": "",

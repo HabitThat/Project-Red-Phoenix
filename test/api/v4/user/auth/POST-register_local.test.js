@@ -145,7 +145,7 @@ describe('POST /user/auth/local/register', () => {
       xit('for Web', async () => {
         api = requester(
           null,
-          { 'x-client': 'habitica-web' },
+          { 'x-client': 'accomplay-web' },
         );
         const username = generateRandomUserName();
         const email = `${username}@example.com`;
@@ -199,7 +199,7 @@ describe('POST /user/auth/local/register', () => {
       it('for Android', async () => {
         api = requester(
           null,
-          { 'x-client': 'habitica-android' },
+          { 'x-client': 'accomplay-android' },
         );
         const username = generateRandomUserName();
         const email = `${username}@example.com`;
@@ -230,7 +230,7 @@ describe('POST /user/auth/local/register', () => {
       it('for iOS', async () => {
         api = requester(
           null,
-          { 'x-client': 'habitica-ios' },
+          { 'x-client': 'accomplay-ios' },
         );
         const username = generateRandomUserName();
         const email = `${username}@example.com`;
@@ -372,9 +372,9 @@ describe('POST /user/auth/local/register', () => {
       expect(user.auth.local.email).to.equal(email.toLowerCase());
     });
 
-    it('fails on a habitica.com email', async () => {
+    it('fails on a accomplay.com email', async () => {
       const username = generateRandomUserName();
-      const email = `${username}@habitica.com`;
+      const email = `${username}@accomplay.com`;
       const password = 'password';
 
       await expect(api.post('/user/auth/local/register', {
@@ -741,12 +741,12 @@ describe('POST /user/auth/local/register', () => {
     });
   });
 
-  context('successful login with habitica-web header', () => {
+  context('successful login with accomplay-web header', () => {
     let api; let username; let email; let
       password;
 
     beforeEach(() => {
-      api = requester({}, { 'x-client': 'habitica-web' });
+      api = requester({}, { 'x-client': 'accomplay-web' });
       username = generateRandomUserName();
       email = `${username}@example.com`;
       password = 'password';

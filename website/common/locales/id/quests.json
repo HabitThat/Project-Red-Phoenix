@@ -62,7 +62,7 @@
     "onlyLeaderCancelQuest": "Hanya ketua grup atau misi yang dapat membatalkan misi.",
     "questNotPending": "Tidak ada misi untuk dimulai.",
     "questOrGroupLeaderOnlyStartQuest": "Hanya ketua grup atau misi yang dapat memaksa memulai misi",
-    "loginIncentiveQuest": "Untuk membuka misi ini, check in ke Habitica dalam <%= count %>hari yang berbeda!",
+    "loginIncentiveQuest": "Untuk membuka misi ini, check in ke Accomplay dalam <%= count %>hari yang berbeda!",
     "loginReward": "<%= count %> kali Masuk",
     "questBundles": "Bundel Misi Diskon",
     "noQuestToStart": "Tidak dapat menemukan misi untuk dilakukan? Coba cek Toko Misi di Pasar untuk menemukan misi baru!",

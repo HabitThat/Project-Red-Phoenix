@@ -5,7 +5,7 @@ export default {
     async sync () {
       this.$root.$emit(EVENTS.RESYNC_REQUESTED);
       if (this.$route.fullPath.indexOf('task-information') !== -1) {
-        this.$root.$emit('habitica:team-sync');
+        this.$root.$emit('accomplay:team-sync');
       }
       await Promise.all([
         this.$store.dispatch('user:fetch', { forceLoad: true }),

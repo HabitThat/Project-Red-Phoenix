@@ -43,7 +43,7 @@
     "haveHatchablePet": "Imaš %= potion %> napitak za izlijeganje i <%= egg %> jaje da izležeš ovog ljubimca! <b>Klikni</b> da izležeš!",
     "quickInventory": "Brzi Inventar",
     "noFoodAvailable": "Trenutno nemaš hrane za ljubimce.",
-    "dropsExplanation": "Dobij ove predmete brže s Draguljima ako ne želiš čekati da ih zaradiš izvršavanjem zadataka. <a href=\"https://habitica.fandom.com/wiki/Drops\">Nauči više o sustavu nagrada.</a>",
+    "dropsExplanation": "Dobij ove predmete brže s Draguljima ako ne želiš čekati da ih zaradiš izvršavanjem zadataka. <a href=\"https://accomplay.fandom.com/wiki/Drops\">Nauči više o sustavu nagrada.</a>",
     "hatchedPetHowToUse": "Posjeti [Štalu](<%= stableUrl %>) da nahraniš i vodiš svojeg najnovijeg ljubimca!",
     "mountNotOwned": "Nemaš ovu jahaču životinju.",
     "mountMasterName": "Gospodar Jahačih Životinja",

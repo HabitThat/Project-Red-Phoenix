@@ -1,5 +1,5 @@
 {
-    "playerTiersDesc": "The colored usernames you see in chat represent a person's contributor tier. The higher the tier, the more the person has contributed to habitica through art, code, the community, or more!",
+    "playerTiersDesc": "The colored usernames you see in chat represent a person's contributor tier. The higher the tier, the more the person has contributed to accomplay through art, code, the community, or more!",
     "tier1": "Tier 1 (Friend)",
     "tier2": "Tier 2 (Friend)",
     "tier3": "Tier 3 (Elite)",
@@ -19,13 +19,13 @@
     "staff": "직원",
     "heroic": "영웅",
     "modalContribAchievement": "공헌자 업적 달성!",
-    "contribModal": "<%= name %>, you awesome person! You're now a tier <%= level %> contributor for helping Habitica.",
+    "contribModal": "<%= name %>, you awesome person! You're now a tier <%= level %> contributor for helping Accomplay.",
     "contribLink": "See what prizes you've earned for your contribution!",
     "contribName": "공헌자",
-    "contribText": "Has contributed to Habitica, whether via code, art, music, writing, or other methods. To learn more, join the Aspiring Legends Guild!",
+    "contribText": "Has contributed to Accomplay, whether via code, art, music, writing, or other methods. To learn more, join the Aspiring Legends Guild!",
     "kickstartName": "Kickstarter 후원자 - $<%= key %> 등급",
     "kickstartText": "Kickstarter 후원자",
-    "helped": "Habitica의 성장에 도움을 준",
+    "helped": "Accomplay의 성장에 도움을 준",
     "hall": "영웅의 전당",
     "contribTitle": "공헌자 칭호 (예, \"대장장이\")",
     "contribLevel": "기여자의 등급",
@@ -49,9 +49,9 @@
     "balance": "균형",
     "playerTiers": "플레이어 등급",
     "tier": "등급",
-    "conRewardsURL": "https://habitica.wikia.com/wiki/Contributor_Rewards",
-    "surveysSingle": "설문 조사에 참여하거나, 주요 테스트를 도우며 Habitica의 성장을 도와주세요! 감사합니다!",
-    "surveysMultiple": "<%= count %> 경우에도 Habitica가 성장할 수 있도록 도와주세요, 설문 조사에 참여하거나, 주요 테스트를 도우면서요. 감사합니다!",
-    "blurbHallPatrons": "여기는 Habitica를 Kickstarter때 후원해주신 숭고한 모험가들을 기리는 후원자의 홀이예요. 우리는 Habitica를 삶에 적용할 수 있도록 도와주신 그들에게 감사해요!",
-    "blurbHallContributors": "여기는 Habitica가 오픈소스 공헌자들을 기리는 공헌자의 홀이예요. 코딩, 아트, 음악, 각본, 아니면 아주 작은 도움이든간에, 그들은 그것을 통해 이런것들을 획득했습니다 <a href='https://habitica.fandom.com/wiki/Contributor_Rewards' target='_blank'> 보석, 한정된 장비</a>, 그리고 <a href='https://habitica.fandom.com/wiki/Contributor_Titles' target='_blank'>일류의 타이틀들</a>. 당신도 Habitica에 공헌할 수 있어요! <a href='http://habitica.wikia.com/wiki/Contributing_to_Habitica' target='_blank'> 여기서 추가 정보를 더 알아보세요. </a>"
+    "conRewardsURL": "https://accomplay.wikia.com/wiki/Contributor_Rewards",
+    "surveysSingle": "설문 조사에 참여하거나, 주요 테스트를 도우며 Accomplay의 성장을 도와주세요! 감사합니다!",
+    "surveysMultiple": "<%= count %> 경우에도 Accomplay가 성장할 수 있도록 도와주세요, 설문 조사에 참여하거나, 주요 테스트를 도우면서요. 감사합니다!",
+    "blurbHallPatrons": "여기는 Accomplay를 Kickstarter때 후원해주신 숭고한 모험가들을 기리는 후원자의 홀이예요. 우리는 Accomplay를 삶에 적용할 수 있도록 도와주신 그들에게 감사해요!",
+    "blurbHallContributors": "여기는 Accomplay가 오픈소스 공헌자들을 기리는 공헌자의 홀이예요. 코딩, 아트, 음악, 각본, 아니면 아주 작은 도움이든간에, 그들은 그것을 통해 이런것들을 획득했습니다 <a href='https://accomplay.fandom.com/wiki/Contributor_Rewards' target='_blank'> 보석, 한정된 장비</a>, 그리고 <a href='https://accomplay.fandom.com/wiki/Contributor_Titles' target='_blank'>일류의 타이틀들</a>. 당신도 Accomplay에 공헌할 수 있어요! <a href='http://accomplay.wikia.com/wiki/Contributing_to_Accomplay' target='_blank'> 여기서 추가 정보를 더 알아보세요. </a>"
 }

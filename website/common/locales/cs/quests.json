@@ -62,7 +62,7 @@
     "onlyLeaderCancelQuest": "Pouze družina vůdce může odřeknout výpravu.",
     "questNotPending": "Nelze začít žádnou výpravu.",
     "questOrGroupLeaderOnlyStartQuest": "Pouze vůdce výpravy nebo vůdce skupiny může započít výpravu",
-    "loginIncentiveQuest": "To unlock this quest, check in to Habitica on <%= count %> different days!",
+    "loginIncentiveQuest": "To unlock this quest, check in to Accomplay on <%= count %> different days!",
     "loginReward": "<%= count %> Check-ins",
     "questBundles": "Discounted Quest Bundles",
     "noQuestToStart": "Can’t find a quest to start? Try checking out the Quest Shop in the Market for new releases!",

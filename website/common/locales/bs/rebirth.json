@@ -8,7 +8,7 @@
     "rebirthOrb": "Korištena je Kugla preporoda da se krene ispočetka nakon dostizanja <%= level %> nivoa.",
     "rebirthOrb100": "Korištena je Kugla preporoda da se počne ispočetka nakon dostizanja 100-tog ili većeg nivoa.",
     "rebirthOrbNoLevel": "Korištena je Kugla preporoda da se počne iznova.",
-    "rebirthPop": "Odmah pokrenite svog lika kao ratnika 1. nivoa, zadržavajući dostignuća, kolekcionarstvo i opremu. Vaši zadaci i njihova historija ostat će, ali će se vratiti na žuto. Vaše crte će se ukloniti, osim iz zadataka koji pripadaju aktivnim izazovima i grupnim planovima. Uklonit će se vaši zlatnici, iskustvo, mana i efekti svih vještina. Sve ovo stupa na snagu odmah. Za više informacija pogledajte wiki stranicu <a href='http://habitica.fandom.com/wiki/Orb_of_Rebirth' target='_blank'>Orb of Rebirth</a>.",
+    "rebirthPop": "Odmah pokrenite svog lika kao ratnika 1. nivoa, zadržavajući dostignuća, kolekcionarstvo i opremu. Vaši zadaci i njihova historija ostat će, ali će se vratiti na žuto. Vaše crte će se ukloniti, osim iz zadataka koji pripadaju aktivnim izazovima i grupnim planovima. Uklonit će se vaši zlatnici, iskustvo, mana i efekti svih vještina. Sve ovo stupa na snagu odmah. Za više informacija pogledajte wiki stranicu <a href='http://accomplay.fandom.com/wiki/Orb_of_Rebirth' target='_blank'>Orb of Rebirth</a>.",
     "rebirthName": "Kugla preporoda",
     "rebirthComplete": "Proporođeni ste!",
     "nextFreeRebirth": "<strong><%= days %> dana</strong> do <strong>SLOBODNE</strong> Kugle preporoda"

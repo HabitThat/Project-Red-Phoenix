@@ -62,7 +62,7 @@
     "onlyLeaderCancelQuest": "Csak a csapat vagy a küldetés vezetője vonhatja vissza a küldetést.",
     "questNotPending": "Nincs küldetés, amit el lehetne indítani.",
     "questOrGroupLeaderOnlyStartQuest": "Csak a csapat vagy a küldetés vezetője indíthatja el kényszerítve a küldetést",
-    "loginIncentiveQuest": "Hogy fel tudd oldani ezt a küldetést, <%= count %> napon keresztül jelentkezz be a Habitica-ba!",
+    "loginIncentiveQuest": "Hogy fel tudd oldani ezt a küldetést, <%= count %> napon keresztül jelentkezz be a Accomplay-ba!",
     "loginReward": "<%= count %> bejelentkezés",
     "questBundles": "Leárazott küldetéscsomag",
     "noQuestToStart": "Nincs küldetés amit el tudnál kezdeni? Nézd meg a küldetés boltot a piacon új megjelenésekért!",

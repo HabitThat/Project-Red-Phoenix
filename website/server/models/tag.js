@@ -35,7 +35,7 @@ schema.statics.sanitizeUpdate = function sanitizeUpdate (updateObj) {
 
 /**
  * Remove invalid data from an array of tags.
- * Fix for https://github.com/HabitRPG/habitica/issues/10688
+ * Fix for issue 10688
  * Called by user's post init hook (models/user/hooks.js)
  */
 schema.statics.cleanupCorruptData = function cleanupCorruptTagsData (tags) {

@@ -62,7 +62,7 @@
     "onlyLeaderCancelQuest": "Ainoastaan seurueen tai jahdin johtaja voi peruuttaa jahdin.",
     "questNotPending": "Ei jahtia, jota aloittaa.",
     "questOrGroupLeaderOnlyStartQuest": "Ainoastaan seurueen tai jahdin johtaja voi pakottaa jahdin alkamaan.",
-    "loginIncentiveQuest": "To unlock this quest, check in to Habitica on <%= count %> different days!",
+    "loginIncentiveQuest": "To unlock this quest, check in to Accomplay on <%= count %> different days!",
     "loginReward": "<%= count %> sisäänkirjautumista",
     "questBundles": "Jahtiniput alennuksessa",
     "noQuestToStart": "Can’t find a quest to start? Try checking out the Quest Shop in the Market for new releases!",

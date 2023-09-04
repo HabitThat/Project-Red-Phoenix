@@ -146,7 +146,7 @@ export const tasksByCategory = { // eslint-disable-line import/prefer-default-ex
       type: 'todo',
       text: t('defaultTodo1Text'),
       notes: t('defaultTodoNotes'),
-      byHabitica: true,
+      byAccomplay: true,
     },
     {
       type: 'reward',

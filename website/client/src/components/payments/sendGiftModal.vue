@@ -598,7 +598,7 @@ export default {
     },
   },
   mounted () {
-    this.$root.$on('habitica::send-gift', data => {
+    this.$root.$on('accomplay::send-gift', data => {
       this.userReceivingGift = data;
       if (this.$store.state.giftModalOptions.startingPage) {
         this.selectedPage = this.$store.state.giftModalOptions.startingPage;
@@ -639,7 +639,7 @@ export default {
       });
       this.close();
       setTimeout(() => { // wait for the send gem modal to be closed
-        this.$root.$emit('habitica:payment-success', {
+        this.$root.$emit('accomplay:payment-success', {
           paymentMethod: 'balance',
           paymentCompleted: true,
           paymentType: 'gift-gems-balance',

@@ -121,7 +121,7 @@
         </ul>
       </div>
 
-      <!-- Questions about how to use Habitica -->
+      <!-- Questions about how to use Accomplay -->
       <div>
         <h3 class="headings">
           {{ $t('sunsetFaqHeader10') }}

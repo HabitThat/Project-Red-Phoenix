@@ -4,7 +4,7 @@ A simplified dropdown component that doesn't rely on buttons as toggles  like bo
 
 <template>
   <div
-    class="habitica-menu-dropdown dropdown"
+    class="accomplay-menu-dropdown dropdown"
     role="button"
     tabindex="0"
     :class="{open: isOpen}"
@@ -12,7 +12,7 @@ A simplified dropdown component that doesn't rely on buttons as toggles  like bo
     @click="toggleDropdown()"
     @keypress.enter.space.stop.prevent="toggleDropdown()"
   >
-    <div class="habitica-menu-dropdown-toggle">
+    <div class="accomplay-menu-dropdown-toggle">
       <slot name="dropdown-toggle"></slot>
     </div>
     <div
@@ -26,14 +26,14 @@ A simplified dropdown component that doesn't rely on buttons as toggles  like bo
 
 <style lang="scss">
 @import '~@/assets/scss/colors.scss';
-.habitica-menu-dropdown {
+.accomplay-menu-dropdown {
   &:hover,
   &:focus { // NB focus styles match the hover styles for .svg-icon
     outline: none;
   }
 
   &.open {
-    .habitica-menu-dropdown-toggle .svg-icon {
+    .accomplay-menu-dropdown-toggle .svg-icon {
       color: $white !important;
     }
   }

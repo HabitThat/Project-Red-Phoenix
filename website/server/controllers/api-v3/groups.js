@@ -88,7 +88,7 @@ const api = {};
  * @apiError (401) {NotAuthorized} chatPrivilegesRevoked You cannot do this because your chat
                                                          privileges have been removed...
  *
- * @apiSuccess (201) {Object} data The created group (See <a href="https://github.com/HabitRPG/habitica/blob/develop/website/server/models/group.js" target="_blank">/website/server/models/group.js</a>)
+ * @apiSuccess (201) {Object} data The created group 
  *
  * @apiSuccessExample {json} Private Guild:
  *     HTTP/1.1 200 OK
@@ -291,7 +291,7 @@ api.createGroupPlan = {
  * @apiError (400) {BadRequest} queryPageInteger Page query parameter must be a positive integer
  * @apiError (400) {BadRequest} guildsOnlyPaginate Only public guilds support pagination
  *
- * @apiSuccess {Object[]} data An array of the requested groups (See <a href="https://github.com/HabitRPG/habitica/blob/develop/website/server/models/group.js" target="_blank">/website/server/models/group.js</a>)
+ * @apiSuccess {Object[]} data An array of the requested groups 
  *
  * @apiSuccessExample {json} Private Guilds, Tavern:
  *     HTTP/1.1 200 OK
@@ -382,7 +382,7 @@ api.getGroups = {
  * @apiParamExample {String} Tavern:
  *     /api/v3/groups/habitrpg
  *
- * @apiSuccess {Object} data The group object (See <a href="https://github.com/HabitRPG/habitica/blob/develop/website/server/models/group.js" target="_blank">/website/server/models/group.js</a>)
+ * @apiSuccess {Object} data The group object
  *
  * @apiSuccessExample {json} Tavern:
  *     HTTP/1.1 200 OK
@@ -445,7 +445,7 @@ api.getGroup = {
  * @apiError (400) {NotAuthorized} messageGroupOnlyLeaderCanUpdate Only the group's leader
  *                                                                 can update the party.
  *
- * @apiSuccess {Object} data The updated group (See <a href="https://github.com/HabitRPG/habitica/blob/develop/website/server/models/group.js" target="_blank">/website/server/models/group.js</a>)
+ * @apiSuccess {Object} data The updated group
  *
  * @apiSuccessExample {json} Tavern:
  *     HTTP/1.1 200 OK
@@ -531,7 +531,7 @@ api.updateGroup = {
  * @apiParamExample {String} Tavern:
  *     /api/v3/groups/habitrpg/join
  *
- * @apiSuccess {Object} data The joined group (See <a href="https://github.com/HabitRPG/habitica/blob/develop/website/server/models/group.js" target="_blank">/website/server/models/group.js</a>)
+ * @apiSuccess {Object} data The joined group
  *
  * @apiSuccessExample {json} Tavern:
  *     HTTP/1.1 200 OK
@@ -1322,7 +1322,7 @@ api.removeGroupManager = {
  * @apiName GetGroupPlans
  * @apiGroup Group
  *
- * @apiSuccess {Object[]} data An array of the requested groups with a group plan (See <a href="https://github.com/HabitRPG/habitica/blob/develop/website/server/models/group.js" target="_blank">/website/server/models/group.js</a>)
+ * @apiSuccess {Object[]} data An array of the requested groups with a group plan 
  *
  * @apiSuccessExample {json} Groups the user is in with a group plan:
  *     HTTP/1.1 200 OK

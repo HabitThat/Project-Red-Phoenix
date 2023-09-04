@@ -62,7 +62,7 @@
     "onlyLeaderCancelQuest": "Enkel de groeps- of queesteleider kan de queeste annuleren.",
     "questNotPending": "Er is geen queeste om te starten.",
     "questOrGroupLeaderOnlyStartQuest": "Alleen de queesteleider of groepsleider kan de queeste forceren om te starten",
-    "loginIncentiveQuest": "Je kunt deze Queeste ontgrendelen door op <%= count %> verschillende dagen in te loggen op Habitica!",
+    "loginIncentiveQuest": "Je kunt deze Queeste ontgrendelen door op <%= count %> verschillende dagen in te loggen op Accomplay!",
     "loginReward": "<%= count %> check-ins",
     "questBundles": "Afgeprijsde queestebundels",
     "noQuestToStart": "Bekijk de <a href=\"<%= queestenwinkel %>\">Quest Shop</a> om nieuwe uitgaven te ontdekken!",

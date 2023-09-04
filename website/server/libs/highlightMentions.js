@@ -146,7 +146,7 @@ function findTextBlocks (text) {
 
 function determineBaseUrl () {
   // eslint-disable-next-line no-process-env
-  return process.env.NODE_ENV === 'production' ? 'https://habitica.com' : '';
+  return process.env.NODE_ENV === 'production' ? 'https://accomplay.com' : '';
 }
 
 /**

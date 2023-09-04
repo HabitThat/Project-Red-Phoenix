@@ -62,7 +62,7 @@
     "onlyLeaderCancelQuest": "仅有小组长或副本发起者能取消一个副本。",
     "questNotPending": "现在没有开始的副本。",
     "questOrGroupLeaderOnlyStartQuest": "仅有小组长或副本发起者能强制开始一个副本",
-    "loginIncentiveQuest": "想得到这个副本？你还需要在Habitica历练<%= count %>天才有资格哦！",
+    "loginIncentiveQuest": "想得到这个副本？你还需要在Accomplay历练<%= count %>天才有资格哦！",
     "loginReward": "<%= count %>次签到",
     "questBundles": "打折的副本包",
     "noQuestToStart": "看看<a href=\"<%= questShop %>\">副本商店</a>新发行的产品！",

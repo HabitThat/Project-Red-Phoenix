@@ -55,7 +55,7 @@ function findTag (user, tagName) {
 
 function _populateDefaultTasks (user, taskTypes) {
   let defaultsData;
-  if (user.registeredThrough === 'habitica-android' || user.registeredThrough === 'habitica-ios') {
+  if (user.registeredThrough === 'accomplay-android' || user.registeredThrough === 'accomplay-ios') {
     defaultsData = common.content.userDefaultsMobile;
   } else {
     defaultsData = common.content.userDefaults;
@@ -81,7 +81,7 @@ function _populateDefaultTasks (user, taskTypes) {
   // TODO why isn't this using createTasks from libs/tasksManager?
 
   const tasksToCreate = [];
-  if (user.registeredThrough === 'habitica-web') return Promise.all(tasksToCreate);
+  if (user.registeredThrough === 'accomplay-web') return Promise.all(tasksToCreate);
 
   if (tagsI !== -1) {
     taskTypes = _.clone(taskTypes); // eslint-disable-line no-param-reassign
@@ -170,7 +170,7 @@ function _setUpNewUser (user) {
 
   user.markModified('items achievements');
 
-  if (user.registeredThrough === 'habitica-web') {
+  if (user.registeredThrough === 'accomplay-web') {
     taskTypes = ['habit', 'daily', 'todo', 'reward', 'tag'];
 
     _.each(iterableFlags.tutorial.common, (val, section) => {
@@ -183,7 +183,7 @@ function _setUpNewUser (user) {
       user.flags.tour[section] = -2;
     });
 
-    if (user.registeredThrough === 'habitica-android' || user.registeredThrough === 'habitica-ios') {
+    if (user.registeredThrough === 'accomplay-android' || user.registeredThrough === 'accomplay-ios') {
       taskTypes = ['habit', 'daily', 'todo', 'reward', 'tag'];
     } else {
       taskTypes = ['todo', 'tag'];
@@ -204,10 +204,10 @@ function _setProfileName (user) {
 schema.post('init', function postInitUser () {
   // Cleanup any corrupt data that could have ended up inside the user schema.
   // In particular:
-  // - tags https://github.com/HabitRPG/habitica/issues/10688
-  // - notifications https://github.com/HabitRPG/habitica/issues/9923
-  // - push devices https://github.com/HabitRPG/habitica/issues/11805
-  //            and https://github.com/HabitRPG/habitica/issues/11868
+  // - tags issue 10688
+  // - notifications issue 9923
+  // - push devices issue 11805
+  //            and issue 11868
 
   // Make sure notifications are loaded
   if (this.isDirectSelected('notifications')) {

@@ -410,12 +410,12 @@ const specialAchievs = {
 Object.assign(achievementsData, specialAchievs);
 
 const holidayAchievs = {
-  habiticaDays: {
-    icon: 'achievement-habiticaDay',
-    singularTitleKey: 'habiticaDay',
-    singularTextKey: 'habiticaDaySingularText',
-    pluralTitleKey: 'habiticaDay',
-    pluralTextKey: 'habiticaDayPluralText',
+  habitDays: {
+    icon: 'achievement-habitDay',
+    singularTitleKey: 'habitDay',
+    singularTextKey: 'habitDaySingularText',
+    pluralTitleKey: 'habitDay',
+    pluralTextKey: 'habitDayPluralText',
   },
   habitBirthdays: {
     icon: 'achievement-habitBirthday',

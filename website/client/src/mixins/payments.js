@@ -324,7 +324,7 @@ export default {
     },
     cancelSubscriptionConfirm (config) {
       if (config.canCancel === false) return;
-      this.$root.$emit('habitica:cancel-subscription-confirm', config);
+      this.$root.$emit('accomplay:cancel-subscription-confirm', config);
     },
     async cancelSubscription (config) {
       this.loading = true;
@@ -353,7 +353,7 @@ export default {
 
         if (!config || !config.group) {
           await this.$store.dispatch('user:fetch', { forceLoad: true });
-          this.$root.$emit('habitica:subscription-canceled', {
+          this.$root.$emit('accomplay:subscription-canceled', {
             dateTerminated: this.dateTerminated,
             isGroup: false,
           });

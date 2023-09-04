@@ -26,7 +26,7 @@
     "seasonalShop": "Säsongsbutik",
     "seasonalShopClosedTitle": "<%= linkStart %>Leslie<%= linkEnd %>",
     "seasonalShopTitle": "<%= linkStart %>Säsongshäxan<%= linkEnd %>",
-    "seasonalShopClosedText": "Säsongsbutiken är för tillfället stängd!! Den är bara öppen under Habiticas fyra Stora Galor.",
+    "seasonalShopClosedText": "Säsongsbutiken är för tillfället stängd!! Den är bara öppen under Accomplays fyra Stora Galor.",
     "seasonalShopSummerText": "Glatt Sommarplask!! Vill du köpa sällsynta föremål? De kommer endast finnast tillgängliga t.o.m. 31:a juli!",
     "seasonalShopFallText": "Glad Höstfestival!! Vill du köpa några sällsynta föremål? Dom kommer bara vara tillgängliga till 31:a Oktober!",
     "seasonalShopWinterText": "Glatt Vinterland!! Vill du köpa sällsynta föremål? De kommer bara vara tillgängliga tills 31:a Januari!",

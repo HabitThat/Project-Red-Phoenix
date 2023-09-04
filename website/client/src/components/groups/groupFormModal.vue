@@ -213,7 +213,7 @@ label.custom-control-label(v-once) {{ $t('allowGuildInvitationsFromNonMembers') 
           <!-- eslint-disable vue/no-use-v-if-with-v-for -->
           <div
             v-for="group in categoryOptions"
-            v-if="group.key !== 'habitica_official' || hasPermission(user, 'challengeAdmin')"
+            v-if="group.key !== 'accomplay_official' || hasPermission(user, 'challengeAdmin')"
             :key="group.key"
             class="form-check"
           >

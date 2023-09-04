@@ -48,8 +48,8 @@ async function buyGryphatrice (data) {
 
 export function canBuySkuItem (sku, user) {
   switch (sku) {
-    case 'com.habitrpg.android.habitica.iap.pets.gryphatrice_jubilant':
-    case 'com.habitrpg.ios.Habitica.pets.Gryphatrice_Jubilant':
+    case 'com.habitrpg.android.accomplay.iap.pets.gryphatrice_jubilant':
+    case 'com.habitrpg.ios.Accomplay.pets.Gryphatrice_Jubilant':
     case 'Pet-Gryphatrice-Jubilant':
     case 'price_0MPZ6iZCD0RifGXlLah2furv':
       return canBuyGryphatrice(user);
@@ -62,26 +62,26 @@ export async function buySkuItem (data) {
   let gemsBlockKey;
 
   switch (data.sku) { // eslint-disable-line default-case
-    case 'com.habitrpg.android.habitica.iap.4gems':
-    case 'com.habitrpg.ios.Habitica.4gems':
+    case 'com.habitrpg.android.accomplay.iap.4gems':
+    case 'com.habitrpg.ios.Accomplay.4gems':
       gemsBlockKey = '4gems';
       break;
-    case 'com.habitrpg.android.habitica.iap.20gems':
-    case 'com.habitrpg.android.habitica.iap.21gems':
-    case 'com.habitrpg.ios.Habitica.20gems':
-    case 'com.habitrpg.ios.Habitica.21gems':
+    case 'com.habitrpg.android.accomplay.iap.20gems':
+    case 'com.habitrpg.android.accomplay.iap.21gems':
+    case 'com.habitrpg.ios.Accomplay.20gems':
+    case 'com.habitrpg.ios.Accomplay.21gems':
       gemsBlockKey = '21gems';
       break;
-    case 'com.habitrpg.android.habitica.iap.42gems':
-    case 'com.habitrpg.ios.Habitica.42gems':
+    case 'com.habitrpg.android.accomplay.iap.42gems':
+    case 'com.habitrpg.ios.Accomplay.42gems':
       gemsBlockKey = '42gems';
       break;
-    case 'com.habitrpg.android.habitica.iap.84gems':
-    case 'com.habitrpg.ios.Habitica.84gems':
+    case 'com.habitrpg.android.accomplay.iap.84gems':
+    case 'com.habitrpg.ios.Accomplay.84gems':
       gemsBlockKey = '84gems';
       break;
-    case 'com.habitrpg.android.habitica.iap.pets.gryphatrice_jubilant':
-    case 'com.habitrpg.ios.Habitica.pets.Gryphatrice_Jubilant':
+    case 'com.habitrpg.android.accomplay.iap.pets.gryphatrice_jubilant':
+    case 'com.habitrpg.ios.Accomplay.pets.Gryphatrice_Jubilant':
     case 'Pet-Gryphatrice-Jubilant':
     case 'price_0MPZ6iZCD0RifGXlLah2furv':
       buyGryphatrice(data);

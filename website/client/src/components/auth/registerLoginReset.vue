@@ -14,8 +14,8 @@
         </div>
         <div>
           <div
-            class="svg-icon habitica-logo"
-            v-html="icons.habiticaIcon"
+            class="svg-icon accomplay-logo"
+            v-html="icons.accomplayIcon"
           ></div>
         </div>
       </div>
@@ -183,7 +183,7 @@
           class="btn btn-info"
           :disabled="signupFormInvalid"
         >
-          {{ $t('joinHabitica') }}
+          {{ $t('joinAccomplay') }}
         </button>
         <button
           v-if="!registering"
@@ -231,8 +231,8 @@
         </div>
         <div>
           <div
-            class="svg-icon habitica-logo"
-            v-html="icons.habiticaIcon"
+            class="svg-icon accomplay-logo"
+            v-html="icons.accomplayIcon"
           ></div>
         </div>
         <div class="header">
@@ -279,8 +279,8 @@
         </div>
         <div>
           <div
-            class="svg-icon habitica-logo"
-            v-html="icons.habiticaIcon"
+            class="svg-icon accomplay-logo"
+            v-html="icons.accomplayIcon"
           ></div>
         </div>
         <div class="header">

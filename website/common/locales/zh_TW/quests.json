@@ -62,7 +62,7 @@
     "onlyLeaderCancelQuest": "只有隊長或副本擁有者可以取消副本。",
     "questNotPending": "沒有副本正要開始。",
     "questOrGroupLeaderOnlyStartQuest": "只有副本擁有者或是隊長可以強制開始副本",
-    "loginIncentiveQuest": "要解鎖這個副本，請持續登入Habitica並簽到<%= count %>天！",
+    "loginIncentiveQuest": "要解鎖這個副本，請持續登入Accomplay並簽到<%= count %>天！",
     "loginReward": "登入簽到<%= count %>天",
     "questBundles": "優惠副本套組",
     "noQuestToStart": "請試著查詢此<a href=\"<%= questShop %>\">副本商店</a> 中的新推出副本！",

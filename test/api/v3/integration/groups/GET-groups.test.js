@@ -1,6 +1,6 @@
 import {
   createAndPopulateGroup,
-  resetHabiticaDB,
+  resetAccomplayDB,
   generateGroup,
   translate as t,
 } from '../../../../helpers/api-integration/v3';
@@ -17,7 +17,7 @@ describe('GET /groups', () => {
   let privateGuildUserIsMemberOf;
 
   before(async () => {
-    await resetHabiticaDB();
+    await resetAccomplayDB();
 
     ({
       group: privateGuildUserIsMemberOf,

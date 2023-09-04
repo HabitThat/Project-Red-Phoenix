@@ -98,7 +98,7 @@ async function _upgradeToGroupPlan (groupLeader, group) {
     customerId: 'customer-id',
     paymentMethod: 'Payment Method',
     headers: {
-      'x-client': 'habitica-web',
+      'x-client': 'accomplay-web',
       'user-agent': '',
     },
   };

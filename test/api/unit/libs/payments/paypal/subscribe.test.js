@@ -74,7 +74,7 @@ describe('paypal - subscribe', () => {
 
     expect(link).to.eql(approvalHerf);
     expect(paypalBillingAgreementCreateStub).to.be.calledOnce;
-    const billingPlanTitle = `Habitica Subscription ($${sub.price} every ${sub.months} months, recurring)`;
+    const billingPlanTitle = `Accomplay Subscription ($${sub.price} every ${sub.months} months, recurring)`;
     expect(paypalBillingAgreementCreateStub).to.be.calledWith({
       name: billingPlanTitle,
       description: billingPlanTitle,
@@ -97,7 +97,7 @@ describe('paypal - subscribe', () => {
 
     expect(link).to.eql(approvalHerf);
     expect(paypalBillingAgreementCreateStub).to.be.calledOnce;
-    const billingPlanTitle = `Habitica Subscription ($${sub.price} every ${sub.months} months, recurring)`;
+    const billingPlanTitle = `Accomplay Subscription ($${sub.price} every ${sub.months} months, recurring)`;
     expect(paypalBillingAgreementCreateStub).to.be.calledWith({
       name: billingPlanTitle,
       description: billingPlanTitle,

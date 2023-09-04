@@ -62,7 +62,7 @@
     "onlyLeaderCancelQuest": "Yalnızca grup veya görev lideri görevi iptal edebilir.",
     "questNotPending": "Başlatılacak bir görev bulunmuyor.",
     "questOrGroupLeaderOnlyStartQuest": "Yalnızca görev lideri veya grup lideri görevi zorla başlatabilir",
-    "loginIncentiveQuest": "Bu görevi açmak için, Habitica'ya <%= count %> farklı günde giriş yap!",
+    "loginIncentiveQuest": "Bu görevi açmak için, Accomplay'ya <%= count %> farklı günde giriş yap!",
     "loginReward": "<%= count %> Giriş",
     "questBundles": "İndirimli Görev Paketleri",
     "noQuestToStart": "Başlayacak bir görev bulamıyor musun? Yeni çıkan görevler için Marketteki Görev Dükkanına bir göz at!",

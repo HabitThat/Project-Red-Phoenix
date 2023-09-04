@@ -895,12 +895,12 @@ export default {
 
         if (result.message) this.text(result.message);
         if (this.user.preferences.suppressModals.raisePet) return;
-        if (this.user.items.pets[petKey] === -1) this.$root.$emit('habitica::mount-raised', petKey);
+        if (this.user.items.pets[petKey] === -1) this.$root.$emit('accomplay::mount-raised', petKey);
       } catch (e) {
         const errorMessage = e.message || e;
 
         this.$store.dispatch('snackbars:add', {
-          title: 'Habitica',
+          title: 'Accomplay',
           text: errorMessage,
           type: 'error',
           timeout: true,

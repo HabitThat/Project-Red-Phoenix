@@ -26,7 +26,7 @@
     "seasonalShop": "Sesonkikauppa",
     "seasonalShopClosedTitle": "<%= linkStart %>Leslie<%= linkEnd %>",
     "seasonalShopTitle": "<%= linkStart %>Sesonkivelhotar<%= linkEnd %>",
-    "seasonalShopClosedText": "Sesonkikauppa on suljettu!! Se on auki vain Habitican neljän Suuren Gaalan ajan.",
+    "seasonalShopClosedText": "Sesonkikauppa on suljettu!! Se on auki vain Accomplayer neljän Suuren Gaalan ajan.",
     "seasonalShopSummerText": "Iloista Kesämelskettä! Haluatko ostaa harvinaisia varusteita? Ne ovat ostettavissa vain heinäkuun 31. päivä saakka!",
     "seasonalShopFallText": "Iloista Syysfestivaalia! Haluatko ostaa harvinaisia varusteita? Ne ovat ostettavissa vain lokakuun 31. päivä saakka!",
     "seasonalShopWinterText": "Iloista Talven ihmemaa-tapahtumaa! Haluatko ostaa harvinaisia varusteita? Ne ovat ostettavissa vain tammikuun 31. päivä saakka!",

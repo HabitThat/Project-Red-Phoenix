@@ -41,7 +41,7 @@
     "messageGroupChatNotFound": "Meddelandet hittades inte!",
     "messageGroupChatAdminClearFlagCount": "Endast en administratör kan rensa flagg-räknaren!",
     "messageCannotFlagSystemMessages": "Du kan inte flagga ett systemmeddelande. Om du behöver rapportera något som är emot gemenskapens riktlinjer i samband med detta meddelande får du gärna skicka ett mail med en skärmdump och en förklaring till Lemoness på adressen <%= communityManagerEmail %>.",
-    "messageGroupChatSpam": "Hoppsan, det ser ut som att du har postat för många meddelanden! Var vänlig vänta en minut och försök igen. Krogchatten kan bara visa 200 meddelanden åt gången, så Habitica uppmuntrar längre, mer genomtänkta meddelanden och sammanslagning av svar. Vi kan inte vänta på att få höra vad du har att säga. :)",
+    "messageGroupChatSpam": "Hoppsan, det ser ut som att du har postat för många meddelanden! Var vänlig vänta en minut och försök igen. Krogchatten kan bara visa 200 meddelanden åt gången, så Accomplay uppmuntrar längre, mer genomtänkta meddelanden och sammanslagning av svar. Vi kan inte vänta på att få höra vad du har att säga. :)",
     "messageCannotLeaveWhileQuesting": "Du kan inte acceptera denna inbjudan medan du är i ett uppdrag. Om du vill gå med i detta sällskap måste du först avbryta ditt uppdrag, vilket du kan göra på sällskapssidan. Du får då tillbaka rullen för uppdraget.",
     "messageUserOperationProtected": "sökvägen `<%= operation %>` sparades inte, eftersom det är en skyddad sökväg.",
     "messageNotificationNotFound": "Notisen hittades inte.",

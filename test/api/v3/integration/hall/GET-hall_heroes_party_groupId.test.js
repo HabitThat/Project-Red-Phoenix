@@ -55,7 +55,6 @@ describe('GET /heroes/party/:groupId', () => {
     expect(partyRes.summary).to.eq(' ');
     // NB: 'summary' is NOT a field that the API route retrieves!
     // It must not be retrieved for privacy reasons.
-    // However the group model automatically adds a summary for reasons given here:
-    // https://github.com/HabitRPG/habitica/blob/8da36bf27c62ba0397a6af260c20d35a17f3d911/website/server/models/group.js#L161-L170
+    // However the group model automatically adds a summary for reasons given in groups
   });
 });

@@ -51,7 +51,7 @@ describe('ChatCard', () => {
     expect(wrapper.find('div.mentioned-icon').exists()).to.be.true;
   });
 
-  // Bug fixed by https://github.com/HabitRPG/habitica/pull/12177
+  // Bug fixed by PR 12177
   it('shows mention dot if user is mentioned after almostmention', () => {
     wrapper.setProps({ msg: createMessage('thetester @Tester') });
 

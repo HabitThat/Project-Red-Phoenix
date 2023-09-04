@@ -9,14 +9,14 @@
         <ul>
           <li>
             <a
-              href="https://itunes.apple.com/us/app/habitica/id994882113?ls=1&mt=8"
+              href="https://itunes.apple.com/us/app/accomplay/id994882113?ls=1&mt=8"
               target="_blank"
             >{{ $t('mobileIOS') }}
             </a>
           </li>
           <li>
             <a
-              href="https://play.google.com/store/apps/details?id=com.habitrpg.android.habitica"
+              href="https://play.google.com/store/apps/details?id=com.habitrpg.android.accomplay"
               target="_blank"
             >{{ $t('mobileAndroid') }}
             </a>
@@ -49,14 +49,14 @@
           </li>
           <li>
             <a
-              href="https://habitica.wordpress.com/"
+              href="https://accomplay.wordpress.com/"
               target="_blank"
             >{{ $t('companyBlog') }}
             </a>
           </li>
           <li>
             <a
-              href="https://habitica.fandom.com/wiki/Whats_New"
+              href="https://accomplay.fandom.com/wiki/Whats_New"
               target="_blank"
             >{{ $t('oldNews') }}
             </a>
@@ -81,16 +81,16 @@
           </li>
           <li>
             <a
-              href="https://habitica.fandom.com/wiki/Contributing_to_Habitica"
+              href="https://accomplay.fandom.com/wiki/Contributing_to_Accomplay"
               target="_blank"
             >{{ $t('companyContribute') }}
             </a>
           </li>
           <li>
             <a
-              href="https://translate.habitica.com/"
+              href="https://translate.accomplay.com/"
               target="_blank"
-            >{{ $t('translateHabitica') }}
+            >{{ $t('translateAccomplay') }}
             </a>
           </li>
         </ul>
@@ -119,7 +119,7 @@
             v-else
           >
             <a
-              href="mailto:admin@habitica.com?subject=Habitica Web Bug Report"
+              href="mailto:admin@accomplay.com?subject=Accomplay Web Bug Report"
               target="_blank"
             >
               {{ $t('reportBug') }}
@@ -134,7 +134,7 @@
           </li>
           <li>
             <a
-              href="https://habitica.fandom.com/"
+              href="https://accomplay.fandom.com/"
               target="_blank"
             >{{ $t('wiki') }}
             </a>
@@ -161,14 +161,14 @@
           </li>
           <li>
             <a
-              href="https://habitica.fandom.com/wiki/Guidance_for_Blacksmiths"
+              href="https://accomplay.fandom.com/wiki/Guidance_for_Blacksmiths"
               target="_blank"
             >{{ $t('guidanceForBlacksmiths') }}
             </a>
           </li>
           <li>
             <a
-              href="https://habitica.fandom.com/wiki/Extensions,_Add-Ons,_and_Customizations"
+              href="https://accomplay.fandom.com/wiki/Extensions,_Add-Ons,_and_Customizations"
               target="_blank"
             >{{ $t('communityExtensions') }}
             </a>
@@ -176,10 +176,10 @@
         </ul>
       </div>
 
-      <!-- Help Support Habitica -->
+      <!-- Help Support Accomplay -->
       <div class="donate">
         <div>
-          <h3>{{ $t('helpSupportHabitica') }}</h3>
+          <h3>{{ $t('helpSupportAccomplay') }}</h3>
           <p class="donate-text">
             {{ $t('donateText3') }}
           </p>
@@ -203,7 +203,7 @@
           <div class="icons">
             <a
               class="social-circle"
-              href="https://www.instagram.com/habitica/"
+              href="https://www.instagram.com/accomplay/"
               target="_blank"
             >
               <div
@@ -213,7 +213,7 @@
             </a>
             <a
               class="social-circle"
-              href="https://twitter.com/habitica/"
+              href="https://twitter.com/accomplay/"
               target="_blank"
             >
               <div
@@ -223,7 +223,7 @@
             </a>
             <a
               class="social-circle"
-              href="https://www.facebook.com/Habitica/"
+              href="https://www.facebook.com/Accomplay/"
               target="_blank"
             >
               <div
@@ -252,7 +252,7 @@
       <!-- Colophon -->
       <div class=" copyright">
         <div>
-          © {{ currentYear }} Habitica. All rights reserved.
+          © {{ currentYear }} Accomplay. All rights reserved.
         </div>
       </div>
       <div class="melior">
@@ -810,7 +810,7 @@ export default {
     ...mapState({ user: 'user.data' }),
     ...mapState(['isUserLoaded']),
     getDataDisplayToolUrl () {
-      const base = 'https://tools.habitica.com/';
+      const base = 'https://tools.accomplay.com/';
       if (!this.user) return null;
       return `${base}?uuid=${this.user._id}`;
     },

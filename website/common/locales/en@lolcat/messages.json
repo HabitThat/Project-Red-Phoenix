@@ -41,7 +41,7 @@
     "messageGroupChatNotFound": "Message not found!",
     "messageGroupChatAdminClearFlagCount": "Only an admin can clear the flag count!",
     "messageCannotFlagSystemMessages": "You cannot flag a system message. If you need to report a violation of the Community Guidelines related to this message, please email a screenshot and explanation to Lemoness at <%= communityManagerEmail %>.",
-    "messageGroupChatSpam": "Oh noes! Lookz liek ure ritin 2 many mesagez! Plz wait a minuet an try agin. Teh Tavern chat can only haz 200 mesagez at tiem, so Habitica encuragez postin longr, moar thoughtful mesagez an consolidatin replyz. Cant wait 2 hear wut u haz 2 say!!! :)",
+    "messageGroupChatSpam": "Oh noes! Lookz liek ure ritin 2 many mesagez! Plz wait a minuet an try agin. Teh Tavern chat can only haz 200 mesagez at tiem, so Accomplay encuragez postin longr, moar thoughtful mesagez an consolidatin replyz. Cant wait 2 hear wut u haz 2 say!!! :)",
     "messageCannotLeaveWhileQuesting": "You cannot accept this party invitation while you are in a quest. If you'd like to join this party, you must first abort your quest, which you can do from your party screen. You will be given back the quest scroll.",
     "messageUserOperationProtected": "path `<%= operation %>` was not saved, as it's a protected path.",
     "messageNotificationNotFound": "Notification not found.",

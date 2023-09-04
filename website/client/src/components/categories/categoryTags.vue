@@ -36,7 +36,7 @@ export default {
   },
   methods: {
     isOfficial (category) {
-      return category.name === 'habitica_official';
+      return category.name === 'accomplay_official';
     },
   },
 };

@@ -176,7 +176,7 @@ import paymentsButtons from '@/components/payments/buttons/list';
 import { MAX_GIFT_MESSAGE_LENGTH } from '@/../../common/script/constants';
 
 // @TODO: EMAILS.TECH_ASSISTANCE_EMAIL, load from config
-const TECH_ASSISTANCE_EMAIL = 'admin@habitica.com';
+const TECH_ASSISTANCE_EMAIL = 'admin@accomplay.com';
 
 export default {
   components: {
@@ -235,7 +235,7 @@ export default {
     },
   },
   mounted () {
-    this.$root.$on('habitica::send-gems', data => {
+    this.$root.$on('accomplay::send-gems', data => {
       this.userReceivingGems = data;
       this.$root.$emit('bv::show::modal', 'send-gems');
     });
@@ -251,7 +251,7 @@ export default {
       });
       this.close();
       setTimeout(() => { // wait for the send gem modal to be closed
-        this.$root.$emit('habitica:payment-success', {
+        this.$root.$emit('accomplay:payment-success', {
           paymentMethod: 'balance',
           paymentCompleted: true,
           paymentType: 'gift-gems-balance',
