@@ -180,7 +180,7 @@
     "subscriptionReminders": "Subscr'ptions Reminders",
     "newPMNotificationTitle": "There be a Message from <%= name %>",
     "chatExtensionDesc": "Th' Chat Extension fer Accomplay adds an intuitive chat box t' all o' accomplay.com. It allows pirates t' chat in th' Pub, their crew, and any ships they 'ave boarded.",
-    "chatExtension": "<a target='blank' href='https://chrome.google.com/webstore/detail/habitrpg-chat-client/hidkdfgonpoaiannijofifhjidbnilbb'>Chrome Chat Extension</a> n' <a target='blank' href='https://addons.mozilla.org/en-US/firefox/addon/accomplay-chat-client-2/'>Firefox Chat Extension</a>",
+    "chatExtension": "<a target='blank' href='https://chrome.google.com/webstore/detail/phoenixlounge-chat-client/hidkdfgonpoaiannijofifhjidbnilbb'>Chrome Chat Extension</a> n' <a target='blank' href='https://addons.mozilla.org/en-US/firefox/addon/accomplay-chat-client-2/'>Firefox Chat Extension</a>",
     "displaynameIssueNewline": "Displayed Pirate Names may not contain backslashes followed by th' letter N.",
     "resetAccount": "Reset Yer Account",
     "giftedSubscriptionWinterPromo": "Ahoy<%= username %>, ye receiv'd <%= monthCount %> months o' subscr'ption as part o' our holiday gift-givin' promotion!"

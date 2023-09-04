@@ -180,7 +180,7 @@
     "subscriptionReminders": "Przypomnienia o subskrypcji",
     "newPMNotificationTitle": "Nowa wiadomość od <%= name %>",
     "chatExtensionDesc": "Rozszerzenie czatu dla Accomplay dodaje intuicyjne okno czatu na wszystkich stronach accomplay.com. Pozwala ono użytkownikom rozmawiać w Tawernie, swoich drużynach i gildiach do których przynależą.",
-    "chatExtension": "<a target='blank' href='https://chrome.google.com/webstore/detail/habitrpg-chat-client/hidkdfgonpoaiannijofifhjidbnilbb'>rozszerzenie Chrome Chat</a> oraz <a target='blank' href='https://addons.mozilla.org/en-US/firefox/addon/accomplay-chat-client-2/'>rozszerzenie Firefox Chat</a>",
+    "chatExtension": "<a target='blank' href='https://chrome.google.com/webstore/detail/phoenixlounge-chat-client/hidkdfgonpoaiannijofifhjidbnilbb'>rozszerzenie Chrome Chat</a> oraz <a target='blank' href='https://addons.mozilla.org/en-US/firefox/addon/accomplay-chat-client-2/'>rozszerzenie Firefox Chat</a>",
     "displaynameIssueNewline": "Nazwy gracza nie mogą zawierać ukośnika z następującą po nim literą N.",
     "resetAccount": "Zresetuj konto",
     "giftedSubscriptionWinterPromo": "Hej <%= username %>, otrzymałeś <%= monthCount %> miesięcy abonamentu w ramach naszej promocji wręczania prezentów!",

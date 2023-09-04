@@ -12,7 +12,7 @@ const ENDPOINT = '/user/auth/update-password';
 
 describe('PUT /user/auth/update-password', async () => {
   let user;
-  const password = 'password'; // from habitrpg/test/helpers/api-integration/v3/object-generators.js
+  const password = 'password'; // from test/helpers/api-integration/v3/object-generators.js
   const wrongPassword = 'wrong-password';
   const newPassword = 'new-password';
 

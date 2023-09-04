@@ -136,7 +136,7 @@ api.exportUserDataJson = {
 /**
  * @api {get} /export/userdata.xml Export user data in XML format
  * @apiName ExportUserDataXml
- * @apiDescription This XML export feature is not currently working (https://github.com/HabitRPG/accomplay/issues/10100).
+ * @apiDescription This XML export feature is not currently working (issues/10100).
  * @apiGroup DataExport
  *
  * @apiSuccess {XML} File An xml file of the user object.
@@ -194,7 +194,7 @@ api.exportUserAvatarHtml = {
     if (!member) throw new NotFound(res.t('userWithIDNotFound', { userId: memberId }));
     res.render('avatar-static', {
       title: member.profile.name,
-      env: _.defaults({ user: member }, res.locals.habitrpg),
+      env: _.defaults({ user: member }, res.locals.phoenixlounge),
     }); */
   },
 };

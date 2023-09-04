@@ -180,7 +180,7 @@
     "subscriptionReminders": "Připomenutí pro předplatitele",
     "newPMNotificationTitle": "Nová zpráva od <%= name %>",
     "chatExtensionDesc": "Rozšíření Chat pro Accomplay přidává intuitivní chatovací okno do accomplay.com. To umožňuje uživatelům povídat si v Taverně, s jejich družinou a každém cechu, ve které jsou členy.",
-    "chatExtension": "<a target='blank' href='https://chrome.google.com/webstore/detail/habitrpg-chat-client/hidkdfgonpoaiannijofifhjidbnilbb'>Rozšíření Chrome Chat</a> a <a target='blank' href='https://addons.mozilla.org/en-US/firefox/addon/accomplay-chat-client-2/'>Rozšíření Firefox Chat</a>",
+    "chatExtension": "<a target='blank' href='https://chrome.google.com/webstore/detail/phoenixlounge-chat-client/hidkdfgonpoaiannijofifhjidbnilbb'>Rozšíření Chrome Chat</a> a <a target='blank' href='https://addons.mozilla.org/en-US/firefox/addon/accomplay-chat-client-2/'>Rozšíření Firefox Chat</a>",
     "displaynameIssueNewline": "Zobrazovaná jména nesmí obsahovat zpětné lomítko následované písmenem N.",
     "resetAccount": "Resetovat účet",
     "giftedSubscriptionWinterPromo": "Ahoj <%= username %>, získal/a jsi <%= monthCount %> měsíce/ů předplatného jako součást naší sváteční dárkové akce!"

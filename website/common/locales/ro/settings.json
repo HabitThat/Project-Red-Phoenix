@@ -180,7 +180,7 @@
     "subscriptionReminders": "Memento-uri Abonamente",
     "newPMNotificationTitle": "Mesaj nou de la <%= name %>",
     "chatExtensionDesc": "Extensia de chat pentru Accomplay adaugă o casetă de chat intuitivă pentru toate accomplay.com. Acesta permite utilizatorilor să discute în taverna, echipa lor și orice ghildă în care se află.",
-    "chatExtension": "<a target='blank' href='https://chrome.google.com/webstore/detail/habitrpg-chat-client/hidkdfgonpoaiannijofifhjidbnilbb'>Extensia de Chat pentru Chrome</a> and <a target='blank' href='https://addons.mozilla.org/en-US/firefox/addon/accomplay-chat-client-2/'>Extensia de chat pentru Firefox</a>",
+    "chatExtension": "<a target='blank' href='https://chrome.google.com/webstore/detail/phoenixlounge-chat-client/hidkdfgonpoaiannijofifhjidbnilbb'>Extensia de Chat pentru Chrome</a> and <a target='blank' href='https://addons.mozilla.org/en-US/firefox/addon/accomplay-chat-client-2/'>Extensia de chat pentru Firefox</a>",
     "bannedSlurUsedInProfile": "Numele dvs. afișat sau textul Despre conținea o înjurătură, iar privilegiile dvs. de chat au fost revocate.",
     "onlyPrivateSpaces": "Doar în spații private",
     "everywhere": "Pretutindeni",

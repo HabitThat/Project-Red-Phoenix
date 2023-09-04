@@ -380,7 +380,7 @@ api.getGroups = {
  *                                   and 'phoenixlounge' for tavern are accepted)
  *
  * @apiParamExample {String} Tavern:
- *     /api/v3/groups/habitrpg
+ *     /api/v3/groups/phoenixlounge
  *
  * @apiSuccess {Object} data The group object
  *
@@ -440,7 +440,7 @@ api.getGroup = {
  *                                   for tavern are accepted).
  *
  * @apiParamExample {String} Tavern:
- *     /api/v3/groups/habitrpg
+ *     /api/v3/groups/phoenixlounge
  *
  * @apiError (400) {NotAuthorized} messageGroupOnlyLeaderCanUpdate Only the group's leader
  *                                                                 can update the party.
@@ -529,7 +529,7 @@ api.updateGroup = {
  *                                 for tavern are accepted).
  *
  * @apiParamExample {String} Tavern:
- *     /api/v3/groups/habitrpg/join
+ *     /api/v3/groups/phoenixlounge/join
  *
  * @apiSuccess {Object} data The joined group
  *

@@ -106,8 +106,8 @@
     "habitDaySingularText": "Celebrated Habit's Unnaming Day! Thanks for being a fantastic user.",
     "habitDayPluralText": "Celebrated <%= count %> Unnaming Days! Thanks for being a fantastic user.",
     "costumeContest": "Costume Contestant",
-    "costumeContestText": "Participated in the Halloween Costume Contest. See some of the awesome entries at blog.habitrpg.com!",
-    "costumeContestTextPlural": "Participated in <%= count %> Halloween Costume Contests. See some of the awesome entries at blog.habitrpg.com!",
+    "costumeContestText": "Participated in the Halloween Costume Contest. See some of the awesome entries at blog.phoenixlounge.com!",
+    "costumeContestTextPlural": "Participated in <%= count %> Halloween Costume Contests. See some of the awesome entries at blog.phoenixlounge.com!",
    
    
    

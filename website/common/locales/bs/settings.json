@@ -178,7 +178,7 @@
     "changeUsernameDisclaimer": "Vaše korisničko ime koristi se za pozivnice, @pominjanja u četu i razmjenu poruka. Mora sadržavati 1 do 20 znakova, sadrži samo slova od a do z, brojeve od 0 do 9, crtice ili donje crte i ne smije sadržavati neprimjerene izraze.",
     "verifyUsernameVeteranPet": "Jedan od ovih Veteran ljubimaca čekat će vas nakon što završite s potvrdom!",
     "chatExtensionDesc": "Čet dodaci za Accomplay daju intuitivni okvir za čet na sve stranice accomplay.com. Omogućuje korisnicima razgovor u aščinici, njihovoj partiji i bilo kojem esnafu u kojem su.",
-    "chatExtension": "<a target='blank' href='https://chrome.google.com/webstore/detail/habitrpg-chat-client/hidkdfgonpoaiannijofifhjidbnilbb'>Chrome čet dodatak</a> i <a target='blank' href='https://addons.mozilla.org/en-US/firefox/addon/accomplay-chat-client-2/'>Firefox čet dodatak</a>",
+    "chatExtension": "<a target='blank' href='https://chrome.google.com/webstore/detail/phoenixlounge-chat-client/hidkdfgonpoaiannijofifhjidbnilbb'>Chrome čet dodatak</a> i <a target='blank' href='https://addons.mozilla.org/en-US/firefox/addon/accomplay-chat-client-2/'>Firefox čet dodatak</a>",
     "resetAccount": "Resetiraj korisnički račun",
     "displaynameIssueNewline": "Imena za prikaz ne smiju sadržavati obrnute kose crte iza kojih slijedi slovo N.",
     "subscriptionReminders": "Podsjetnici na pretplate",

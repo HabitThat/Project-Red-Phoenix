@@ -181,7 +181,7 @@
     "giftedSubscriptionWinterPromo": "Hej <%= username %>, du modtog <%= monthCount %> måneders abonnement som en del af vores højtids-gaveuddelings-fremstød!",
     "newPMNotificationTitle": "Ny besked fra <%= name %>",
     "chatExtensionDesc": "Chatudvidelsen for Accomplay tilføjer et intuitivt chatvindue til hele accomplay.com. Det giver brugere mulighed for at chatte i Værtshuset, med deres Hold og i alle Klaner de er medlemmer af.",
-    "chatExtension": "<a target='blank' href='https://chrome.google.com/webstore/detail/habitrpg-chat-client/hidkdfgonpoaiannijofifhjidbnilbb'>Chrome Chatudvidelse</a> og <a target='blank' href='https://addons.mozilla.org/en-US/firefox/addon/accomplay-chat-client-2/'>Firefox Chatudvidelse</a>",
+    "chatExtension": "<a target='blank' href='https://chrome.google.com/webstore/detail/phoenixlounge-chat-client/hidkdfgonpoaiannijofifhjidbnilbb'>Chrome Chatudvidelse</a> og <a target='blank' href='https://addons.mozilla.org/en-US/firefox/addon/accomplay-chat-client-2/'>Firefox Chatudvidelse</a>",
     "resetAccount": "Nulstil Konto",
     "bannedSlurUsedInProfile": "Dit Displaynavn eller Om-tekst indeholdt upassende indhold, og dine chatprivilegier er blevet inddraget.",
     "onlyPrivateSpaces": "Kun i private rum",

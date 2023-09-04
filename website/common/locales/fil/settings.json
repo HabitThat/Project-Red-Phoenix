@@ -180,7 +180,7 @@
     "subscriptionReminders": "Paalala sa Subscriptions",
     "newPMNotificationTitle": "Bagong Mensahe mula kay <%= name %>",
     "chatExtensionDesc": "Ang mga Chat Extension para sa Accomplay ay nagdadagdag ng madaling maunawaang chat box sa lahat ng accomplay.com. Pinapayagan nitong magchat ang mga users sa Tavern, kanilang partido, at kahit anong samahang kinabibilangan nila.",
-    "chatExtension": "<a target='blank' href='https://chrome.google.com/webstore/detail/habitrpg-chat-client/hidkdfgonpoaiannijofifhjidbnilbb'> Chrome Chat Extension</a> at <a target='blank' href='https://addons.mozilla.org/en-US/firefox/addon/accomplay-chat-client-2/'> Firefox Chat Extension</a>",
+    "chatExtension": "<a target='blank' href='https://chrome.google.com/webstore/detail/phoenixlounge-chat-client/hidkdfgonpoaiannijofifhjidbnilbb'> Chrome Chat Extension</a> at <a target='blank' href='https://addons.mozilla.org/en-US/firefox/addon/accomplay-chat-client-2/'> Firefox Chat Extension</a>",
     "bannedSlurUsedInProfile": "Ang iyóng Display Name o About text ay naglalaman ng slur, at ang iyong mga pribilehiyo sa chat ay binawi.",
     "onlyPrivateSpaces": "Sa mga pribadong espasyo lamang",
     "everywhere": "Saanmán",

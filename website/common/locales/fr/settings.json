@@ -180,7 +180,7 @@
     "subscriptionReminders": "Rappels d'abonnements",
     "newPMNotificationTitle": "Nouveau message de <%= name %>",
     "chatExtensionDesc": "L'extension de discussion pour Accomplay ajoute une fenêtre de discussion intuitive à tout accomplay.com. Cela permet à chacun de discuter dans la taverne, avec son équipe ou dans les guildes.",
-    "chatExtension": "<a target='blank' href='https://chrome.google.com/webstore/detail/habitrpg-chat-client/hidkdfgonpoaiannijofifhjidbnilbb'>Extension de discussion Chrome</a> and <a target='blank' href='https://addons.mozilla.org/en-US/firefox/addon/accomplay-chat-client-2/'>Extension de discussion Firefox</a>",
+    "chatExtension": "<a target='blank' href='https://chrome.google.com/webstore/detail/phoenixlounge-chat-client/hidkdfgonpoaiannijofifhjidbnilbb'>Extension de discussion Chrome</a> and <a target='blank' href='https://addons.mozilla.org/en-US/firefox/addon/accomplay-chat-client-2/'>Extension de discussion Firefox</a>",
     "displaynameIssueNewline": "Les pseudo ne peuvent pas contenir d'antislashes suivis de la lettre N.",
     "resetAccount": "Réinitialiser le compte",
     "giftedSubscriptionWinterPromo": "Bonjour <%= username %>, vous avez reçu <%= monthCount %> mois de d'abonnement en cadeau dans le cadre de notre promotion de vacances !",

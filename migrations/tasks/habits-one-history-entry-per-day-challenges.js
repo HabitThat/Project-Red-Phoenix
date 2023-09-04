@@ -11,7 +11,7 @@ const monk = require('monk'); // eslint-disable-line import/no-extraneous-depend
 const _ = require('lodash');
 const moment = require('moment');
 
-const connectionString = 'mongodb://localhost:27017/habitrpg?auto_reconnect=true'; // FOR TEST DATABASE
+const connectionString = 'mongodb://localhost:27017/phoenixlounge?auto_reconnect=true'; // FOR TEST DATABASE
 const dbTasks = monk(connectionString).get('tasks', { castIds: false });
 
 function processChallengeHabits (lastId) {

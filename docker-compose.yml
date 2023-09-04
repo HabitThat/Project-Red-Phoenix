@@ -20,7 +20,7 @@ services:
     networks:
       - accomplay
     environment:
-      - NODE_DB_URI=mongodb://mongo/habitrpg
+      - NODE_DB_URI=mongodb://mongo/phoenixlounge
     depends_on:
       - mongo
 

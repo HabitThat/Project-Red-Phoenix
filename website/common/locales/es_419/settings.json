@@ -178,7 +178,7 @@
     "changeUsernameDisclaimer": "Tu nombre de usuario es usado para las invitaciones, @menciones en el chat y mensajería. Debe tener de 1 a 20 caracteres, conteniendo únicamente las letras de la \"a\" a la \"z\", guiones medios o bajos, y no puede incluir ningún término inapropiado.",
     "verifyUsernameVeteranPet": "¡Una de estas Mascotas Veteranas te estará esperando cuando hayas terminado de confirmar!",
     "chatExtensionDesc": "La Extensión de Chat para Accomplay añade un intuitivo cuadro de chat a accomplay.com. Este permite a los usuarios conversar en la Taberna, su equipo, y cualquier gremio en el que estén.",
-    "chatExtension": "<a target='blank' href='https://chrome.google.com/webstore/detail/habitrpg-chat-client/hidkdfgonpoaiannijofifhjidbnilbb'>Extensión de Chat para Chrome</a> y <a target='blank' href='https://addons.mozilla.org/en-US/firefox/addon/accomplay-chat-client-2/'>Extension de Chat para Firefox</a>",
+    "chatExtension": "<a target='blank' href='https://chrome.google.com/webstore/detail/phoenixlounge-chat-client/hidkdfgonpoaiannijofifhjidbnilbb'>Extensión de Chat para Chrome</a> y <a target='blank' href='https://addons.mozilla.org/en-US/firefox/addon/accomplay-chat-client-2/'>Extension de Chat para Firefox</a>",
     "subscriptionReminders": "Recordatorios de Suscripciones",
     "newPMNotificationTitle": "Nuevo mensaje de <%= name %>",
     "onlyPrivateSpaces": "Solo en espacios privados",

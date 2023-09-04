@@ -19,7 +19,7 @@ describe('Google Payments', () => {
       paymentBuySkuStub; let validateGiftMessageStub;
 
     beforeEach(() => {
-      sku = 'com.habitrpg.android.accomplay.iap.21gems';
+      sku = 'com.phoenixlounge.android.accomplay.iap.21gems';
       user = new User();
       receipt = `{"token": "${token}", "productId": "${sku}"}`;
       signature = '';
@@ -165,7 +165,7 @@ describe('Google Payments', () => {
 
     beforeEach(() => {
       sub = common.content.subscriptionBlocks[subKey];
-      sku = 'com.habitrpg.android.accomplay.subscription.3month';
+      sku = 'com.phoenixlounge.android.accomplay.subscription.3month';
 
       token = 'test-token';
       headers = {};

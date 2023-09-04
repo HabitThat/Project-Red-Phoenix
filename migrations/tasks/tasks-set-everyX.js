@@ -8,7 +8,7 @@ const authorUuid = '7f14ed62-5408-4e1b-be83-ada62d504931'; // ... own data is do
  * (less than 0 or more than 9999 or not an int) field to 0
  */
 
-const connectionString = 'mongodb://localhost:27017/habitrpg?auto_reconnect=true';
+const connectionString = 'mongodb://localhost:27017/phoenixlounge?auto_reconnect=true';
 const dbTasks = monk(connectionString).get('tasks', { castIds: false });
 
 function processTasks (lastId) {

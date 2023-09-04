@@ -14,7 +14,7 @@ const dbUsers = monk(connectionString).get('users', { castIds: false });
 
 const monk2 = require('monk'); // eslint-disable-line import/no-extraneous-dependencies
 
-const oldDbConnectionString = 'mongodb://localhost:27017/habitrpg?auto_reconnect=true'; // FOR TEST DATABASE
+const oldDbConnectionString = 'mongodb://localhost:27017/phoenixlounge?auto_reconnect=true'; // FOR TEST DATABASE
 const olDbUsers = monk2(oldDbConnectionString).get('users', { castIds: false });
 
 function processUsers (lastId) {

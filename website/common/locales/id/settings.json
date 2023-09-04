@@ -181,7 +181,7 @@
     "giftedSubscriptionWinterPromo": "Halo <%= username %>, kamu mendapatkan<%= monthCount %> bulan berlangganan sebagai hadiah dari promosi holiday gift-giving kami!",
     "newPMNotificationTitle": "Pesan Baru dari <%= name %>",
     "chatExtensionDesc": "<i>Chat Extension for Accomplay</i> menambahkan kotak percakapan intuitif di seluruh accomplay.com. Dengan ini, pengguna dapat melakukan chat di Kedai Minum, party, dan di guild manapun mereka bergabung.",
-    "chatExtension": "<a target='blank' href='https://chrome.google.com/webstore/detail/habitrpg-chat-client/hidkdfgonpoaiannijofifhjidbnilbb'>Ekstensi Obrolan Chrome</a> and <a target='blank' href='https://addons.mozilla.org/en-US/firefox/addon/accomplay-chat-client-2/'>Ekstensi Obrolan Firefox</a>",
+    "chatExtension": "<a target='blank' href='https://chrome.google.com/webstore/detail/phoenixlounge-chat-client/hidkdfgonpoaiannijofifhjidbnilbb'>Ekstensi Obrolan Chrome</a> and <a target='blank' href='https://addons.mozilla.org/en-US/firefox/addon/accomplay-chat-client-2/'>Ekstensi Obrolan Firefox</a>",
     "resetAccount": "Reset Akun",
     "bannedSlurUsedInProfile": "Kata pada Nama Penggunamu atau Tentang Diri mengandung bahasa kasar, dan hakmu untuk mengobrol telah dicabut.",
     "onlyPrivateSpaces": "Hanya di tempat pribadi",

@@ -180,7 +180,7 @@
     "subscriptionReminders": "Abonnement-Erinnerung",
     "newPMNotificationTitle": "Neue Nachricht von <%= name %>",
     "chatExtensionDesc": "Die Chat Erweiterung für Accomplay fügt eine intuitive Chatbox für accomplay.com hinzu. Sie erlaubt Benutzern, in der Taverne, ihrer Party und all ihren Gilden zu chatten.",
-    "chatExtension": "<a target='blank' href='https://chrome.google.com/webstore/detail/habitrpg-chat-client/hidkdfgonpoaiannijofifhjidbnilbb'>Chrome Chat Erweiterung</a> und <a target='blank' href='https://addons.mozilla.org/de/firefox/addon/accomplay-chat-client-2/'>Firefox Chat Erweiterung</a>",
+    "chatExtension": "<a target='blank' href='https://chrome.google.com/webstore/detail/phoenixlounge-chat-client/hidkdfgonpoaiannijofifhjidbnilbb'>Chrome Chat Erweiterung</a> und <a target='blank' href='https://addons.mozilla.org/de/firefox/addon/accomplay-chat-client-2/'>Firefox Chat Erweiterung</a>",
     "displaynameIssueNewline": "Anzeigenamen dürfen keinen Backslash gefolgt von einem Buchstaben N enthalten.",
     "resetAccount": "Konto zurücksetzen",
     "giftedSubscriptionWinterPromo": "Hallo <%= username %>, Du hast, im Zuge unserer Feiertags-Geschenke-Schenk-Aktion, ein Abonnement für <%= monthCount %> Monate geschenkt bekommen!",

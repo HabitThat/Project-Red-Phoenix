@@ -52,7 +52,7 @@
         <li class="nav-item">
           <a
             class="nav-link"
-            href="https://blog.habitrpg.com/"
+            href="https://blog.phoenixlounge.com/"
             target="_blank"
           >{{ $t('tumblr') }}</a>
         </li>

@@ -177,7 +177,7 @@
     "usernameNotVerified": "Por favor, confirme o seu nome de utilizador.",
     "changeUsernameDisclaimer": "Em breve, nós estaremos mudando os nomes de login para únicos nomes de utilizadores públicos. Este nome de utilizador irá ser usado para convites, @menções em conversa e mensagens.",
     "verifyUsernameVeteranPet": "Um desses Mascotes Veteranos estará esperando por você depois que finalizar a confirmação!",
-    "chatExtension": "<a target='blank' href='https://chrome.google.com/webstore/detail/habitrpg-chat-client/hidkdfgonpoaiannijofifhjidbnilbb'>Extensão de conversa Chrome</a> and <a target='blank' href='https://addons.mozilla.org/en-US/firefox/addon/accomplay-chat-client-2/'>Extensão de conversa Firefox</a>",
+    "chatExtension": "<a target='blank' href='https://chrome.google.com/webstore/detail/phoenixlounge-chat-client/hidkdfgonpoaiannijofifhjidbnilbb'>Extensão de conversa Chrome</a> and <a target='blank' href='https://addons.mozilla.org/en-US/firefox/addon/accomplay-chat-client-2/'>Extensão de conversa Firefox</a>",
     "resetAccount": "Formatar Conta",
     "newPMNotificationTitle": "Nova Mensagem de <%= name %>",
     "mentioning": "Mencionando",

@@ -24,7 +24,7 @@ services:
     depends_on:
       - mongo
     environment:
-      - NODE_DB_URI=mongodb://mongo/habitrpg
+      - NODE_DB_URI=mongodb://mongo/phoenixlounge
     networks:
       - accomplay
     ports:

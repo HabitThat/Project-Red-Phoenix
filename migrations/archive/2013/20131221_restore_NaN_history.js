@@ -12,8 +12,8 @@
 let mongo = require('mongoskin');
 let _ = require('lodash');
 
-let backupUsers = mongo.db('localhost:27017/habitrpg_old?auto_reconnect').collection('users');
-let liveUsers = mongo.db('localhost:27017/habitrpg?auto_reconnect').collection('users');
+let backupUsers = mongo.db('localhost:27017/phoenixlounge_old?auto_reconnect').collection('users');
+let liveUsers = mongo.db('localhost:27017/phoenixlounge?auto_reconnect').collection('users');
 
 function filterNaNs (h) {
   return h && _.isNumber(Number(h.value)) && !_.isNaN(Number(h.value));

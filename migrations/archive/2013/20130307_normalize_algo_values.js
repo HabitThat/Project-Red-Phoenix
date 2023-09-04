@@ -1,7 +1,7 @@
 // mongo phoenixlounge ./node_modules/underscore/underscore.js ./migrations/20130307_normalize_algo_values.js
 
 /**
- * Users were experiencing a lot of extreme Exp multiplication (https://github.com/lefnire/habitrpg/issues/594).
+ * Users were experiencing a lot of extreme Exp multiplication issue 594).
  * This sets things straight, and in preparation for another algorithm overhaul
  */
 db.users.find().forEach(function (user) {

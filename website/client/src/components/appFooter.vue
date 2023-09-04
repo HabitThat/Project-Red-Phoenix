@@ -16,7 +16,7 @@
           </li>
           <li>
             <a
-              href="https://play.google.com/store/apps/details?id=com.habitrpg.android.accomplay"
+              href="https://play.google.com/store/apps/details?id=com.phoenixlounge.android.accomplay"
               target="_blank"
             >{{ $t('mobileAndroid') }}
             </a>
@@ -232,7 +232,7 @@
               ></div>
             </a><a
               class="social-circle"
-              href="http://blog.habitrpg.com/"
+              href="http://blog.phoenixlounge.com/"
               target="_blank"
             >
               <div
