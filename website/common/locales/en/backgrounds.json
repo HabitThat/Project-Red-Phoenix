@@ -110,8 +110,8 @@
   "backgroundIslandWaterfallsNotes": "Picnic near Island Waterfalls.",
 
   "backgrounds072015": "SET 14: Released July 2015",
-  "backgroundDilatoryRuinsText": "Ruins of Dilatory",
-  "backgroundDilatoryRuinsNotes": "Dive to the Ruins of Dilatory.",
+  "backgroundRuinsText": "Ruins of Dilatory",
+  "backgroundRuinsNotes": "Dive to the Ruins of Dilatory.",
   "backgroundGiantWaveText": "Giant Wave",
   "backgroundGiantWaveNotes": "Surf a Giant Wave!",
   "backgroundSunkenShipText": "Sunken Ship",
@@ -210,8 +210,8 @@
   "backgroundAquariumNotes": "Bob in an Aquarium.",
   "backgroundDeepSeaText": "Deep Sea",
   "backgroundDeepSeaNotes": "Dive to the Deep Sea.",
-  "backgroundDilatoryCastleText": "Castle of Dilatory",
-  "backgroundDilatoryCastleNotes": "Swim past the Castle of Dilatory.",
+  "backgroundCastleText": "Castle of Dilatory",
+  "backgroundCastleNotes": "Swim past the Castle of Dilatory.",
 
   "backgrounds082016": "SET 27: Released August 2016",
   "backgroundIdyllicCabinText": "Idyllic Cabin",
@@ -414,8 +414,8 @@
   "backgrounds072018": "SET 50: Released July 2018",
   "backgroundDarkDeepText": "Dark Deep",
   "backgroundDarkDeepNotes": "Swim in the Dark Deep among bioluminescent critters.",
-  "backgroundDilatoryCityText": "City of Dilatory",
-  "backgroundDilatoryCityNotes": "Meander through the undersea City of Dilatory.",
+  "backgroundCityText": "City of Dilatory",
+  "backgroundCityNotes": "Meander through the undersea City of Dilatory.",
   "backgroundTidePoolText": "Tide Pool",
   "backgroundTidePoolNotes": "Observe the ocean life near a Tide Pool.",
 

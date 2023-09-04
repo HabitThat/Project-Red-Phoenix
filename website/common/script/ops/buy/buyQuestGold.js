@@ -51,7 +51,7 @@ export class BuyQuestWithGoldOperation extends AbstractGoldItemOperation { // es
 
   canUserPurchase (user, item) {
     if (this.getItemKey() === 'lostMasterclasser1' && !this.userAbleToStartMasterClasser(user)) {
-      throw new NotAuthorized(this.i18n('questUnlockLostMasterclasser'));
+      throw new NotAuthorized(this.i18n('questUnlockLostEndgoals'));
     }
 
     if (item && item.prereqQuests) {

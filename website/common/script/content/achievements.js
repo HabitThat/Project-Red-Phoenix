@@ -3,16 +3,6 @@ import each from 'lodash/each';
 const achievementsData = {};
 
 const worldQuestAchievs = {
-  dilatoryQuest: {
-    icon: 'achievement-dilatory',
-    titleKey: 'achievementDilatory',
-    textKey: 'achievementDilatoryText',
-  },
-  stressbeastQuest: {
-    icon: 'achievement-stoikalm',
-    titleKey: 'achievementStressbeast',
-    textKey: 'achievementStressbeastText',
-  },
   burnoutQuest: {
     icon: 'achievement-burnout',
     titleKey: 'achievementBurnout',

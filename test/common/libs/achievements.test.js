@@ -169,7 +169,7 @@ describe('achievements', () => {
     });
 
     it('quest achievements do not exist', () => {
-      const quests = ['dilatory', 'stressbeast', 'burnout', 'bewilder'];
+      const quests = ['burnout', 'bewilder'];
       quests.forEach(quest => {
         const questAchiev = seasonalAchievs[`${quest}Quest`];
 
@@ -282,7 +282,7 @@ describe('achievements', () => {
 
   describe('earned seasonal achievements', () => {
     const user = generateUser();
-    const quests = ['dilatory', 'stressbeast', 'burnout', 'bewilder'];
+    const quests = ['burnout', 'bewilder'];
     quests.forEach(quest => {
       user.achievements.quests[quest] = 1;
     });

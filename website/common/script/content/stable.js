@@ -110,8 +110,6 @@ const canFindSpecial = {
     // Quest pets
     'BearCub-Polar': true, // evilsanta
     // World Quest Pets - Found in Time Travel Stable
-    'MantisShrimp-Base': true, // dilatory
-    'Mammoth-Base': true, // stressbeast
     'Phoenix-Base': true, // burnout
     'MagicalBee-Base': true, // bewilder
     'Hippogriff-Hopeful': true, // dysheartener
@@ -144,8 +142,6 @@ const canFindSpecial = {
     'BearCub-Polar': true, // evilsanta
     'Aether-Invisible': true, // lostMasterclasser4
     // World Quest Pets - Found in Time Travel
-    'MantisShrimp-Base': true, // dilatory
-    'Mammoth-Base': true, // stressbeast
     'Phoenix-Base': true, // burnout
     'MagicalBee-Base': true,
     'Hippogriff-Hopeful': true,

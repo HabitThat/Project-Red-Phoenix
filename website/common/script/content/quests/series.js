@@ -2,10 +2,10 @@ import t from '../translation';
 
 const QUEST_SERIES = {
   atom1: {
-    text: t('questAtom1Text'),
-    notes: t('questAtom1Notes'),
-    completion: t('questAtom1Completion'),
-    group: 'questGroupAtom',
+    text: t('questSpecial4Part1Text'),
+    notes: t('questSpecial4Part1Notes'),
+    completion: t('questSpecial4Part1Completion'),
+    group: 'questGroupSpecial4',
     prerequisite: {
       lvl: 15,
     },
@@ -14,7 +14,7 @@ const QUEST_SERIES = {
     category: 'unlockable',
     collect: {
       soapBars: {
-        text: t('questAtom1CollectSoapBars'),
+        text: t('questSpecial4Part1Collect'),
         count: 20,
       },
     },
@@ -23,7 +23,7 @@ const QUEST_SERIES = {
         {
           type: 'quests',
           key: 'atom2',
-          text: t('questAtom1Drop'),
+          text: t('questSpecial4Part1DropPart2'),
           onlyOwner: true,
         },
       ],
@@ -32,10 +32,10 @@ const QUEST_SERIES = {
     },
   },
   atom2: {
-    text: t('questAtom2Text'),
-    notes: t('questAtom2Notes'),
-    completion: t('questAtom2Completion'),
-    group: 'questGroupAtom',
+    text: t('questSpecial4Part2Text'),
+    notes: t('questSpecial4Part2Notes'),
+    completion: t('questSpecial4Part2Completion'),
+    group: 'questGroupSpecial4',
     previous: 'atom1',
     prereqQuests: [
       'atom1',
@@ -44,7 +44,7 @@ const QUEST_SERIES = {
     lvl: 15,
     category: 'unlockable',
     boss: {
-      name: t('questAtom2Boss'),
+      name: t('questSpecial4Part2Boss'),
       hp: 300,
       str: 1,
     },
@@ -53,7 +53,7 @@ const QUEST_SERIES = {
         {
           type: 'quests',
           key: 'atom3',
-          text: t('questAtom2Drop'),
+          text: t('questSpecial4Part2DropPart3'),
           onlyOwner: true,
         },
       ],
@@ -62,20 +62,20 @@ const QUEST_SERIES = {
     },
   },
   atom3: {
-    text: t('questAtom3Text'),
-    notes: t('questAtom3Notes'),
-    group: 'questGroupAtom',
+    text: t('questSpecial4Part3Text'),
+    notes: t('questSpecial4Part3Notes'),
+    group: 'questGroupSpecial4',
     previous: 'atom2',
     prereqQuests: [
       'atom1',
       'atom2',
     ],
-    completion: t('questAtom3Completion'),
+    completion: t('questSpecial4Part3Completion'),
     value: 4,
     lvl: 15,
     category: 'unlockable',
     boss: {
-      name: t('questAtom3Boss'),
+      name: t('questSpecial4Part3Boss'),
       hp: 800,
       str: 1.5,
     },
@@ -88,11 +88,11 @@ const QUEST_SERIES = {
         }, {
           type: 'hatchingPotions',
           key: 'Base',
-          text: t('questAtom3DropPotion'),
+          text: t('questSpecial4Part3Drop'),
         }, {
           type: 'hatchingPotions',
           key: 'Base',
-          text: t('questAtom3DropPotion'),
+          text: t('questSpecial4Part3Drop'),
         },
       ],
       gp: 25,
@@ -100,16 +100,16 @@ const QUEST_SERIES = {
     },
   },
   goldenknight1: {
-    text: t('questGoldenknight1Text'),
-    notes: t('questGoldenknight1Notes'),
-    completion: t('questGoldenknight1Completion'),
-    group: 'questGroupGoldenknight',
+    text: t('questSpecial3Part1Text'),
+    notes: t('questSpecial3Part1Notes'),
+    completion: t('questSpecial3Part1Completion'),
+    group: 'questGroupSpecial3',
     value: 4,
     lvl: 40,
     category: 'unlockable',
     collect: {
       testimony: {
-        text: t('questGoldenknight1CollectTestimony'),
+        text: t('questSpecial3Part1Collect'),
         count: 60,
       },
     },
@@ -118,7 +118,7 @@ const QUEST_SERIES = {
         {
           type: 'quests',
           key: 'goldenknight2',
-          text: t('questGoldenknight1DropGoldenknight2Quest'),
+          text: t('questSpecial3Part1DropPart2'),
           onlyOwner: true,
         },
       ],
@@ -127,10 +127,10 @@ const QUEST_SERIES = {
     },
   },
   goldenknight2: {
-    text: t('questGoldenknight2Text'),
-    notes: t('questGoldenknight2Notes'),
-    completion: t('questGoldenknight2Completion'),
-    group: 'questGroupGoldenknight',
+    text: t('questSpecial3Part2Text'),
+    notes: t('questSpecial3Part2Notes'),
+    completion: t('questSpecial3Part2Completion'),
+    group: 'questGroupSpecial3',
     value: 4,
     previous: 'goldenknight1',
     prereqQuests: [
@@ -139,7 +139,7 @@ const QUEST_SERIES = {
     lvl: 40,
     category: 'unlockable',
     boss: {
-      name: t('questGoldenknight2Boss'),
+      name: t('questSpecial3Part2Boss'),
       hp: 1000,
       str: 3,
     },
@@ -148,7 +148,7 @@ const QUEST_SERIES = {
         {
           type: 'quests',
           key: 'goldenknight3',
-          text: t('questGoldenknight2DropGoldenknight3Quest'),
+          text: t('questSpecial3Part2DropPart3'),
           onlyOwner: true,
         },
       ],
@@ -157,10 +157,10 @@ const QUEST_SERIES = {
     },
   },
   goldenknight3: {
-    text: t('questGoldenknight3Text'),
-    notes: t('questGoldenknight3Notes'),
-    group: 'questGroupGoldenknight',
-    completion: t('questGoldenknight3Completion'),
+    text: t('questSpecial3Part3Text'),
+    notes: t('questSpecial3Part3Notes'),
+    group: 'questGroupSpecial3',
+    completion: t('questSpecial3Part3Completion'),
     previous: 'goldenknight2',
     prereqQuests: [
       'goldenknight1',
@@ -170,7 +170,7 @@ const QUEST_SERIES = {
     lvl: 40,
     category: 'unlockable',
     boss: {
-      name: t('questGoldenknight3Boss'),
+      name: t('questSpecial3Part3Boss'),
       hp: 1700,
       str: 3.5,
     },
@@ -179,27 +179,27 @@ const QUEST_SERIES = {
         {
           type: 'food',
           key: 'Honey',
-          text: t('questGoldenknight3DropHoney'),
+          text: t('questSpecial3Part3Drop1'),
         }, {
           type: 'food',
           key: 'Honey',
-          text: t('questGoldenknight3DropHoney'),
+          text: t('questSpecial3Part3Drop1'),
         }, {
           type: 'food',
           key: 'Honey',
-          text: t('questGoldenknight3DropHoney'),
+          text: t('questSpecial3Part3Drop1'),
         }, {
           type: 'hatchingPotions',
           key: 'Golden',
-          text: t('questGoldenknight3DropGoldenPotion'),
+          text: t('questSpecial3Part3Drop2'),
         }, {
           type: 'hatchingPotions',
           key: 'Golden',
-          text: t('questGoldenknight3DropGoldenPotion'),
+          text: t('questSpecial3Part3Drop2'),
         }, {
           type: 'gear',
           key: 'shield_special_goldenknight',
-          text: t('questGoldenknight3DropWeapon'),
+          text: t('questSpecial3Part3Drop3'),
         },
       ],
       gp: 900,
@@ -304,16 +304,16 @@ const QUEST_SERIES = {
     },
   },
   moonstone1: {
-    text: t('questMoonstone1Text'),
-    notes: t('questMoonstone1Notes'),
-    completion: t('questMoonstone1Completion'),
-    group: 'questGroupMoonstone',
+    text: t('questSpecial2Part1Text'),
+    notes: t('questSpecial2Part1Notes'),
+    completion: t('questSpecial2Part1Completion'),
+    group: 'questGroupSpecial2',
     value: 4,
     lvl: 60,
     category: 'unlockable',
     collect: {
       moonstone: {
-        text: t('questMoonstone1CollectMoonstone'),
+        text: t('questSpecial2Part1Collect'),
         count: 100,
       },
     },
@@ -322,7 +322,7 @@ const QUEST_SERIES = {
         {
           type: 'quests',
           key: 'moonstone2',
-          text: t('questMoonstone1DropMoonstone2Quest'),
+          text: t('questSpecial2Part1DropPart2'),
           onlyOwner: true,
         },
       ],
@@ -331,10 +331,10 @@ const QUEST_SERIES = {
     },
   },
   moonstone2: {
-    text: t('questMoonstone2Text'),
-    notes: t('questMoonstone2Notes'),
-    completion: t('questMoonstone2Completion'),
-    group: 'questGroupMoonstone',
+    text: t('questSpecial2Part2Text'),
+    notes: t('questSpecial2Part2Notes'),
+    completion: t('questSpecial2Part2Completion'),
+    group: 'questGroupSpecial2',
     value: 4,
     lvl: 60,
     previous: 'moonstone1',
@@ -343,7 +343,7 @@ const QUEST_SERIES = {
     ],
     category: 'unlockable',
     boss: {
-      name: t('questMoonstone2Boss'),
+      name: t('questSpecial2Part2Boss'),
       hp: 1500,
       str: 3,
     },
@@ -352,7 +352,7 @@ const QUEST_SERIES = {
         {
           type: 'quests',
           key: 'moonstone3',
-          text: t('questMoonstone2DropMoonstone3Quest'),
+          text: t('questSpecial2Part2DropPart3'),
           onlyOwner: true,
         },
       ],
@@ -361,10 +361,10 @@ const QUEST_SERIES = {
     },
   },
   moonstone3: {
-    text: t('questMoonstone3Text'),
-    notes: t('questMoonstone3Notes'),
-    group: 'questGroupMoonstone',
-    completion: t('questMoonstone3Completion'),
+    text: t('questSpecial2Part3Text'),
+    notes: t('questSpecial2Part3Notes'),
+    group: 'questGroupSpecial2',
+    completion: t('questSpecial2Part3Completion'),
     previous: 'moonstone2',
     prereqQuests: [
       'moonstone1',
@@ -374,7 +374,7 @@ const QUEST_SERIES = {
     lvl: 60,
     category: 'unlockable',
     boss: {
-      name: t('questMoonstone3Boss'),
+      name: t('questSpecial2Part3Boss'),
       hp: 2000,
       str: 3.5,
     },
@@ -387,35 +387,35 @@ const QUEST_SERIES = {
         }, {
           type: 'food',
           key: 'RottenMeat',
-          text: t('questMoonstone3DropRottenMeat'),
+          text: t('questSpecial2Part3Drop1'),
         }, {
           type: 'food',
           key: 'RottenMeat',
-          text: t('questMoonstone3DropRottenMeat'),
+          text: t('questSpecial2Part3Drop1'),
         }, {
           type: 'food',
           key: 'RottenMeat',
-          text: t('questMoonstone3DropRottenMeat'),
+          text: t('questSpecial2Part3Drop1'),
         }, {
           type: 'food',
           key: 'RottenMeat',
-          text: t('questMoonstone3DropRottenMeat'),
+          text: t('questSpecial2Part3Drop1'),
         }, {
           type: 'food',
           key: 'RottenMeat',
-          text: t('questMoonstone3DropRottenMeat'),
+          text: t('questSpecial2Part3Drop1'),
         }, {
           type: 'hatchingPotions',
           key: 'Zombie',
-          text: t('questMoonstone3DropZombiePotion'),
+          text: t('questSpecial2Part3Drop2'),
         }, {
           type: 'hatchingPotions',
           key: 'Zombie',
-          text: t('questMoonstone3DropZombiePotion'),
+          text: t('questSpecial2Part3Drop2'),
         }, {
           type: 'hatchingPotions',
           key: 'Zombie',
-          text: t('questMoonstone3DropZombiePotion'),
+          text: t('questSpecial2Part3Drop2'),
         },
       ],
       gp: 900,
@@ -423,15 +423,15 @@ const QUEST_SERIES = {
     },
   },
   vice1: {
-    text: t('questVice1Text'),
-    notes: t('questVice1Notes'),
-    completion: t('questVice1Completion'),
-    group: 'questGroupVice',
+    text: t('questSpecial1Part1Text'),
+    notes: t('questSpecial1Part1Notes'),
+    completion: t('questSpecial1Part1Completion'),
+    group: 'questGroupSpecial1',
     value: 4,
     lvl: 30,
     category: 'unlockable',
     boss: {
-      name: t('questVice1Boss'),
+      name: t('questSpecial1Part1Boss'),
       hp: 750,
       str: 1.5,
     },
@@ -440,7 +440,7 @@ const QUEST_SERIES = {
         {
           type: 'quests',
           key: 'vice2',
-          text: t('questVice1DropVice2Quest'),
+          text: t('questSpecial1Part1DropPart2'),
           onlyOwner: true,
         },
       ],
@@ -449,10 +449,10 @@ const QUEST_SERIES = {
     },
   },
   vice2: {
-    text: t('questVice2Text'),
-    notes: t('questVice2Notes'),
-    completion: t('questVice2Completion'),
-    group: 'questGroupVice',
+    text: t('questSpecial1Part2Text'),
+    notes: t('questSpecial1Part2Notes'),
+    completion: t('questSpecial1Part2Completion'),
+    group: 'questGroupSpecial1',
     value: 4,
     lvl: 30,
     category: 'unlockable',
@@ -462,7 +462,7 @@ const QUEST_SERIES = {
     ],
     collect: {
       lightCrystal: {
-        text: t('questVice2CollectLightCrystal'),
+        text: t('questSpecial1Part2Collect'),
         count: 30,
       },
     },
@@ -471,7 +471,7 @@ const QUEST_SERIES = {
         {
           type: 'quests',
           key: 'vice3',
-          text: t('questVice2DropVice3Quest'),
+          text: t('questSpecial1Part2DropPart3'),
           onlyOwner: true,
         },
       ],
@@ -480,10 +480,10 @@ const QUEST_SERIES = {
     },
   },
   vice3: {
-    text: t('questVice3Text'),
-    notes: t('questVice3Notes'),
-    group: 'questGroupVice',
-    completion: t('questVice3Completion'),
+    text: t('questSpecial1Part3Text'),
+    notes: t('questSpecial1Part3Notes'),
+    group: 'questGroupSpecial1',
+    completion: t('questSpecial1Part3Completion'),
     previous: 'vice2',
     prereqQuests: [
       'vice1',
@@ -493,7 +493,7 @@ const QUEST_SERIES = {
     lvl: 30,
     category: 'unlockable',
     boss: {
-      name: t('questVice3Boss'),
+      name: t('questSpecial1Part3Boss'),
       hp: 1500,
       str: 3,
     },
@@ -502,23 +502,23 @@ const QUEST_SERIES = {
         {
           type: 'gear',
           key: 'weapon_special_2',
-          text: t('questVice3DropWeaponSpecial2'),
+          text: t('questSpecial1Part3Drop1'),
         }, {
           type: 'eggs',
           key: 'Dragon',
-          text: t('questVice3DropDragonEgg'),
+          text: t('questSpecial1Part3Drop2'),
         }, {
           type: 'eggs',
           key: 'Dragon',
-          text: t('questVice3DropDragonEgg'),
+          text: t('questSpecial1Part3Drop2'),
         }, {
           type: 'hatchingPotions',
           key: 'Shade',
-          text: t('questVice3DropShadeHatchingPotion'),
+          text: t('questSpecial1Part3Drop3'),
         }, {
           type: 'hatchingPotions',
           key: 'Shade',
-          text: t('questVice3DropShadeHatchingPotion'),
+          text: t('questSpecial1Part3Drop3'),
         },
       ],
       gp: 100,
