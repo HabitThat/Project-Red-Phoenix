@@ -129,7 +129,7 @@
           </div>
           <div class="gryph-bg">
             <img
-              src="https://habitica-assets.s3.amazonaws.com/mobileApp/images/Pet-Gryphatrice-Jubilant-Large.gif"
+              src="https://accomplay-assets.s3.amazonaws.com/mobileApp/images/Pet-Gryphatrice-Jubilant-Large.gif"
               alt="a pink, purple, and green gryphatrice pet winks at you adorably"
               width="78px"
               height="72px"
@@ -499,7 +499,7 @@ export default {
     },
   },
   mounted () {
-    this.$root.$on('habitica:payment-success', data => {
+    this.$root.$on('accomplay:payment-success', data => {
       if (['subscription', 'groupPlan', 'gift-subscription'].indexOf(data.paymentType) !== -1) {
         data.subscription = subscriptionBlocks[data.subscriptionKey || data.gift.subscription.key];
       }
@@ -509,7 +509,7 @@ export default {
   },
   beforeDestroy () {
     this.paymentData = {};
-    this.$root.$off('habitica:payments-success');
+    this.$root.$off('accomplay:payments-success');
   },
   methods: {
     async sendMessage () {

@@ -66,7 +66,7 @@ function updateUser (user) {
 
   let set = {};
   let inc = {
-    'achievements.habiticaDays': 1,
+    'achievements.habitDays': 1,
     'items.food.Cake_Skeleton': 1,
     'items.food.Cake_Base': 1,
     'items.food.Cake_CottonCandyBlue': 1,

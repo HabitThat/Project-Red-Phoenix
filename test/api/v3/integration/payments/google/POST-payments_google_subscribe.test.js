@@ -37,7 +37,7 @@ describe('payments : google #subscribe', () => {
         balance: 2,
       });
 
-      const sku = 'com.habitrpg.android.habitica.subscription.3month';
+      const sku = 'com.habitrpg.android.accomplay.subscription.3month';
 
       await user.post(endpoint, {
         sku,

@@ -26,7 +26,7 @@
     "seasonalShop": "ร้านค้าตามฤดูกาล",
     "seasonalShopClosedTitle": "<%= linkStart %>เลสลี่<%= linkEnd %>",
     "seasonalShopTitle": "<%= linkStart %>Seasonal Sorceress<%= linkEnd %>",
-    "seasonalShopClosedText": "The Seasonal Shop is currently closed!! It’s only open during Habitica’s four Grand Galas.",
+    "seasonalShopClosedText": "The Seasonal Shop is currently closed!! It’s only open during Accomplay’s four Grand Galas.",
     "seasonalShopSummerText": "สุขสันต์หน้าร้อนร้อนน!! คุณอยากได้ไอเทมหายากหรือไม่? อย่าลืมไปเอามันมาก่อนงานกาลาจบนะ!",
     "seasonalShopFallText": "สุขสันต์ฤดูใบไม้ร่วง!! คุณอยากซื้อไอเทมหายากหรือไม่? อย่าลืมไปซื้อมันมาก่อนงานกาลาจบหล่ะ!",
     "seasonalShopWinterText": "สุขสันต์เหมันต์แสนสนุก!! คุณอยากได้ของของหายากรึป่าววว? อย่าลืมซื้อของก่อนงานกาลาจบนะ!",

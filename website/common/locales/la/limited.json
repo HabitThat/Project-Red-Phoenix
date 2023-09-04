@@ -26,7 +26,7 @@
     "seasonalShop": "Taberna Tempestiva",
     "seasonalShopClosedTitle": "<%= linkStart %>Leslie<%= linkEnd %>",
     "seasonalShopTitle": "<%= linkStart %>Maga Tempestiva<%= linkEnd %>",
-    "seasonalShopClosedText": "The Seasonal Shop is currently closed!! It’s only open during Habitica’s four Grand Galas.",
+    "seasonalShopClosedText": "The Seasonal Shop is currently closed!! It’s only open during Accomplay’s four Grand Galas.",
     "seasonalShopSummerText": "Felix Aspersionos Aestivae!! Vis emere aliquas res egregias? Certus sis ut illos capias antea Gala finit!",
     "seasonalShopFallText": "Felix Festivi Autumni!! Vis emere aliquas res egregias? Certus sis ut illos capias antea Gala finit!",
     "seasonalShopWinterText": "Felix Terrae Miraculorum Hiemis!! Vis emere aliquas res egregias? Certus sis ut illos capias antea Gala finit!",

@@ -47,7 +47,7 @@ describe('payments/index', () => {
       customerId: 'customer-id',
       paymentMethod: 'Payment Method',
       headers: {
-        'x-client': 'habitica-web',
+        'x-client': 'accomplay-web',
         'user-agent': '',
       },
     };
@@ -391,7 +391,7 @@ describe('payments/index', () => {
           purchaseValue: 15,
           firstPurchase: true,
           headers: {
-            'x-client': 'habitica-web',
+            'x-client': 'accomplay-web',
             'user-agent': '',
           },
         });
@@ -650,7 +650,7 @@ describe('payments/index', () => {
           purchaseValue: 15,
           firstPurchase: true,
           headers: {
-            'x-client': 'habitica-web',
+            'x-client': 'accomplay-web',
             'user-agent': '',
           },
         });
@@ -1481,7 +1481,7 @@ describe('payments/index', () => {
         gemsBlock: common.content.gems['21gems'],
         paymentMethod: 'payment',
         headers: {
-          'x-client': 'habitica-web',
+          'x-client': 'accomplay-web',
           'user-agent': '',
         },
       };

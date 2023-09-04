@@ -504,8 +504,7 @@
     }
 
     /**
-    * Fix flex-wrapping for IE 11
-    * https://github.com/HabitRPG/habitica/issues/9754
+    * Fix flex-wrapping for IE 11 Issue 9754
     */
     @media all and (-ms-high-contrast: none), (-ms-high-contrast: active) {
       flex: 1;
@@ -537,31 +536,31 @@
     color: $gray-100 !important;
   }
 
-  .task ::v-deep .habitica-menu-dropdown .habitica-menu-dropdown-toggle {
+  .task ::v-deep .accomplay-menu-dropdown .accomplay-menu-dropdown-toggle {
     opacity: 0;
     padding: 0 8px;
     transition: opacity 0.15s ease-in;
   }
 
-  .task:hover ::v-deep .habitica-menu-dropdown .habitica-menu-dropdown-toggle {
+  .task:hover ::v-deep .accomplay-menu-dropdown .accomplay-menu-dropdown-toggle {
     opacity: 1;
   }
 
-  .task:focus-within ::v-deep .habitica-menu-dropdown .habitica-menu-dropdown-toggle {
+  .task:focus-within ::v-deep .accomplay-menu-dropdown .accomplay-menu-dropdown-toggle {
     opacity: 1;
   }
 
-  .task ::v-deep .habitica-menu-dropdown:focus-within {
+  .task ::v-deep .accomplay-menu-dropdown:focus-within {
     opacity: 1;
     border: $purple-400 solid 1px;
     border-radius: 2px;
   }
 
-  .task ::v-deep .habitica-menu-dropdown {
+  .task ::v-deep .accomplay-menu-dropdown {
     border: transparent solid 1px;
   }
 
-  .task-clickable-area ::v-deep .habitica-menu-dropdown.open .habitica-menu-dropdown-toggle {
+  .task-clickable-area ::v-deep .accomplay-menu-dropdown.open .accomplay-menu-dropdown-toggle {
     opacity: 1;
 
     .svg-icon {
@@ -569,11 +568,11 @@
     }
   }
 
-  .task-clickable-area ::v-deep .habitica-menu-dropdown .habitica-menu-dropdown-toggle:hover .svg-icon {
+  .task-clickable-area ::v-deep .accomplay-menu-dropdown .accomplay-menu-dropdown-toggle:hover .svg-icon {
     color: $purple-400 !important;
   }
 
-  .task-clickable-area ::v-deep .habitica-menu-dropdown .habitica-menu-dropdown-toggle:focus-within .svg-icon {
+  .task-clickable-area ::v-deep .accomplay-menu-dropdown .accomplay-menu-dropdown-toggle:focus-within .svg-icon {
     color: $purple-400 !important;
   }
 

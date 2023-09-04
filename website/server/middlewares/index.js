@@ -20,7 +20,7 @@ import domainMiddleware from './domain';
 import maintenanceMode from './maintenanceMode';
 import {
   forceSSL,
-  forceHabitica,
+  forceAccomplay,
 } from './redirects';
 import ipBlocker from './ipBlocker';
 import v1 from './v1';
@@ -68,7 +68,7 @@ export default function attachMiddlewares (app, server) {
 
   app.use(cors);
   app.use(forceSSL);
-  app.use(forceHabitica);
+  app.use(forceAccomplay);
 
   app.use(bodyParser.urlencoded({
     extended: true, // Uses 'qs' library as old connect middleware
@@ -112,7 +112,7 @@ export default function attachMiddlewares (app, server) {
     app.use(basicAuth({
       users: httpBasicAuthUsers,
       challenge: true,
-      realm: 'Habitica',
+      realm: 'Accomplay',
     }));
   }
   app.use('/api/v2', v2);

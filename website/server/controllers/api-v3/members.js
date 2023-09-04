@@ -215,10 +215,10 @@ api.getMemberByUsername = {
  *   seasonal: {
  *     label: "Seasonal",
  *     achievements: {
- *       habiticaDays: {
- *         title: "Habitica Naming Day",
+ *       habitDays: {
+ *         title: "Habit Unnaming Day",
  *         text: "Celebrated 0 Naming Days! Thanks for being a fantastic user.",
- *         icon: "achievement-habiticaDay",
+ *         icon: "achievement-habitDay",
  *         earned: false,
  *         value: 0,
  *         index: 72,
@@ -230,8 +230,8 @@ api.getMemberByUsername = {
  *     label: "Special",
  *     achievements: {
  *       habitSurveys: {
- *         title: "Helped Habitica Grow",
- *         text: "Helped Habitica grow on 0 occasions, either by filling out
+ *         title: "Helped Habit Grow",
+ *         text: "Helped Habit grow on 0 occasions, either by filling out
  *               a survey or helping with a major testing effort. Thank you!",
  *         icon: "achievement-tree",
  *         earned: false,

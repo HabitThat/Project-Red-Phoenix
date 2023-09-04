@@ -13,9 +13,6 @@ import apiError from '../libs/apiError';
 
 // Middleware to rate limit requests to the API
 
-// More info on the API rate limits can be found on the wiki at
-// https://habitica.fandom.com/wiki/Guidance_for_Comrades#Rules_for_Third-Party_Tools
-
 const IS_TEST = nconf.get('IS_TEST');
 const RATE_LIMITER_ENABLED = nconf.get('RATE_LIMITER_ENABLED') === 'true';
 const REDIS_HOST = nconf.get('REDIS_HOST');

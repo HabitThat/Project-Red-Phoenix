@@ -4,7 +4,7 @@ services:
   client:
     build: .
     networks:
-      - habitica
+      - accomplay
     environment:
       - BASE_URL=http://server:3000
     ports:
@@ -18,7 +18,7 @@ services:
     ports:
       - "3000:3000"
     networks:
-      - habitica
+      - accomplay
     environment:
       - NODE_DB_URI=mongodb://mongo/habitrpg
     depends_on:
@@ -29,8 +29,8 @@ services:
     ports:
       - "27017:27017"
     networks:
-      - habitica
+      - accomplay
 
 networks:
-  habitica:
+  accomplay:
     driver: bridge

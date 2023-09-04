@@ -1,5 +1,5 @@
 {
-    "playerTiersDesc": "Chatissa näkemäsi värilliset käyttäjänimet kertovat nimen haltijan Hyväntekijä-tason. Mitä korkeampi taso, sitä enemmän henkilö on osallistunut Habitican tekemiseen taiteen, koodin, yhteisöllisyyden tai muun keinoin!",
+    "playerTiersDesc": "Chatissa näkemäsi värilliset käyttäjänimet kertovat nimen haltijan Hyväntekijä-tason. Mitä korkeampi taso, sitä enemmän henkilö on osallistunut Accomplayer tekemiseen taiteen, koodin, yhteisöllisyyden tai muun keinoin!",
     "tier1": "Taso 1 (Ystävä)",
     "tier2": "Taso 2 (Ystävä)",
     "tier3": "Taso 3 (Eliitti)",
@@ -19,13 +19,13 @@
     "staff": "Henkilökunta",
     "heroic": "Sankarillinen",
     "modalContribAchievement": "Hyväntekijä-saavutus!",
-    "contribModal": "<%= name %>, sinä loistava ihminen! Olet nyt tason <%= level %> hyväntekijä autettuasi Habiticaa.",
+    "contribModal": "<%= name %>, sinä loistava ihminen! Olet nyt tason <%= level %> hyväntekijä autettuasi Accomplaya.",
     "contribLink": "Katso, mitä palkintoja olet ansainnut työpanoksellasi!",
     "contribName": "Hyväntekijä",
-    "contribText": "On auttanut Habiticaa ohjelmoimalla, kuvataiteella, tekemällä musiikkia, kirjoittamalla, tai muilla keinoilla. Saadaksesi lisätietoja liity Aspiring Legends-kiltaan!",
+    "contribText": "On auttanut Accomplaya ohjelmoimalla, kuvataiteella, tekemällä musiikkia, kirjoittamalla, tai muilla keinoilla. Saadaksesi lisätietoja liity Aspiring Legends-kiltaan!",
     "kickstartName": "Kickstarter-tukija - $<%= key %>",
     "kickstartText": "Rahoitti Kickstarter-projektia",
-    "helped": "Auttoi Habitica-palvelua kasvamaan",
+    "helped": "Auttoi Accomplay-palvelua kasvamaan",
     "hall": "Sankareiden sali",
     "contribTitle": "Avustajanimike (esim. \"Seppä\")",
     "contribLevel": "Avustajatasot",
@@ -49,9 +49,9 @@
     "balance": "Tasapaino",
     "playerTiers": "Pelaajataso",
     "tier": "Taso",
-    "conRewardsURL": "http://habitica.wikia.com/wiki/Contributor_Rewards",
-    "surveysSingle": "Autoit Habiticaa kasvamaan joko täyttämällä kyselyn tai autamalla merkittävässä testaamisponnistuksessa. Kiitoksia!",
-    "surveysMultiple": "Auttoi Habitica-palvelua kasvamaan <%= count %> kertaa joko täyttämällä kyselyn tai auttamalla merkittävässä testaamisponnistuksessa. Kiitos!",
-    "blurbHallPatrons": "Tämä on Rahoittajien sali, jossa kunnioitamme niitä yleviä seikkailijoita, jotka rahoittivat Habitican alkuperäistä Kickstarteria. Tahdomme kiittää heitä heidän avustaan Habtican herättämiseksi eloon!",
-    "blurbHallContributors": "Tämä on Sankareiden sali, jossa kunnioitetaan avoimen lähdekoodin Habitica-avustajia. Oli kyse sitten koodauksesta, taiteesta, musiikista, kirjoittamisesta tai jopa vain avuliaisuudesta, he ovat ansainneet <a href='http://habitica.wikia.com/wiki/Contributor_Rewards' target='_blank'> jalokiviä, erityisvarusteita</a> ja <a href='http://habitica.wikia.com/wiki/Contributor_Titles' target='_blank'>arvovaltaisia nimityksiä</a>. Sinäkin voit avustaa Habiticaa! <a href='http://habitica.wikia.com/wiki/Contributing_to_Habitica' target='_blank'> Löydä lisää täältä. </a>"
+    "conRewardsURL": "http://accomplay.wikia.com/wiki/Contributor_Rewards",
+    "surveysSingle": "Autoit Accomplaya kasvamaan joko täyttämällä kyselyn tai autamalla merkittävässä testaamisponnistuksessa. Kiitoksia!",
+    "surveysMultiple": "Auttoi Accomplay-palvelua kasvamaan <%= count %> kertaa joko täyttämällä kyselyn tai auttamalla merkittävässä testaamisponnistuksessa. Kiitos!",
+    "blurbHallPatrons": "Tämä on Rahoittajien sali, jossa kunnioitamme niitä yleviä seikkailijoita, jotka rahoittivat Accomplayer alkuperäistä Kickstarteria. Tahdomme kiittää heitä heidän avustaan Habtican herättämiseksi eloon!",
+    "blurbHallContributors": "Tämä on Sankareiden sali, jossa kunnioitetaan avoimen lähdekoodin Accomplay-avustajia. Oli kyse sitten koodauksesta, taiteesta, musiikista, kirjoittamisesta tai jopa vain avuliaisuudesta, he ovat ansainneet <a href='http://accomplay.wikia.com/wiki/Contributor_Rewards' target='_blank'> jalokiviä, erityisvarusteita</a> ja <a href='http://accomplay.wikia.com/wiki/Contributor_Titles' target='_blank'>arvovaltaisia nimityksiä</a>. Sinäkin voit avustaa Accomplaya! <a href='http://accomplay.wikia.com/wiki/Contributing_to_Accomplay' target='_blank'> Löydä lisää täältä. </a>"
 }

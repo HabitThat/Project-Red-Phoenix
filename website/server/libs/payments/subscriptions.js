@@ -291,7 +291,7 @@ async function createSubscription (data) {
       quantity: 1,
       gift: Boolean(data.gift),
       purchaseValue: block.price,
-      headers: data.headers || { 'x-client': 'habitica-web' },
+      headers: data.headers || { 'x-client': 'accomplay-web' },
       firstPurchase: !group && data.user.purchased.txnCount === 1,
     });
   }

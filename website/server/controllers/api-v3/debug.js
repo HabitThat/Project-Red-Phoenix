@@ -8,13 +8,13 @@ const { content } = common;
 
 /**
  * @apiDefine Development Development
- * These routes only exist while Habitica is in development mode.
+ * These routes only exist while Accomplay is in development mode.
  * (Such as running a local instance on your computer).
  */
 
 /**
  * @apiDefine Developers Local Development
- * This route only exists when developing Habitica in non-production environment.
+ * This route only exists when developing Accomplay in non-production environment.
  */
 
 const api = {};
@@ -118,14 +118,14 @@ api.makeAdmin = {
  * @apiGroup Development
  * @apiPermission Developers
  *
- * @apiParam (Body) {Object} gear Object to replace user's <code><a href="https://github.com/HabitRPG/habitica/blob/develop/website/server/models/user/schema.js#L243">gear.owned</a></code> object.
- * @apiParam (Body) {Object} special Object to replace user's <code><a href="https://github.com/HabitRPG/habitica/blob/develop/website/server/models/user/schema.js#272">special</a></code> object.
- * @apiParam (Body) {Object} pets Object to replace user's <code><a href="https://github.com/HabitRPG/habitica/blob/develop/website/server/models/user/schema.js#296">pets</a></code> object.
- * @apiParam (Body) {Object} mounts Object to replace user's <code><a href="https://github.com/HabitRPG/habitica/blob/develop/website/server/models/user/schema.js#329">mounts</a></code> object.
- * @apiParam (Body) {Object} eggs Object to replace user's <code><a href="https://github.com/HabitRPG/habitica/blob/develop/website/server/models/user/schema.js#310">eggs</a></code> object.
- * @apiParam (Body) {Object} hatchingPotions Object to replace user's <code><a href="https://github.com/HabitRPG/habitica/blob/develop/website/server/models/user/schema.js#316">hatchingPotions</a></code> object.
- * @apiParam (Body) {Object} food Object to replace user's <code><a href="https://github.com/HabitRPG/habitica/blob/develop/website/server/models/user/schema.js#322">food</a></code> object.
- * @apiParam (Body) {Object} quests Object to replace user's <code><a href="https://github.com/HabitRPG/habitica/blob/develop/website/server/models/user/schema.js#344">quests</a></code> object.
+ * @apiParam (Body) {Object} gear Object to replace user's schema.js#L243 gear.owned object.
+ * @apiParam (Body) {Object} special Object to replace user's schema.js#272 special object.
+ * @apiParam (Body) {Object} pets Object to replace user's schema.js#296 pets object.
+ * @apiParam (Body) {Object} mounts Object to replace user's schema.js#329 mounts object.
+ * @apiParam (Body) {Object} eggs Object to replace user's schema.js#310 eggs object.
+ * @apiParam (Body) {Object} hatchingPotions Object to replace user's schema.js#316 hatchingPotions object.
+ * @apiParam (Body) {Object} food Object to replace user's schema.js#322 food object.
+ * @apiParam (Body) {Object} quests Object to replace user's schema.js#344 quests object.
  * @apiSuccess {Object} data An empty Object
  */
 api.modifyInventory = {

@@ -11,7 +11,7 @@ const api = {};
  * @api {get} /email/unsubscribe Unsubscribe an email address or user from email notifications
  * @apiName UnsubscribeEmail
  * @apiGroup Unsubscribe
- * @apiDescription This is a GET method included in official emails from Habitica
+ * @apiDescription This is a GET method included in official emails from Accomplay
  * that will unsubscribe the user from emails.
  * Does not require authentication.
  *

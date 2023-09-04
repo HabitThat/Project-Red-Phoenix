@@ -25,7 +25,7 @@
     "contribText": "Přispěl Habitice, ať už pomocí kódování, umění, hudbě, psaní, nebo jinými metodami. Aby jsi se dozvěděl víc, přidej se k cechu Aspiring Legends!",
     "kickstartName": "Podporovatel z Kickstarteru úrovně - $<%= key %>",
     "kickstartText": "Podpořil projekt na Kickstarteru",
-    "helped": "Pomohl zemi Habitica růst",
+    "helped": "Pomohl zemi Accomplay růst",
     "hall": "Síň Hrdinů",
     "contribTitle": "Přispěvatelský titul (např. \"Kovář\")",
     "contribLevel": "Úroveň přispěvatele",
@@ -49,9 +49,9 @@
     "balance": "Bilance",
     "playerTiers": "Úrovně hráče",
     "tier": "Úroveň",
-    "conRewardsURL": "http://habitica.fandom.com/wiki/Contributor_Rewards",
-    "surveysSingle": "Pomohl zemi Habitica růst vyplněním dotazníků nebo usilovným testováním. Děkujeme vám!",
-    "surveysMultiple": "Pomohl programu Habitica růst v <%= count %> případech, buď vyplněním dotazníků nebo usilovným testováním. Děkujeme vám!",
-    "blurbHallPatrons": "Toto je Síň Patronů, ve které oslavujeme vznešené dobrodruhy, kteří podpořili program Habitica na Kickstarteru. Jsme jim vděční za to, že pomohli zemi Habitica přivést k životu!",
-    "blurbHallContributors": "Toto je Síň Přispěvatelů, kde oslavujeme open-source přispěvatele programu Habitica. Ať už za kód, kresby, hudbu, psaní, nebo jen prostě za pomoc, si vysloužili <a href='http://habitica.fandom.com/wiki/Contributor_Rewards' target='_blank'> drahokamy, exkluzivní vybavení</a> a <a href='http://habitica.fandom.com/wiki/Contributor_Titles' target='_blank'>prestižní tituly</a>. Také můžeš programu Habitica přispět! <a href='http://habitica.fandom.com/wiki/Contributing_to_Habitica' target='_blank'> Více informací najdeš zde.</a>"
+    "conRewardsURL": "http://accomplay.fandom.com/wiki/Contributor_Rewards",
+    "surveysSingle": "Pomohl zemi Accomplay růst vyplněním dotazníků nebo usilovným testováním. Děkujeme vám!",
+    "surveysMultiple": "Pomohl programu Accomplay růst v <%= count %> případech, buď vyplněním dotazníků nebo usilovným testováním. Děkujeme vám!",
+    "blurbHallPatrons": "Toto je Síň Patronů, ve které oslavujeme vznešené dobrodruhy, kteří podpořili program Accomplay na Kickstarteru. Jsme jim vděční za to, že pomohli zemi Accomplay přivést k životu!",
+    "blurbHallContributors": "Toto je Síň Přispěvatelů, kde oslavujeme open-source přispěvatele programu Accomplay. Ať už za kód, kresby, hudbu, psaní, nebo jen prostě za pomoc, si vysloužili <a href='http://accomplay.fandom.com/wiki/Contributor_Rewards' target='_blank'> drahokamy, exkluzivní vybavení</a> a <a href='http://accomplay.fandom.com/wiki/Contributor_Titles' target='_blank'>prestižní tituly</a>. Také můžeš programu Accomplay přispět! <a href='http://accomplay.fandom.com/wiki/Contributing_to_Accomplay' target='_blank'> Více informací najdeš zde.</a>"
 }

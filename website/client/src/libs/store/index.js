@@ -1,6 +1,6 @@
 import Vue from 'vue';
 
-// Central application store for Habitica
+// Central application store for Accomplay
 // Heavily inspired to Vuex (https://github.com/vuejs/vuex) with a very
 // similar internal implementation (thanks!), main difference is the absence of mutations.
 

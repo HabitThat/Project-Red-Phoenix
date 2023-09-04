@@ -537,7 +537,7 @@ export default {
     },
   },
   mounted () {
-    this.$root.$on('habitica:show-member-modal', data => {
+    this.$root.$on('accomplay:show-member-modal', data => {
       // @TODO: Remove store
       this.$store.state.memberModalOptions.challengeId = data.challengeId;
       this.$store.state.memberModalOptions.groupId = data.groupId;
@@ -550,7 +550,7 @@ export default {
     });
   },
   beforeDestroy () {
-    this.$root.$off('habitica:show-member-modal');
+    this.$root.$off('accomplay:show-member-modal');
   },
   methods: {
     sendMessage (member) {
@@ -696,7 +696,7 @@ export default {
       this.$root.$emit('updatedGroup', groupData);
     },
     viewProgress (member) {
-      this.$root.$emit('habitica:challenge:member-progress', {
+      this.$root.$emit('accomplay:challenge:member-progress', {
         progressMemberId: member._id,
       });
     },

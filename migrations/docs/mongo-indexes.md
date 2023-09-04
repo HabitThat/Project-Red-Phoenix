@@ -1,6 +1,6 @@
 # Indexes
 
-This file contains a list of indexes that are on Habitica's production Mongo server.
+This file contains a list of indexes that are on Accomplay's production Mongo server.
 If we ever have an issue, use this list to reindex.
 
 ## Challenges

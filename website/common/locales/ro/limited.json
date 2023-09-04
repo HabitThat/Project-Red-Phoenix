@@ -26,7 +26,7 @@
     "seasonalShop": "Seasonal Shop",
     "seasonalShopClosedTitle": "<%= linkStart %>Leslie<%= linkEnd %>",
     "seasonalShopTitle": "<%= linkStart %>Seasonal Sorceress<%= linkEnd %>",
-    "seasonalShopClosedText": "The Seasonal Shop is currently closed!! It’s only open during Habitica’s four Grand Galas.",
+    "seasonalShopClosedText": "The Seasonal Shop is currently closed!! It’s only open during Accomplay’s four Grand Galas.",
     "seasonalShopSummerText": "Happy Summer Splash!! Would you like to buy some rare items? Be sure to get them before the Gala ends!",
     "seasonalShopFallText": "Happy Fall Festival!! Would you like to buy some rare items? Be sure to get them before the Gala ends!",
     "seasonalShopWinterText": "Happy Winter Wonderland!! Would you like to buy some rare items? Be sure to get them before the Gala ends!",

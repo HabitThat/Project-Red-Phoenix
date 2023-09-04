@@ -26,7 +26,7 @@
     "seasonalShop": "Loja Sazonal",
     "seasonalShopClosedTitle": "<%= linkStart %>Leslie<%= linkEnd %>",
     "seasonalShopTitle": "<%= linkStart %>Feiticeira Sazonal<%= linkEnd %>",
-    "seasonalShopClosedText": "A Loja Sazonal está correntemente fechada! Só abre durante as quatro Grande Galas de Habitica.",
+    "seasonalShopClosedText": "A Loja Sazonal está correntemente fechada! Só abre durante as quatro Grande Galas de Accomplay.",
     "seasonalShopSummerText": "Feliz Salpico de Verão!! Gostaria de comprar alguns items raros? Só estarão disponíveis até 31 de Julho!",
     "seasonalShopFallText": "Feliz Festival de Outono!! Gostaria de comprar alguns items raros? Só estarão disponíveis até 31 de Outubro!",
     "seasonalShopWinterText": "Feliz Evento de Inverno do País das Maravilhas! Gostaria de comprar alguns items raros? Só estarão disponíveis até 31 de Janeiro!",

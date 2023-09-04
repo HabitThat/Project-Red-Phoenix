@@ -79,7 +79,7 @@
 
 <script>
 // @TODO: EMAILS.PRESS_ENQUIRY_EMAIL
-const PRESS_ENQUIRY_EMAIL = 'admin@habitica.com';
+const PRESS_ENQUIRY_EMAIL = 'admin@accomplay.com';
 
 export default {
   data () {

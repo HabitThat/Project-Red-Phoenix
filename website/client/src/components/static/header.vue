@@ -45,7 +45,7 @@
         <li class="nav-item">
           <a
             class="nav-link"
-            href="https://habitica.wordpress.com/"
+            href="https://accomplay.wordpress.com/"
             target="_blank"
           >{{ $t('companyBlog') }}</a>
         </li>
@@ -123,7 +123,7 @@
         class="btn btn-primary pull-right"
         @click="playButtonClick()"
       >
-        {{ $t('enterHabitica') }}
+        {{ $t('enterAccomplay') }}
       </button>
     </div>
     <router-link

@@ -61,7 +61,7 @@ describe('paypal - checkout', () => {
 
     expect(gems.validateGiftMessage).to.not.be.called;
     expect(paypalPaymentCreateStub).to.be.calledOnce;
-    expect(paypalPaymentCreateStub).to.be.calledWith(getPaypalCreateOptions('Habitica Gems', 4.99));
+    expect(paypalPaymentCreateStub).to.be.calledWith(getPaypalCreateOptions('Accomplay Gems', 4.99));
     expect(link).to.eql(approvalHerf);
   });
 
@@ -124,7 +124,7 @@ describe('paypal - checkout', () => {
     expect(gems.validateGiftMessage).to.be.calledOnce;
     expect(gems.validateGiftMessage).to.be.calledWith(gift, user);
     expect(paypalPaymentCreateStub).to.be.calledOnce;
-    expect(paypalPaymentCreateStub).to.be.calledWith(getPaypalCreateOptions('Habitica Gems (Gift)', '4.00'));
+    expect(paypalPaymentCreateStub).to.be.calledWith(getPaypalCreateOptions('Accomplay Gems (Gift)', '4.00'));
     expect(link).to.eql(approvalHerf);
   });
 
@@ -146,7 +146,7 @@ describe('paypal - checkout', () => {
     expect(gems.validateGiftMessage).to.be.calledWith(gift, user);
 
     expect(paypalPaymentCreateStub).to.be.calledOnce;
-    expect(paypalPaymentCreateStub).to.be.calledWith(getPaypalCreateOptions('mo. Habitica Subscription (Gift)', '15.00'));
+    expect(paypalPaymentCreateStub).to.be.calledWith(getPaypalCreateOptions('mo. Accomplay Subscription (Gift)', '15.00'));
     expect(link).to.eql(approvalHerf);
   });
 });

@@ -3,7 +3,7 @@ import googlePayments from '../../../../../../website/server/libs/payments/googl
 
 describe('payments : google #norenewsubscribe', () => {
   const endpoint = '/iap/android/norenew-subscribe';
-  const sku = 'com.habitrpg.android.habitica.subscription.3month';
+  const sku = 'com.habitrpg.android.accomplay.subscription.3month';
   let user;
 
   beforeEach(async () => {

@@ -41,7 +41,7 @@
     "messageGroupChatNotFound": "Poruka nije pronađena!",
     "messageGroupChatAdminClearFlagCount": "Samo administrator može očistiti brojač zastava!",
     "messageCannotFlagSystemMessages": "Poruku sustava me možeš označiti zastavom. Ako trebaš prijaviti prekršaj Smjernica za zajednicu vezan uz ovu poruku, molimo te da Lemoness u e-mailu pošalješ snimku zaslona i objašnjenje na <%= communityManagerEmail %>.",
-    "messageGroupChatSpam": "Ups, izgleda da šalješ previše poruka! Pričekaj minutu i pokušaj ponovno. Chat u Krčmi može zadržati samo 200 poruka odjednom, pa Habitica potiče objavljivanje duljih, promišljenijih poruka i konsolidirajućih odgovora. Jedva čekamo čuti što imaš za reći. :)",
+    "messageGroupChatSpam": "Ups, izgleda da šalješ previše poruka! Pričekaj minutu i pokušaj ponovno. Chat u Krčmi može zadržati samo 200 poruka odjednom, pa Accomplay potiče objavljivanje duljih, promišljenijih poruka i konsolidirajućih odgovora. Jedva čekamo čuti što imaš za reći. :)",
     "messageCannotLeaveWhileQuesting": "Ne možeš prihvatiti ovaj poziv u družinu dok si usred pustolovine. Ako bi se htio/la priključiti ovoj družini, moraš prvo otkazati pustolovinu, što možeš učiniti sa zaslona svoje družine. Pustolovni svitak će ti biti vraćen.",
     "messageUserOperationProtected": "staza `<%= operation %>` nije sačuvana pošto je zaštićena staza.",
     "messageNotificationNotFound": "Obavijest nije pronađena.",

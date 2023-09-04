@@ -66,7 +66,7 @@ function textContainsBannedSlur (message) {
  * @apiParam (Path) {String} groupId The group _id ('party' for the user party and
  *                                   'phoenixlounge' for tavern are accepted).
  *
- * @apiSuccess {Array} data An array of <a href='https://github.com/HabitRPG/habitica/blob/develop/website/server/models/group.js#L51' target='_blank'>chat messages</a>
+ * @apiSuccess {Array} data An array of chat messages
  *
  * @apiUse GroupNotFound
  * @apiUse GroupIdRequired
@@ -215,7 +215,7 @@ api.postChat = {
     const [message, mentions, mentionedMembers] = await highlightMentions(sanitizedMessageText);
     let client = req.headers['x-client'] || '3rd Party';
     if (client) {
-      client = client.replace('habitica-', '');
+      client = client.replace('accomplay-', '');
     }
 
     let flagCount = 0;
@@ -309,7 +309,7 @@ api.postChat = {
  *                                 for tavern are accepted).
  * @apiParam (Path) {UUID} chatId The chat message _id
  *
- * @apiSuccess {Object} data The liked <a href='https://github.com/HabitRPG/habitica/blob/develop/website/server/models/group.js#L51' target='_blank'>chat message</a>
+ * @apiSuccess {Object} data The liked chat message
  *
  * @apiUse GroupNotFound
  * @apiUse MessageNotFound
@@ -521,8 +521,7 @@ api.seenChat = {
     });
 
     // Update the user version field manually,
-    // it cannot be updated in the pre update hook
-    // See https://github.com/HabitRPG/habitica/pull/9321#issuecomment-354187666 for more info
+    // it cannot be updated in the pre update hook PR 9321 issuecomment-354187666 for more info
     user._v += 1;
 
     await User.update({ _id: user._id }, update).exec();

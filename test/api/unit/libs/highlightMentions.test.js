@@ -109,20 +109,20 @@ describe('highlightMentions', () => {
       expect(result[0]).to.equal(text);
     });
 
-    // https://github.com/HabitRPG/habitica/issues/12217
+    // issue 12217
     it('doesn\'t highlight user in link with url-escapable characters', async () => {
-      const text = '[test](https://habitica.fandom.com/ru/@wiki/Снаряжение)';
+      const text = '[test](https://link.fandom.com/ru/@wiki/Снаряжение)';
       const result = await highlightMentions(text);
       expect(result[0]).to.equal(text);
     });
 
-    // https://github.com/HabitRPG/habitica/issues/12223
+    // Issue 12223
     it('matches a link in between two the same links', async () => {
-      const text = '[here](http://habitica.wikia.com/wiki/The_Keep:Pirate_Cove/FAQ)\n@user\n[hier](http://habitica.wikia.com/wiki/The_Keep:Pirate_Cove/FAQ)';
+      const text = '[here](http://accomplay.wikia.com/wiki/The_Keep:Pirate_Cove/FAQ)\n@user\n[hier](http://example.wikia.com/wiki/The_Keep:Pirate_Cove/FAQ)';
 
       const result = await highlightMentions(text);
 
-      expect(result[0]).to.equal('[here](http://habitica.wikia.com/wiki/The_Keep:Pirate_Cove/FAQ)\n[@user](/profile/111)\n[hier](http://habitica.wikia.com/wiki/The_Keep:Pirate_Cove/FAQ)');
+      expect(result[0]).to.equal('[here](http://accomplay.wikia.com/wiki/The_Keep:Pirate_Cove/FAQ)\n[@user](/profile/111)\n[hier](http://accomplay.wikia.com/wiki/The_Keep:Pirate_Cove/FAQ)');
     });
   });
 
@@ -203,14 +203,14 @@ describe('highlightMentions', () => {
   });
 
   describe('base url', () => {
-    it('should prefix habitica.com if it is production', async () => {
+    it('should prefix accomplay.com if it is production', async () => {
       const OLD_NODE_ENV = process.env.NODE_ENV;
       process.env.NODE_ENV = 'production';
       const text = '@user';
 
       const result = await highlightMentions(text);
 
-      expect(result[0]).to.equal('[@user](https://habitica.com/profile/111)');
+      expect(result[0]).to.equal('[@user](https://accomplay.com/profile/111)');
       process.env.NODE_ENV = OLD_NODE_ENV;
     });
   });

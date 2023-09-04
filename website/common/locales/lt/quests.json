@@ -62,7 +62,7 @@
     "onlyLeaderCancelQuest": "Tik grupės ar misijos vadas gali atšaukti misiją.",
     "questNotPending": "Reik pasirinkti misiją, kad būtų galima ją pradėti.",
     "questOrGroupLeaderOnlyStartQuest": "Tik grupės ar misijos vadas gali priverstinai pradėti misiją.",
-    "loginIncentiveQuest": "To unlock this quest, check in to Habitica on <%= count %> different days!",
+    "loginIncentiveQuest": "To unlock this quest, check in to Accomplay on <%= count %> different days!",
     "loginReward": "<%= count %> Prisijungimai (-ų)",
     "questBundles": "Nukainoti Misijų Paketai",
     "noQuestToStart": "Neturi, kokią misiją pradėti? Pabandyk užeiti į Misijų Parduotuvę ar Turgų ir paieškoti naujai išleistų misijų!",

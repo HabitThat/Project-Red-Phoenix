@@ -54,7 +54,7 @@ function _requestMaker (user, method, additionalSets = {}) {
       request
         .set('x-api-user', user._id)
         .set('x-api-key', user.apiToken)
-        .set('x-client', 'habitica-web');
+        .set('x-client', 'accomplay-web');
     }
 
     if (!isEmpty(additionalSets)) {

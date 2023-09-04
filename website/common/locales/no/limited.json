@@ -26,7 +26,7 @@
     "seasonalShop": "Sesongsbutikken",
     "seasonalShopClosedTitle": "<%= linkStart %>Leslie<%= linkEnd %>",
     "seasonalShopTitle": "<%= linkStart %>Sesongs Heks<%= linkEnd %>",
-    "seasonalShopClosedText": "Den sesongbaserte butikken er for tiden stengt!! Den er kun åpen i Habitica's fire store festligheter.",
+    "seasonalShopClosedText": "Den sesongbaserte butikken er for tiden stengt!! Den er kun åpen i Accomplay's fire store festligheter.",
     "seasonalShopSummerText": "Ha en god Sommer Festival!! Ønsker du kjøpe noen sjeldne gjenstander? De vil kun være tiljengelig til den 31. Juli!",
     "seasonalShopFallText": "Ha en god Høst Festival!! Ønsker du kjøpe noen sjeldne gjenstander? De vil kun være tilgjengelig til den 31. Oktober!",
     "seasonalShopWinterText": "Ha det god Vinter Feiring!! Ønsker du kjøpe noen sjeldne gjenstander? De vil kun være tilgjengelig til den 31. Januar!",

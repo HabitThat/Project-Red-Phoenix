@@ -233,7 +233,7 @@ api.deleteTag = {
 
     // Update the user version field manually,
     // it cannot be updated in the pre update hook
-    // See https://github.com/HabitRPG/habitica/pull/9321#issuecomment-354187666 for more info
+    // See PR 9321#issuecomment-354187666 for more info
     user._v += 1;
 
     // Remove from all the tasks TODO test

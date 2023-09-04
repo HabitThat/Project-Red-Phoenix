@@ -38,7 +38,7 @@ export default {
     };
   },
   mounted () {
-    this.$root.$on('habitica:show-profile', data => {
+    this.$root.$on('accomplay:show-profile', data => {
       this.userId = data.userId;
       this.startingPage = data.startingPage || 'profile';
       this.path = data.path;
@@ -46,7 +46,7 @@ export default {
     });
   },
   beforeDestroy () {
-    this.$root.$off('habitica:show-profile');
+    this.$root.$off('accomplay:show-profile');
   },
   methods: {
     onShown () {

@@ -26,7 +26,7 @@
     "seasonalShop": "Tienda Estacional",
     "seasonalShopClosedTitle": "<%= linkStart %>Leslie<%= linkEnd %>",
     "seasonalShopTitle": "<%= linkStart %>Hechicera Estacional<%= linkEnd %>",
-    "seasonalShopClosedText": "¡¡La tienda Estacional está cerrada por el momento!! Sólo está abierta durante las cuatro Galas Estacionales de Habitica.",
+    "seasonalShopClosedText": "¡¡La tienda Estacional está cerrada por el momento!! Sólo está abierta durante las cuatro Galas Estacionales de Accomplay.",
     "seasonalShopSummerText": "¡¡Feliz Chapuzón de Verano!! ¿Te gustaría comprar artículos raros? ¡Asegúrate de obtenerlos antes de que la Gala termine!",
     "seasonalShopFallText": "¡¡Feliz Festival de Otoño!! ¿Te gustaría comprar artículos raros? ¡Asegúrate de obtenerlos antes de que la Gala termine!",
     "seasonalShopWinterText": "¡¡Feliz País de las Maravillas de Invierno!! ¿Te gustaría comprar algunos artículos raros? ¡Asegúrate de obtenerlos antes de que la Gala termine!",

@@ -22,8 +22,8 @@ api.trackEvent = {
   middlewares: [authWithHeaders({ optional: true })],
   async handler (req, res) {
     // As of now only web can track events using this route
-    if (req.headers['x-client'] !== 'habitica-web') {
-      throw new NotAuthorized('Only habitica.com is allowed to track analytics events.');
+    if (req.headers['x-client'] !== 'accomplay-web') {
+      throw new NotAuthorized('Only accomplay.com is allowed to track analytics events.');
     }
 
     const { user } = res.locals;

@@ -62,7 +62,7 @@
     "onlyLeaderCancelQuest": "Bare gruppe- eller oppdragslederen kan avbryte oppdraget.",
     "questNotPending": "Det finnes ingen oppdrag å starte.",
     "questOrGroupLeaderOnlyStartQuest": "Kun gruppe- eller oppdragslederen kan tvinge start av oppdraget",
-    "loginIncentiveQuest": "To unlock this quest, check in to Habitica on <%= count %> different days!",
+    "loginIncentiveQuest": "To unlock this quest, check in to Accomplay on <%= count %> different days!",
     "loginReward": "<%= count %> Innlogginger",
     "questBundles": "Oppdragspakke på salg",
     "noQuestToStart": "Can’t find a quest to start? Try checking out the Quest Shop in the Market for new releases!",

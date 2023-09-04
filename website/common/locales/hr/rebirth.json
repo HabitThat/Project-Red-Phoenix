@@ -8,7 +8,7 @@
     "rebirthOrb": "Upotrijebio/la je Kuglu Preporoda da počne iznova nakon što je dostigao/la level <%= level %>.",
     "rebirthOrb100": "Upotrerijebio/la je Kuglu Preporoda da počne iznova nakon što je dostigao/la level 100 ili više.",
     "rebirthOrbNoLevel": "Upotrijebio/la je Kuglu Preporoda da počne iznova.",
-    "rebirthPop": "Odmah restartirajte svog lika kao ratnik razine 1 zadržavajući postignuća, kolekcionarske predmete i opremu. Vaši zadaci i njihova povijest ostat će, ali će se vratiti na žuto. Vaši nizovi bit će uklonjeni osim zadataka koji pripadaju aktivnim izazovima i grupnim planovima. Vaše zlato, iskustvo, mana i učinci svih vještina bit će uklonjeni. Sve će to odmah stupiti na snagu. Za više informacija pogledajte wiki stranicu <a href='https://habitica.fandom.com/wiki/Orb_of_Rebirth' target='_blank'>Kugle ponovnog rođenja</a>.",
+    "rebirthPop": "Odmah restartirajte svog lika kao ratnik razine 1 zadržavajući postignuća, kolekcionarske predmete i opremu. Vaši zadaci i njihova povijest ostat će, ali će se vratiti na žuto. Vaši nizovi bit će uklonjeni osim zadataka koji pripadaju aktivnim izazovima i grupnim planovima. Vaše zlato, iskustvo, mana i učinci svih vještina bit će uklonjeni. Sve će to odmah stupiti na snagu. Za više informacija pogledajte wiki stranicu <a href='https://accomplay.fandom.com/wiki/Orb_of_Rebirth' target='_blank'>Kugle ponovnog rođenja</a>.",
     "rebirthName": "Kugla Preporoda",
     "rebirthComplete": "Preporođen/a si!",
     "nextFreeRebirth": "<strong><%= dana %> dana</strong> do <strong>BESPLATNE</strong> Kugle ponovnog Rođenja"

@@ -121,7 +121,7 @@ export const schema = new Schema({
 
 /**
  * Remove invalid data from an array of notifications.
- * Fix for https://github.com/HabitRPG/habitica/issues/9923
+ * Fix for issue 9923
  * Called by user's post init hook (models/user/hooks.js)
  */
 schema.statics.cleanupCorruptData = function cleanupCorruptNotificationsData (notifications) {

@@ -20,7 +20,7 @@ describe('Apple Payments', () => {
 
     beforeEach(() => {
       token = 'testToken';
-      sku = 'com.habitrpg.ios.habitica.iap.21gems';
+      sku = 'com.habitrpg.ios.accomplay.iap.21gems';
       user = new User();
       receipt = `{"token": "${token}", "productId": "${sku}"}`;
       headers = {};
@@ -34,7 +34,7 @@ describe('Apple Payments', () => {
       sinon.stub(iap, 'isCanceled').returns(false);
       iapGetPurchaseDataStub = sinon.stub(iap, 'getPurchaseData')
         .returns([{
-          productId: 'com.habitrpg.ios.Habitica.21gems',
+          productId: 'com.habitrpg.ios.Accomplay.21gems',
           transactionId: token,
         }]);
       paymentBuySkuStub = sinon.stub(payments, 'buySkuItem').resolves({});
@@ -112,23 +112,23 @@ describe('Apple Payments', () => {
 
     const gemsCanPurchase = [
       {
-        productId: 'com.habitrpg.ios.Habitica.4gems',
+        productId: 'com.habitrpg.ios.Accomplay.4gems',
         gemsBlock: '4gems',
       },
       {
-        productId: 'com.habitrpg.ios.Habitica.20gems',
+        productId: 'com.habitrpg.ios.Accomplay.20gems',
         gemsBlock: '21gems',
       },
       {
-        productId: 'com.habitrpg.ios.Habitica.21gems',
+        productId: 'com.habitrpg.ios.Accomplay.21gems',
         gemsBlock: '21gems',
       },
       {
-        productId: 'com.habitrpg.ios.Habitica.42gems',
+        productId: 'com.habitrpg.ios.Accomplay.42gems',
         gemsBlock: '42gems',
       },
       {
-        productId: 'com.habitrpg.ios.Habitica.84gems',
+        productId: 'com.habitrpg.ios.Accomplay.84gems',
         gemsBlock: '84gems',
       },
     ];
@@ -200,7 +200,7 @@ describe('Apple Payments', () => {
           member: sinon.match({ _id: receivingUser._id }),
         },
         paymentMethod: applePayments.constants.PAYMENT_METHOD_APPLE,
-        sku: 'com.habitrpg.ios.Habitica.4gems',
+        sku: 'com.habitrpg.ios.Accomplay.4gems',
         headers,
       });
     });
@@ -215,7 +215,7 @@ describe('Apple Payments', () => {
 
     beforeEach(() => {
       sub = common.content.subscriptionBlocks[subKey];
-      sku = 'com.habitrpg.ios.habitica.subscription.3month';
+      sku = 'com.habitrpg.ios.accomplay.subscription.3month';
 
       token = 'test-token';
       headers = {};
@@ -276,15 +276,15 @@ describe('Apple Payments', () => {
         subKey: 'basic_earned',
       },
       {
-        sku: 'com.habitrpg.ios.habitica.subscription.3month',
+        sku: 'com.habitrpg.ios.accomplay.subscription.3month',
         subKey: 'basic_3mo',
       },
       {
-        sku: 'com.habitrpg.ios.habitica.subscription.6month',
+        sku: 'com.habitrpg.ios.accomplay.subscription.6month',
         subKey: 'basic_6mo',
       },
       {
-        sku: 'com.habitrpg.ios.habitica.subscription.12month',
+        sku: 'com.habitrpg.ios.accomplay.subscription.12month',
         subKey: 'basic_12mo',
       },
     ];
@@ -420,19 +420,19 @@ describe('Apple Payments', () => {
         .returns([{
           expirationDate: moment.utc().add({ day: 4 }).toDate(),
           purchaseDate: moment.utc().subtract({ day: 5 }).toDate(),
-          productId: 'com.habitrpg.ios.habitica.subscription.3month',
+          productId: 'com.habitrpg.ios.accomplay.subscription.3month',
           transactionId: `${token}oldest`,
           originalTransactionId: `${token}evenOlder`,
         }, {
           expirationDate: moment.utc().add({ day: 2 }).toDate(),
           purchaseDate: moment.utc().subtract({ day: 1 }).toDate(),
-          productId: 'com.habitrpg.ios.habitica.subscription.12month',
+          productId: 'com.habitrpg.ios.accomplay.subscription.12month',
           transactionId: `${token}newest`,
           originalTransactionId: `${token}newest`,
         }, {
           expirationDate: moment.utc().add({ day: 1 }).toDate(),
           purchaseDate: moment.utc().subtract({ day: 2 }).toDate(),
-          productId: 'com.habitrpg.ios.habitica.subscription.6month',
+          productId: 'com.habitrpg.ios.accomplay.subscription.6month',
           transactionId: token,
           originalTransactionId: token,
         }]);

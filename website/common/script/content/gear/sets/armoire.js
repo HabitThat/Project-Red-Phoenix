@@ -1284,7 +1284,7 @@ const weapon = {
     twoHanded: true,
     set: 'basicArcher',
   },
-  habiticanDiploma: {
+  accomplayerDiploma: {
     int: 11,
     set: 'graduate',
   },

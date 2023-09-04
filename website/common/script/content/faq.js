@@ -116,8 +116,8 @@ questionList.forEach(listEntry => {
     ios: t(`iosFaqAnswer${listEntry.translationIndex}`),
     web: t(`webFaqAnswer${listEntry.translationIndex}`, {
       //  TODO: Need to pull these values from nconf
-      techAssistanceEmail: 'admin@habitica.com',
-      wikiTechAssistanceEmail: 'mailto:admin@habitica.com',
+      techAssistanceEmail: 'admin@accomplay.com',
+      wikiTechAssistanceEmail: 'mailto:admin@accomplay.com',
     }),
   };
 

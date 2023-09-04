@@ -62,7 +62,7 @@
     "onlyLeaderCancelQuest": "Kun hold- eller questlederen kan aflyse quest'en.",
     "questNotPending": "Der er ingen quest at starte.",
     "questOrGroupLeaderOnlyStartQuest": "Kun quest- eller gruppelederen kan tvinge quest'en til at starte",
-    "loginIncentiveQuest": "For at låse op for denne quest, så check ind i Habitica på <%= count %> forskellige dage!",
+    "loginIncentiveQuest": "For at låse op for denne quest, så check ind i Accomplay på <%= count %> forskellige dage!",
     "loginReward": "<%= count %> Check-ins",
     "questBundles": "Nedsatte Quest Pakker",
     "noQuestToStart": "Kan du ikke finde en quest at gå i gang med? Prøv at kigge i Questbutikken på Markedet for at se om der er kommet nogle nye!",

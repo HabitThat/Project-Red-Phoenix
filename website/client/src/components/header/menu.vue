@@ -6,14 +6,14 @@
     <send-gift-modal />
     <select-user-modal />
     <b-navbar
-      id="habitica-menu"
+      id="accomplay-menu"
       class="topbar navbar-inverse static-top"
       toggleable="lg"
       type="dark"
     >
       <b-navbar-brand
         class="brand"
-        aria-label="Habitica"
+        aria-label="Accomplay"
       >
         <div
           class="logo svg-icon d-none d-xl-block"
@@ -326,7 +326,7 @@
               >{{ $t('requestFeature') }}</a>
               <a
                 class="topbar-dropdown-item dropdown-item"
-                href="https://habitica.fandom.com/wiki/Habitica_Wiki"
+                href="https://accomplay.fandom.com/wiki/Accomplay_Wiki"
                 target="_blank"
               >{{ $t('wiki') }}</a>
             </div>
@@ -389,7 +389,7 @@
 </template>
 
 <style lang="scss">
-body.modal-open #habitica-menu {
+body.modal-open #accomplay-menu {
   z-index: 1035;
 }
 </style>

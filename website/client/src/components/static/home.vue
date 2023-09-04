@@ -152,7 +152,7 @@
           <div class="col-12 col-sm-6 col-md-6 col-lg-6 offset-sm-3 text-center">
             <h2>{{ $t('gamifyYourLife') }}</h2>
             <p class="section-main">
-              {{ $t('aboutHabitica') }}
+              {{ $t('aboutAccomplay') }}
             </p>
           </div>
         </div>
@@ -261,13 +261,13 @@
             <p>{{ $t('levelUpAnywhereDesc') }}</p>
             <a
               class="app svg-icon"
-              href="https://play.google.com/store/apps/details?id=com.habitrpg.android.habitica"
+              href="https://play.google.com/store/apps/details?id=com.habitrpg.android.accomplay"
               target="_blank"
               v-html="icons.googlePlay"
             ></a>
             <a
               class="app svg-icon"
-              href="https://itunes.apple.com/us/app/habitica-gamified-task-manager/id994882113?mt=8"
+              href="https://itunes.apple.com/us/app/accomplay-gamified-task-manager/id994882113?mt=8"
               target="_blank"
               v-html="icons.iosAppStore"
             ></a>
@@ -885,7 +885,7 @@ export default {
       google: process.env.GOOGLE_CLIENT_ID, // eslint-disable-line
     });
     this.$store.dispatch('common:setTitle', {
-      fullTitle: 'Habitica - Gamify Your Life',
+      fullTitle: 'Accomplay - Gamify Your Life',
     });
   },
   methods: {

@@ -153,7 +153,7 @@
         class="btn btn-info"
         @click="register()"
       >
-        {{ $t('joinHabitica') }}
+        {{ $t('joinAccomplay') }}
       </div>
       <div
         v-if="!registering"

@@ -24,9 +24,9 @@ const AMPLITUDE_PROPERTIES_TO_SCRUB = [
 ];
 
 const PLATFORM_MAP = Object.freeze({
-  'habitica-web': 'Web',
-  'habitica-ios': 'iOS',
-  'habitica-android': 'Android',
+  'accomplay-web': 'Web',
+  'accomplay-ios': 'iOS',
+  'accomplay-android': 'Android',
 });
 
 let amplitude;

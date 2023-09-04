@@ -70,7 +70,7 @@ const api = {};
  * @apiSuccess {Array} challenge.tasksOrder.dailys Array of `daily` task IDs.
  * @apiSuccess {Array} challenge.tasksOrder.habits Array of `habit` task IDs.
  * @apiSuccess {Boolean} challenge.official Boolean indicating if
- *                                          this is an official Habitica challenge.
+ *                                          this is an official Accomplay challenge.
  *
  */
 
@@ -179,7 +179,7 @@ const api = {};
  *                                               if not supplied, challenge.name will be used.
  * @apiParam (Body) {String} [challenge.description] A detailed description of the challenge
  * @apiParam (Body) {Boolean} [official=false] Whether or not a challenge is an official
- *                                             Habitica challenge (requires admin).
+ *                                             Accomplay challenge (requires admin).
  * @apiParam (Body) {Number} [challenge.prize=0] Number of gems offered as
  *                                               a prize to challenge winner.
  *
@@ -652,7 +652,7 @@ api.exportChallengeCsv = {
        * after the user leaves that challenge, which previously caused a failure when exporting
        * to a CSV. The following if statement makes sure that the task's attached user still
        * belongs to the challenge.
-       * See more at https://github.com/HabitRPG/habitica/issues/8350
+       * See more at issue 8350
        */
       if (!resArray.map(line => line[0]).includes(task.userId)) {
         return;

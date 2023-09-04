@@ -86,7 +86,7 @@ const wackyPets = constructPetOnlySet('wacky', dropEggs, wackyPotions);
 const canFindSpecial = {
   pets: {
     // Veteran Pet Ladder - awarded on major updates
-    // https://habitica.fandom.com/wiki/Event_Item_Sequences#Veteran_Pets
+    // https://accomplay.fandom.com/wiki/Event_Item_Sequences#Veteran_Pets
     'Wolf-Veteran': false,
     'Tiger-Veteran': false,
     'Lion-Veteran': false,

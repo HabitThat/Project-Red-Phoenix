@@ -62,7 +62,7 @@
     "onlyLeaderCancelQuest": "Solo il leader del gruppo o della missione può annullare una missione.",
     "questNotPending": "Non ci sono missioni da cominciare.",
     "questOrGroupLeaderOnlyStartQuest": "Solo il leader del gruppo o della missione può forzare l'inizio di una missione",
-    "loginIncentiveQuest": "Per sbloccare questa missione, usa Habitica per un totale di <%= count %> giorni!",
+    "loginIncentiveQuest": "Per sbloccare questa missione, usa Accomplay per un totale di <%= count %> giorni!",
     "loginReward": "<%= count %> accessi",
     "questBundles": "Pacchetto missioni scontato",
     "noQuestToStart": "Fai un salto al <a href=\"<%= questShop %>\">Negozio Missioni</a> per le nuove uscite!",

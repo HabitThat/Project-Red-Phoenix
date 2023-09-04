@@ -1,5 +1,5 @@
 {
-    "playerTiersDesc": "Obarvana uporabniška imena v klepetalnici označujejo uporabnikovo stopnjo pomočnika. Višja kot je stopnja, več je ta oseba prispevala projektu Habitica skozi umetnine, kodo, skupnost in drugo!",
+    "playerTiersDesc": "Obarvana uporabniška imena v klepetalnici označujejo uporabnikovo stopnjo pomočnika. Višja kot je stopnja, več je ta oseba prispevala projektu Accomplay skozi umetnine, kodo, skupnost in drugo!",
     "tier1": "Stopnja 1 (Prijatelj/ica)",
     "tier2": "Stopnja 2 (Prijatelj/ica)",
     "tier3": "Stopnja 3 (Elita)",
@@ -19,13 +19,13 @@
     "staff": "Zaposlen(a)",
     "heroic": "Junak",
     "modalContribAchievement": "Pomočniški dosežek!",
-    "contribModal": "<%= name %>, you awesome person! You're now a tier <%= level %> contributor for helping Habitica.",
+    "contribModal": "<%= name %>, you awesome person! You're now a tier <%= level %> contributor for helping Accomplay.",
     "contribLink": "See what prizes you've earned for your contribution!",
     "contribName": "Pomočnik",
-    "contribText": "Je prispeval k projektu Habitica — kodo, umetnine, glasbo, besedila ali drugo. Več v cehu Aspiring Legends!",
+    "contribText": "Je prispeval k projektu Accomplay — kodo, umetnine, glasbo, besedila ali drugo. Več v cehu Aspiring Legends!",
     "kickstartName": "Kickstarter podpornik — nivo $<%= key %>",
     "kickstartText": "Podprl Kickstarter projekt",
-    "helped": "Pripomogel k rasti projekta Habitica",
+    "helped": "Pripomogel k rasti projekta Accomplay",
     "hall": "Hala junakov",
     "contribTitle": "Pomočniški naziv (npr. Kovač)",
     "contribLevel": "Pomočniški nivo",
@@ -49,9 +49,9 @@
     "balance": "Stanje",
     "playerTiers": "Stopnje uporabnikov",
     "tier": "Stopnja",
-    "conRewardsURL": "http://habitica.wikia.com/wiki/Contributor_Rewards",
-    "surveysSingle": "Pripomogel k rasti projekta Habitica z izpolnjevanjem ankete ali testiranjem večjih sprememb. Hvala!",
-    "surveysMultiple": "<%= count %>-krat pripomogel k rasti projekta Habitica z izpolnjevanjem anket ali testiranjem večjih sprememb. Hvala!",
-    "blurbHallPatrons": "To je Hala mecenov, kjer častimo plemenite avanturiste, ki so podprli projekt Habitica na prvi kampanji na Kickstarter-ju. Zahvaljujemo se jim za pomoč pri oživitvi projekta Habitica!",
-    "blurbHallContributors": "To je Hala pomočnikov, kjer častimo odprtokodne pomočnike programa Habitica. Skozi kodo, umetnije, glasbo, pisanje ali pa celo samo ustrežljivost so si zaslužili <a href='http://habitica.wikia.com/wiki/Contributor_Rewards' target='_blank'>dragulje, eksluzivno opremo</a> in <a href='http://habitica.wikia.com/wiki/Contributor_Titles' target='_blank'>prestižne nazive</a>. Tudi vi lahko prispevate k programu Habitica! <a href='http://habitica.wikia.com/wiki/Contributing_to_Habitica' target='_blank'>Več si preberite tukaj.</a>"
+    "conRewardsURL": "http://accomplay.wikia.com/wiki/Contributor_Rewards",
+    "surveysSingle": "Pripomogel k rasti projekta Accomplay z izpolnjevanjem ankete ali testiranjem večjih sprememb. Hvala!",
+    "surveysMultiple": "<%= count %>-krat pripomogel k rasti projekta Accomplay z izpolnjevanjem anket ali testiranjem večjih sprememb. Hvala!",
+    "blurbHallPatrons": "To je Hala mecenov, kjer častimo plemenite avanturiste, ki so podprli projekt Accomplay na prvi kampanji na Kickstarter-ju. Zahvaljujemo se jim za pomoč pri oživitvi projekta Accomplay!",
+    "blurbHallContributors": "To je Hala pomočnikov, kjer častimo odprtokodne pomočnike programa Accomplay. Skozi kodo, umetnije, glasbo, pisanje ali pa celo samo ustrežljivost so si zaslužili <a href='http://accomplay.wikia.com/wiki/Contributor_Rewards' target='_blank'>dragulje, eksluzivno opremo</a> in <a href='http://accomplay.wikia.com/wiki/Contributor_Titles' target='_blank'>prestižne nazive</a>. Tudi vi lahko prispevate k programu Accomplay! <a href='http://accomplay.wikia.com/wiki/Contributing_to_Accomplay' target='_blank'>Več si preberite tukaj.</a>"
 }

@@ -54,7 +54,7 @@ function getFileFromUrl (url) {
 
 let commit = '78f94e365c72cc58f66857d5941105638db7d35c';
 commit = 'df0dbaba636c9ce424cc7040f7bd7fc1aa311015';
-const gihuburl = `https://api.github.com/repos/HabitRPG/habitica/commits/${commit}`;
+const gihuburl = `https://api.github.com/repos/HabitThat/accomplay/commits/${commit}`;
 
 
 let currentIndex = 0;

@@ -34,37 +34,37 @@ function _getGearSetDescription (key) {
     setType = 'empty slot';
     wantSetName = false;
   } else if (setName.includes('special-turkey')) {
-    setType = '<a href="https://habitica.fandom.com/wiki/Turkey_Day">Turkey Day</a>';
+    setType = '<a href="https://accomplay.fandom.com/wiki/Turkey_Day">Turkey Day</a>';
     wantSetName = false;
   } else if (setName.includes('special-nye')) {
-    setType = '<a href="https://habitica.fandom.com/wiki/Event_Item_Sequences">New Year\'s Eve</a>';
+    setType = '<a href="https://accomplay.fandom.com/wiki/Event_Item_Sequences">New Year\'s Eve</a>';
     wantSetName = false;
   } else if (setName.includes('special-birthday')) {
-    setType = '<a href="https://habitica.fandom.com/wiki/Habitica_Birthday_Bash">Habitica Birthday Bash</a>';
+    setType = '<a href="https://accomplay.fandom.com/wiki/Habit_Birthday_Bash">Habit Birthday Bash</a>';
     wantSetName = false;
   } else if (setName.includes('special-0') || key === 'weapon_special_3') {
-    setType = '<a href="https://habitica.fandom.com/wiki/Kickstarter">Kickstarter 2013</a>';
+    setType = '<a href="https://accomplay.fandom.com/wiki/Kickstarter">Kickstarter 2013</a>';
     wantSetName = false;
   } else if (setName.includes('special-1')) {
     setType = 'Contributor gear';
     wantSetName = false;
   } else if (setName.includes('special-2') || key === 'shield_special_goldenknight') {
-    setType = '<a href="https://habitica.fandom.com/wiki/Legendary_Equipment">Legendary Equipment</a>';
+    setType = '<a href="https://accomplay.fandom.com/wiki/Legendary_Equipment">Legendary Equipment</a>';
     wantSetName = false;
   } else if (setName.includes('special-wondercon')) {
-    setType = '<a href="https://habitica.fandom.com/wiki/Unconventional_Armor">Unconventional Armor</a>';
+    setType = '<a href="https://accomplay.fandom.com/wiki/Unconventional_Armor">Unconventional Armor</a>';
     wantSetName = false;
   } else if (lunarBattleQuestGear.includes(key)) {
-    setType = '<a href="https://habitica.fandom.com/wiki/Quest_Lines#Lunar_Battle_Quest_Line">Lunar Battle Quest Line</a>';
+    setType = '<a href="https://accomplay.fandom.com/wiki/Quest_Lines#Lunar_Battle_Quest_Line">Lunar Battle Quest Line</a>';
     wantSetName = false;
   } else if (loginIncentivesGear.includes(key)) {
-    setType = '<a href="https://habitica.fandom.com/wiki/Daily_Check-In_Incentives">Check-In Incentive</a>';
+    setType = '<a href="https://accomplay.fandom.com/wiki/Daily_Check-In_Incentives">Check-In Incentive</a>';
     wantSetName = false;
   } else if (goldQuestsGear.includes(key)) {
-    setType = 'from <a href="https://habitica.fandom.com/wiki/Quest_Lines#Gold_Purchasable_Quest_Lines">Gold-Purchasable Quest Lines</a>';
+    setType = 'from <a href="https://accomplay.fandom.com/wiki/Quest_Lines#Gold_Purchasable_Quest_Lines">Gold-Purchasable Quest Lines</a>';
     wantSetName = false;
   } else if (animalGear.includes(key)) {
-    setType = '<a href="https://habitica.fandom.com/wiki/Avatar_Customizations">Animal Avatar Accessory Customisations</a>';
+    setType = '<a href="https://accomplay.fandom.com/wiki/Avatar_Customizations">Animal Avatar Accessory Customisations</a>';
     wantSetName = false;
   } else if (!content.gear.flat[key].klass) {
     setType = 'NO "klass" [omission in API data]';
@@ -81,7 +81,7 @@ function _getGearSetDescription (key) {
       setType = 'GaymerX';
       wantSetName = false;
     } else if (key.includes('special_ks2019')) {
-      setType = '<a href="https://habitica.fandom.com/wiki/Kickstarter">Kickstarter 2019</a>';
+      setType = '<a href="https://accomplay.fandom.com/wiki/Kickstarter">Kickstarter 2019</a>';
       wantSetName = false;
     } else {
       setType = '[unknown set]';

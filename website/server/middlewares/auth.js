@@ -11,7 +11,7 @@ import gcpStackdriverTracer from '../libs/gcpTraceAgent';
 import common from '../../common';
 import { getLanguageFromUser } from '../libs/language';
 
-const OFFICIAL_PLATFORMS = ['habitica-web', 'habitica-ios', 'habitica-android'];
+const OFFICIAL_PLATFORMS = ['accomplay-web', 'accomplay-ios', 'accomplay-android'];
 const COMMUNITY_MANAGER_EMAIL = nconf.get('EMAILS_COMMUNITY_MANAGER_EMAIL');
 const USER_FIELDS_ALWAYS_LOADED = ['_id', 'notifications', 'preferences', 'auth', 'flags', 'permissions'];
 

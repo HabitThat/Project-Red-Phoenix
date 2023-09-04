@@ -107,7 +107,7 @@ schema.methods.canJoin = function canJoinChallenge (user, group) {
 schema.methods.addToUser = async function addChallengeToUser (user) {
   // Add challenge to users challenges atomically (with a condition that checks that it
   // is not there already) to prevent multiple concurrent requests from passing through
-  // see https://github.com/HabitRPG/habitica/issues/11295
+  // see issue 11295
   const result = await User.updateOne(
     {
       _id: user._id,

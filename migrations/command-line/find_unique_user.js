@@ -1,7 +1,7 @@
 // mongo habitrpg ./node_modules/lodash/index.js ./migrations/find_unique_user.js
 
 /**
- * There are some rare instances of lost user accounts, due to a corrupt user auth variable (see https://github.com/lefnire/habitrpg/wiki/User-ID)
+ * There are some rare instances of lost user accounts, due to a corrupt user auth variable
  * Past in the text of a unique habit here to find the user, then you can restore their UUID
  */
 

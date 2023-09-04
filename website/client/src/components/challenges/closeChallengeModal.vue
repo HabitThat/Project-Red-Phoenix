@@ -18,7 +18,7 @@
       </div>
       <div class="row text-center">
         <div class="col-12">
-          <div class="support-habitica">
+          <div class="support-accomplay">
             <!-- @TODO: Add challenge achievement badge here-->
           </div>
         </div>
@@ -86,8 +86,8 @@
       padding-top: 2em;
     }
 
-    .support-habitica {
-      background-image: url('~@/assets/svg/for-css/support-habitica-gems.svg');
+    .support-accomplay {
+      background-image: url('~@/assets/svg/for-css/support-accomplay-gems.svg');
       width: 325px;
       height: 89px;
       margin: 0 auto;

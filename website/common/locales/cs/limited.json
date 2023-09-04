@@ -26,7 +26,7 @@
     "seasonalShop": "Sezónní obchod",
     "seasonalShopClosedTitle": "<%= linkStart %>Lesli<%= linkEnd %>",
     "seasonalShopTitle": "<%= linkStart %>Sezónní mudrci<%= linkEnd %>",
-    "seasonalShopClosedText": "Sezónní obchod je momentálně zavřený!! Je otevřený pouze během Čtyř Velkých Slavností země Habitica.",
+    "seasonalShopClosedText": "Sezónní obchod je momentálně zavřený!! Je otevřený pouze během Čtyř Velkých Slavností země Accomplay.",
     "seasonalShopSummerText": "Šťastný Letní Šplouch!! Chceš koupit nějaké vzácné předměty? Budou dostupné pouze do 31. Července!",
     "seasonalShopFallText": "Šťastný Podzimní festival!! Chceš koupit nějaké vzácné předměty? Budou dostupné pouze do 31. Října!",
     "seasonalShopWinterText": "Šťastnou Zimní Zemi divů! Chceš koupit nějaké vzácné předměty? Budou dostupné pouze do 31. Ledna!",

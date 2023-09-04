@@ -60,7 +60,7 @@ import { mapState } from '@/libs/store';
 import { CONSTANTS, setLocalSetting } from '@/libs/userlocalManager';
 import paymentsMixin from '@/mixins/payments';
 
-const habiticaUrl = `${window.location.protocol}//${window.location.host}`;
+const accomplayUrl = `${window.location.protocol}//${window.location.host}`;
 
 export default {
   mixins: [paymentsMixin],
@@ -99,7 +99,7 @@ export default {
     },
   },
   mounted () {
-    this.$root.$on('habitica::pay-with-amazon', amazonPaymentsData => {
+    this.$root.$on('accomplay::pay-with-amazon', amazonPaymentsData => {
       if (!amazonPaymentsData) return;
 
       const amazonPayments = {
@@ -130,7 +130,7 @@ export default {
     });
   },
   beforeDestroy () {
-    this.$root.$off('habitica::pay-with-amazon');
+    this.$root.$off('accomplay::pay-with-amazon');
   },
   methods: {
     amazonInitWidgets () {
@@ -265,17 +265,17 @@ export default {
           if (newGroup && newGroup._id) {
             // Handle new user signup
             if (!this.$store.state.isUserLoggedIn) {
-              this.storePaymentStatusAndReload(`${habiticaUrl}/group-plans/${newGroup._id}/task-information?showGroupOverview=true`);
+              this.storePaymentStatusAndReload(`${accomplayUrl}/group-plans/${newGroup._id}/task-information?showGroupOverview=true`);
               return;
             }
 
             this.user.guilds.push(newGroup._id);
-            this.storePaymentStatusAndReload(`${habiticaUrl}/group-plans/${newGroup._id}/task-information`);
+            this.storePaymentStatusAndReload(`${accomplayUrl}/group-plans/${newGroup._id}/task-information`);
             return;
           }
 
           if (this.amazonPayments.groupId) {
-            this.storePaymentStatusAndReload(`${habiticaUrl}/group-plans/${this.amazonPayments.groupId}/task-information`);
+            this.storePaymentStatusAndReload(`${accomplayUrl}/group-plans/${this.amazonPayments.groupId}/task-information`);
             return;
           }
 

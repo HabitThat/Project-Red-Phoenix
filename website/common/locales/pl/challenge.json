@@ -28,7 +28,7 @@
     "prize": "Nagroda",
     "prizePopTavern": "Jeśli twoje wyzwanie można 'wygrać', możesz nagrodzić zwycięzcę Klejnotami. Maksymalna nagroda to liczba posiadanych przez ciebie klejnotów. Uwaga: Raz ogłoszonej nagrody nie można później zmienić, a klejnoty w wyzwaniach Karczmy nie zostaną zwrócone w przypadku anulowania wyzwania.",
     "publicChallengesTitle": "Zadania Ogólnodostępne",
-    "officialChallenge": "Oficjalne wyzwanie Habitica",
+    "officialChallenge": "Oficjalne wyzwanie Accomplay",
     "by": "stworzone przez",
     "participants": "<%= membercount %> uczestników",
     "join": "Dołącz",

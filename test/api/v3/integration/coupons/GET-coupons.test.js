@@ -1,13 +1,13 @@
 import {
   generateUser,
-  resetHabiticaDB,
+  resetAccomplayDB,
 } from '../../../../helpers/api-integration/v3';
 import apiError from '../../../../../website/server/libs/apiError';
 
 describe('GET /coupons/', () => {
   let user;
   before(async () => {
-    await resetHabiticaDB();
+    await resetAccomplayDB();
   });
 
   beforeEach(async () => {

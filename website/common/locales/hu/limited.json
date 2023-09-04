@@ -26,7 +26,7 @@
     "seasonalShop": "Szezonális bolt",
     "seasonalShopClosedTitle": "<%= linkStart %>Leslie<%= linkEnd %>",
     "seasonalShopTitle": "<%= linkStart %>Szezonális varázslónő<%= linkEnd %>",
-    "seasonalShopClosedText": "A szezonális bolt jelenleg zárva van!! Csak a Habitica négy nagy gálája közben van nyitva.",
+    "seasonalShopClosedText": "A szezonális bolt jelenleg zárva van!! Csak a Accomplay négy nagy gálája közben van nyitva.",
     "seasonalShopSummerText": "Boldog Nyári csobbanást!! Szeretnél venni néhány ritka tárgyat? Ezek csak július 31-ig lesznek elérhetőek!",
     "seasonalShopFallText": "Boldog Őszi Fesztivált!! Szeretnél venni néhány ritka tárgyat? Ezek csak október 31-ig lesznek elérhetőek!",
     "seasonalShopWinterText": "Boldog Téli csodaországot!! Szeretnél venni néhány ritka tárgyat? Ezek csak január 31-ig lesznek elérhetőek!",

@@ -62,7 +62,7 @@
     "onlyLeaderCancelQuest": "Only the group or quest leader can cancel the quest.",
     "questNotPending": "There is no quest to start.",
     "questOrGroupLeaderOnlyStartQuest": "Only the quest leader or group leader can force start the quest",
-    "loginIncentiveQuest": "Để mở khóa nhiệm vụ này, ghé thăm Habitica <%= count %> ngày khác nhau!",
+    "loginIncentiveQuest": "Để mở khóa nhiệm vụ này, ghé thăm Accomplay <%= count %> ngày khác nhau!",
     "loginReward": "<%= count %> Check-ins",
     "questBundles": "Discounted Quest Bundles",
     "noQuestToStart": "Can’t find a quest to start? Try checking out the Quest Shop in the Market for new releases!",

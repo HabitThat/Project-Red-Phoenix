@@ -3,7 +3,7 @@ import applePayments from '../../../../../../website/server/libs/payments/apple'
 
 describe('payments : apple #norenewsubscribe', () => {
   const endpoint = '/iap/ios/norenew-subscribe';
-  const sku = 'com.habitrpg.ios.habitica.subscription.3month';
+  const sku = 'com.habitrpg.ios.accomplay.subscription.3month';
   let user;
 
   beforeEach(async () => {

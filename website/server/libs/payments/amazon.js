@@ -36,11 +36,11 @@ const api = {};
 
 api.constants = {
   CURRENCY_CODE: 'USD',
-  SELLER_NOTE: 'Habitica Payment',
-  SELLER_NOTE_SUBSCRIPTION: 'Habitica Subscription',
-  SELLER_NOTE_ATHORIZATION_SUBSCRIPTION: 'Habitica Subscription Payment',
-  SELLER_NOTE_GROUP_NEW_MEMBER: 'Habitica Group Plan New Member',
-  STORE_NAME: 'Habitica',
+  SELLER_NOTE: 'Accomplay Payment',
+  SELLER_NOTE_SUBSCRIPTION: 'Accomplay Subscription',
+  SELLER_NOTE_ATHORIZATION_SUBSCRIPTION: 'Accomplay Subscription Payment',
+  SELLER_NOTE_GROUP_NEW_MEMBER: 'Accomplay Group Plan New Member',
+  STORE_NAME: 'Accomplay',
 
   GIFT_TYPE_GEMS: 'gems',
   GIFT_TYPE_SUBSCRIPTION: 'subscription',

@@ -62,7 +62,7 @@
     "onlyLeaderCancelQuest": "Только лидер группы или квеста может отменить квест.",
     "questNotPending": "Нет квестов для участия.",
     "questOrGroupLeaderOnlyStartQuest": "Только лидер квеста или группы может принудительно начать квест",
-    "loginIncentiveQuest": "Вы откроете этот квест, заходя в Habitica на протяжении <%= count %> следующих дней!",
+    "loginIncentiveQuest": "Вы откроете этот квест, заходя в Accomplay на протяжении <%= count %> следующих дней!",
     "loginReward": "<%= count %> посещений",
     "questBundles": "Наборы квестов со скидкой",
     "noQuestToStart": "Посетите <a href=\"<%= questShop %>\">Лавку квестов</a>. Возможно, там есть новинки!",

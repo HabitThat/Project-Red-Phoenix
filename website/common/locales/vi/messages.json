@@ -41,7 +41,7 @@
     "messageGroupChatNotFound": "Tin nhắn không tìm thấy!",
     "messageGroupChatAdminClearFlagCount": "Chỉ quản trị mới có thể xoá bộ đếm Cờ!",
     "messageCannotFlagSystemMessages": "Bạn không thể báo cáo một thông báo hệ thống. Nếu bạn cần báo cáo vi phạm Các điều khoản của Cộng đồng liên quan đến thông báo này, vui lòng gửi email ảnh chụp màn hình và lời giải thích tới Lemoness tại <%= communityManagerEmail %>.",
-    "messageGroupChatSpam": "Ôi chao, dường như bạn đang gửi quá nhiều tin nhắn! Xin hãy chờ một phút và thử lại. Mục chat của Quán Trọ chỉ chứa được 200 tin nhắn một lúc, nên Habitica khuyến khích gửi các tin nhắn dài và xúc tích hơn. Chúng tôi trông chờ tin nhắn của bạn. :)",
+    "messageGroupChatSpam": "Ôi chao, dường như bạn đang gửi quá nhiều tin nhắn! Xin hãy chờ một phút và thử lại. Mục chat của Quán Trọ chỉ chứa được 200 tin nhắn một lúc, nên Accomplay khuyến khích gửi các tin nhắn dài và xúc tích hơn. Chúng tôi trông chờ tin nhắn của bạn. :)",
     "messageCannotLeaveWhileQuesting": "Bạn không thể đồng ý lời mời gia nhập Tổ đội này khi đang làm Nhiệm vụ. Nếu bạn muốn gia nhập tổ đội này, bạn đầu tiên phải hủy Nhiệm vụ của mình, có thể được làm từ màn hình Tổ đội. Bạn sẽ được trả lại cuộn Nhiệm vụ.",
     "messageUserOperationProtected": "Đường `<%= operation %>` chưa được lưu lại, bởi nó là đường được bảo vệ.",
     "messageNotificationNotFound": "Không tìm thấy thông báo này.",

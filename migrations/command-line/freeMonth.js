@@ -1,4 +1,4 @@
-// mongo habitrpg ./node_modules/moment/moment.js ./migrations/freeMonth.js
+// mongo phoenixlounge ./node_modules/moment/moment.js ./migrations/freeMonth.js
 
 db.users.update(
   { _id: '' },

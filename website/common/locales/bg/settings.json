@@ -2,7 +2,7 @@
     "settings": "Настройки",
     "language": "Език",
     "americanEnglishGovern": "В случай на разминаване в превода, за правилна се счита версията на американски английски език.",
-    "helpWithTranslation": "Искате ли да помогнете с превода на Habitica? Чудесно! Посетете <a href=\"/groups/guild/7732f64c-33ee-4cce-873c-fc28f147a6f7\">Aspiring Linguists Guild</a>!",
+    "helpWithTranslation": "Искате ли да помогнете с превода на Accomplay? Чудесно! Посетете <a href=\"/groups/guild/7732f64c-33ee-4cce-873c-fc28f147a6f7\">Aspiring Linguists Guild</a>!",
     "stickyHeader": "Лепкава горна част",
     "newTaskEdit": "Новите задачи да се отварят в режим на редактиране",
     "dailyDueDefaultView": "По подразбиране да се показва разделът с „чакащи“ ежедневни задачи",
@@ -70,8 +70,8 @@
     "beeminder": "Beeminder",
     "beeminderDesc": "Позволете на Beeminder да следи автоматично Вашите задачи за изпълнение. Можете да се ангажирате да изпълнявате даден брой задачи всеки ден или седмица, или можете да се ангажирате постепенно да намалявате оставащите Ви незавършени задачи за изпълнение. (Под „ангажиране“ в Beeminder се разбира реална заплаха от плащане на истински пари! Но може и просто да Ви харесат красивите диаграми на Beeminder.)",
     "chromeChatExtension": "Разширение на Chrome за чат",
-    "chromeChatExtensionDesc": "Разширението на Chrome за чат в Хабитика добавя интуитивна област за съобщения, достъпна в целия уеб сайт habitica.com. Тя позволява на потребителите да си пишат съобщения в кръчмата, групата и всички гилдии, в които участват.",
-    "otherExtensions": "<a target='blank' href='http://habitica.fandom.com/wiki/Extensions,_Add-Ons,_and_Customizations'>Други разширения</a>",
+    "chromeChatExtensionDesc": "Разширението на Chrome за чат в Хабитика добавя интуитивна област за съобщения, достъпна в целия уеб сайт accomplay.com. Тя позволява на потребителите да си пишат съобщения в кръчмата, групата и всички гилдии, в които участват.",
+    "otherExtensions": "<a target='blank' href='http://accomplay.fandom.com/wiki/Extensions,_Add-Ons,_and_Customizations'>Други разширения</a>",
     "otherDesc": "Открийте още приложения, разширения и инструменти в уикито на Хабитика.",
     "resetDo": "Потвърждавам, нулирайте профила ми!",
     "resetComplete": "Нулирането е завършено!",
@@ -135,7 +135,7 @@
     "generate": "Създаване",
     "getCodes": "Получаване на кодове",
     "webhooks": "Уеб-куки",
-    "webhooksInfo": "Хабитика предоставя уеб-куки, чрез които може да се изпрати информация до скрипт на друг уеб сайт, когато с профила Ви се случат определени действия. Можете да посочите тези скриптове тук. Внимавайте с тази функционалност, тъй като ако посочите неправилен адрес, това може да предизвика грешки или забавяния в Хабитика. За повече информация вижте страницата в уикито относно <a target=\"_blank\" href=\"https://habitica.fandom.com/wiki/Webhooks\">уеб-куките</a>.",
+    "webhooksInfo": "Хабитика предоставя уеб-куки, чрез които може да се изпрати информация до скрипт на друг уеб сайт, когато с профила Ви се случат определени действия. Можете да посочите тези скриптове тук. Внимавайте с тази функционалност, тъй като ако посочите неправилен адрес, това може да предизвика грешки или забавяния в Хабитика. За повече информация вижте страницата в уикито относно <a target=\"_blank\" href=\"https://accomplay.fandom.com/wiki/Webhooks\">уеб-куките</a>.",
     "enabled": "Включено",
     "webhookURL": "Адрес на уеб-куката",
     "invalidUrl": "грешен адрес",
@@ -179,6 +179,6 @@
     "verifyUsernameVeteranPet": "Един от тези любимци-ветерани ще Ви чака след като приключите с потвърждението!",
     "subscriptionReminders": "Абонаментни Напомняния",
     "newPMNotificationTitle": "Ново съобщение от <%= name %>",
-    "chatExtensionDesc": "Чат Разширението за Habitica добавя интуитивен чат прозорец за цялата habitica.com. Позволява на потребителите да чатят в Кръчмата, групата им и в гилдиите, в които са членове.",
-    "chatExtension": "<a target='blank' href='https://chrome.google.com/webstore/detail/habitrpg-chat-client/hidkdfgonpoaiannijofifhjidbnilbb'>Chrome Чат Разширение</a> и <a target='blank' href='https://addons.mozilla.org/en-US/firefox/addon/habitica-chat-client-2/'>Firefox Чат Разширение</a>"
+    "chatExtensionDesc": "Чат Разширението за Accomplay добавя интуитивен чат прозорец за цялата accomplay.com. Позволява на потребителите да чатят в Кръчмата, групата им и в гилдиите, в които са членове.",
+    "chatExtension": "<a target='blank' href='https://chrome.google.com/webstore/detail/habitrpg-chat-client/hidkdfgonpoaiannijofifhjidbnilbb'>Chrome Чат Разширение</a> и <a target='blank' href='https://addons.mozilla.org/en-US/firefox/addon/accomplay-chat-client-2/'>Firefox Чат Разширение</a>"
 }

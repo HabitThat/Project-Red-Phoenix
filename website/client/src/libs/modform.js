@@ -33,7 +33,7 @@ export function goToModForm (user) { // eslint-disable-line import/prefer-defaul
     apiKey,
   };
 
-  document.cookie = `habiticauserdata=${JSON.stringify(userData)};${expires};domain=.habitica.com;path=/`;
+  document.cookie = `accomplayuserdata=${JSON.stringify(userData)};${expires};domain=.accomplay.com;path=/`;
 
-  window.location.href = 'https://contact.habitica.com';
+  window.location.href = 'https://contact.accomplay.com';
 }

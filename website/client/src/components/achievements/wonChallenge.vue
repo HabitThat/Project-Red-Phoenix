@@ -175,13 +175,13 @@ export default {
     },
   },
   mounted () {
-    this.$root.$on('habitica:won-challenge', notification => {
+    this.$root.$on('accomplay:won-challenge', notification => {
       this.notification = notification;
       this.$root.$emit('bv::show::modal', 'won-challenge');
     });
   },
   beforeDestroy () {
-    this.$root.$off('habitica:won-challenge');
+    this.$root.$off('accomplay:won-challenge');
   },
   methods: {
     close () {

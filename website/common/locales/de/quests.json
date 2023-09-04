@@ -62,7 +62,7 @@
     "onlyLeaderCancelQuest": "Nur der Party- oder Quest-Leiter kann die Quest abbrechen.",
     "questNotPending": "Es ist keine Quest zum Start vorhanden.",
     "questOrGroupLeaderOnlyStartQuest": "Nur der Quest- oder Party-Leiter kann den Quest-Start erzwingen",
-    "loginIncentiveQuest": "Um diese Quest freizuschalten, melde Dich an <%= count %> verschiedenen Tagen auf Habitica an!",
+    "loginIncentiveQuest": "Um diese Quest freizuschalten, melde Dich an <%= count %> verschiedenen Tagen auf Accomplay an!",
     "loginReward": "<%= count %> Anmeldungen",
     "questBundles": "Reduzierte Quest-Pakete",
     "noQuestToStart": "Schau Mal im <a href=\"<%= questShop %>\">Quest Shop</a> vorbei, um neue Quests zu entdecken!",

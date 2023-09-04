@@ -112,7 +112,7 @@
           <!-- eslint-disable vue/no-use-v-if-with-v-for -->
           <div
             v-for="group in categoryOptions"
-            v-if="group.key !== 'habitica_official' || hasPermission(user, 'challengeAdmin')"
+            v-if="group.key !== 'accomplay_official' || hasPermission(user, 'challengeAdmin')"
             :key="group.key"
             class="form-check"
           >
@@ -169,7 +169,6 @@
             You do not have enough gems to create a Tavern challenge
           </div>
           <!-- @TODO if buy gems button is added, add analytics tracking to it-->
-          <!-- see https://github.com/HabitRPG/habitica/blob/develop/website/views/options/social/challenges.jade#L134-->
           <button
             v-if="creating && !cloning"
             class="btn btn-primary"
@@ -385,7 +384,7 @@ export default {
     },
   },
   mounted () {
-    this.$root.$on('habitica:clone-challenge', data => {
+    this.$root.$on('accomplay:clone-challenge', data => {
       if (!data.challenge) return;
       this.cloning = true;
       this.cloningChallengeId = data.challenge._id;
@@ -395,7 +394,7 @@ export default {
       };
       this.$root.$emit('bv::show::modal', 'challenge-modal');
     });
-    this.$root.$on('habitica:update-challenge', data => {
+    this.$root.$on('accomplay:update-challenge', data => {
       if (!data.challenge) return;
       this.cloning = false;
       this.$store.state.challengeOptions.workingChallenge = {
@@ -404,16 +403,16 @@ export default {
       };
       this.$root.$emit('bv::show::modal', 'challenge-modal');
     });
-    this.$root.$on('habitica:create-challenge', () => {
+    this.$root.$on('accomplay:create-challenge', () => {
       this.cloning = false;
       this.$store.state.challengeOptions.workingChallenge = {};
       this.$root.$emit('bv::show::modal', 'challenge-modal');
     });
   },
   beforeDestroy () {
-    this.$root.$off('habitica:clone-challenge');
-    this.$root.$off('habitica:update-challenge');
-    this.$root.$off('habitica:create-challenge');
+    this.$root.$off('accomplay:clone-challenge');
+    this.$root.$off('accomplay:update-challenge');
+    this.$root.$off('accomplay:create-challenge');
   },
   methods: {
     async shown () {

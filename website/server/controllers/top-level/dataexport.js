@@ -31,7 +31,7 @@ const api = {};
 
 /**
  * @api {get} /export/history.csv Export user tasks history in CSV format
- * @apiDescription History is only available for habits and dailies so todos and rewards won't be included. Can only be used on [https://habitica.com](https://habitica.com).
+ * @apiDescription History is only available for habits and dailies so todos and rewards won't be included. Can only be used on [https://accomplay.com](https://accomplay.com).
  * @apiName ExportUserHistory
  * @apiGroup DataExport
  *
@@ -73,7 +73,7 @@ api.exportUserHistory = {
 
     res.set({
       'Content-Type': 'text/csv',
-      'Content-disposition': 'attachment; filename=habitica-tasks-history.csv',
+      'Content-disposition': 'attachment; filename=accomplay-tasks-history.csv',
     });
 
     const csvRes = await csvStringify(output);
@@ -125,7 +125,7 @@ api.exportUserDataJson = {
 
     res.set({
       'Content-Type': 'application/json',
-      'Content-disposition': 'attachment; filename=habitica-user-data.json',
+      'Content-disposition': 'attachment; filename=accomplay-user-data.json',
     });
     const jsonRes = JSON.stringify(userData);
 
@@ -136,7 +136,7 @@ api.exportUserDataJson = {
 /**
  * @api {get} /export/userdata.xml Export user data in XML format
  * @apiName ExportUserDataXml
- * @apiDescription This XML export feature is not currently working (https://github.com/HabitRPG/habitica/issues/10100).
+ * @apiDescription This XML export feature is not currently working (https://github.com/HabitRPG/accomplay/issues/10100).
  * @apiGroup DataExport
  *
  * @apiSuccess {XML} File An xml file of the user object.
@@ -151,7 +151,7 @@ api.exportUserDataXml = {
 
     res.set({
       'Content-Type': 'text/xml',
-      'Content-disposition': 'attachment; filename=habitica-user-data.xml',
+      'Content-disposition': 'attachment; filename=accomplay-user-data.xml',
     });
     res.status(200).send(xmlData);
   },
@@ -160,7 +160,7 @@ api.exportUserDataXml = {
 /**
  * @api {get} /export/avatar-:uuid.html Render a user avatar as an HTML page
  * @apiName ExportUserAvatarHtml
- * @apiDescription This HTML export feature is not currently working (https://github.com/HabitRPG/habitica/issues/9489).
+ * @apiDescription This HTML export feature is not currently working (Issue 9489).
  * @apiGroup DataExport
  *
  * @apiParam (Path) {String} uuid The User ID of the user
@@ -175,7 +175,7 @@ api.exportUserAvatarHtml = {
   url: '/export/avatar-:memberId.html',
   // middlewares: [locals],
   async handler (/* req, res */) {
-    throw new NotFound('This API route is currently not available. See https://github.com/HabitRPG/habitica/issues/9489.');
+    throw new NotFound('This API route is currently not available. See Issue 9489.');
 
     /* req.checkParams('memberId', res.t('memberIdRequired')).notEmpty().isUUID();
 
@@ -184,7 +184,7 @@ api.exportUserAvatarHtml = {
 
     const { memberId } = req.params;
 
-    throw new NotFound('This API route is currently not available. See https://github.com/HabitRPG/habitica/issues/9489.');
+    throw new NotFound('This API route is currently not available. See Issue 9489.');
 
     const member = await User
       .findById(memberId)
@@ -202,7 +202,7 @@ api.exportUserAvatarHtml = {
 /**
  * @api {get} /export/avatar-:uuid.png Render a user avatar as a PNG file
  * @apiName ExportUserAvatarPng
- * @apiDescription This PNG export feature is not currently working (https://github.com/HabitRPG/habitica/issues/9489).
+ * @apiDescription This PNG export feature is not currently working (Issue 9489).
  * @apiGroup DataExport
  *
  * @apiParam (Path) {String} uuid The User ID of the user
@@ -213,7 +213,7 @@ api.exportUserAvatarPng = {
   method: 'GET',
   url: '/export/avatar-:memberId.png',
   async handler (/* req, res */) {
-    throw new NotFound('This API route is currently not available. See https://github.com/HabitRPG/habitica/issues/9489.');
+    throw new NotFound('This API route is currently not available. See Issue 9489.');
 
     /* req.checkParams('memberId', res.t('memberIdRequired')).notEmpty().isUUID();
 

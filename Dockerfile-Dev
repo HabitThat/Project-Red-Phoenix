@@ -5,10 +5,10 @@ RUN npm install -g gulp-cli mocha
 
 # Copy package.json and package-lock.json into image, then install
 # dependencies.
-WORKDIR /usr/src/habitica
+WORKDIR /usr/src/accomplay
 COPY ["package.json", "package-lock.json", "./"]
 RUN npm install
 
 # Copy the remaining source files in.
-COPY . /usr/src/habitica
+COPY . /usr/src/accomplay
 RUN npm run postinstall

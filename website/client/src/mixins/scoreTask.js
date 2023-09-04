@@ -151,8 +151,7 @@ export default {
           // TODO $rootScope.selectedQuest = Content.quests[drop.key];
           // $rootScope.openModal('questDrop', {controller:'PartyCtrl', size:'sm'});
           // NOTE if a modal is shown again for quest drops
-          // this code will likely need changes, see the NOTE
-          // https://github.com/HabitRPG/habitica/blob/develop/website/client/src/components/notifications.vue#L640-L646
+          // this code will likely need changes
         } else {
           // Keep support for another type of drops that might be added
           this.drop(drop.dialog);

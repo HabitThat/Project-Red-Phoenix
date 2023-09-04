@@ -79,16 +79,16 @@ api.subscribe = async function subscribe (
   if (!sku) throw new BadRequest(shared.i18n.t('missingSubscriptionCode'));
   let subCode;
   switch (sku) { // eslint-disable-line default-case
-    case 'com.habitrpg.android.habitica.subscription.1month':
+    case 'com.habitrpg.android.accomplay.subscription.1month':
       subCode = 'basic_earned';
       break;
-    case 'com.habitrpg.android.habitica.subscription.3month':
+    case 'com.habitrpg.android.accomplay.subscription.3month':
       subCode = 'basic_3mo';
       break;
-    case 'com.habitrpg.android.habitica.subscription.6month':
+    case 'com.habitrpg.android.accomplay.subscription.6month':
       subCode = 'basic_6mo';
       break;
-    case 'com.habitrpg.android.habitica.subscription.12month':
+    case 'com.habitrpg.android.accomplay.subscription.12month':
       subCode = 'basic_12mo';
       break;
   }
@@ -135,16 +135,16 @@ api.noRenewSubscribe = async function noRenewSubscribe (options) {
   if (!sku) throw new BadRequest(shared.i18n.t('missingSubscriptionCode'));
   let subCode;
   switch (sku) { // eslint-disable-line default-case
-    case 'com.habitrpg.android.habitica.norenew_subscription.1month':
+    case 'com.habitrpg.android.accomplay.norenew_subscription.1month':
       subCode = 'basic_earned';
       break;
-    case 'com.habitrpg.android.habitica.norenew_subscription.3month':
+    case 'com.habitrpg.android.accomplay.norenew_subscription.3month':
       subCode = 'basic_3mo';
       break;
-    case 'com.habitrpg.android.habitica.norenew_subscription.6month':
+    case 'com.habitrpg.android.accomplay.norenew_subscription.6month':
       subCode = 'basic_6mo';
       break;
-    case 'com.habitrpg.android.habitica.norenew_subscription.12month':
+    case 'com.habitrpg.android.accomplay.norenew_subscription.12month':
       subCode = 'basic_12mo';
       break;
   }

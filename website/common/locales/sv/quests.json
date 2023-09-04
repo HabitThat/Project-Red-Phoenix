@@ -62,7 +62,7 @@
     "onlyLeaderCancelQuest": "Bara grupp- eller uppdragsledaren kan avbryta uppdraget.",
     "questNotPending": "Det finns inget uppdrag att påbörja.",
     "questOrGroupLeaderOnlyStartQuest": "Bara uppdragsledaren eller gruppledaren kan tvinga start av uppdrag",
-    "loginIncentiveQuest": "För att låsa upp detta uppdrag, kolla in till Habitica på <%= count %> olika dagar!",
+    "loginIncentiveQuest": "För att låsa upp detta uppdrag, kolla in till Accomplay på <%= count %> olika dagar!",
     "loginReward": "<%= count %> Incheckningar",
     "questBundles": "Rabatterade uppdragsbuntar",
     "noQuestToStart": "Kan du inte hitta ett uppdrag att starta? Kolla in Uppdragsbutiken i Marknaden för nya utgåvor!",

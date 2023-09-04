@@ -100,7 +100,7 @@ export default {
     };
   },
   mounted () {
-    this.$root.$on('habitica:subscription-canceled', ({ dateTerminated, isGroup }) => {
+    this.$root.$on('accomplay:subscription-canceled', ({ dateTerminated, isGroup }) => {
       this.isGroup = isGroup;
       if (isGroup) {
         this.groupDateTerminated = dateTerminated;
@@ -109,7 +109,7 @@ export default {
     });
   },
   beforeDestroy () {
-    this.$root.$off('habitica:subscription-canceled');
+    this.$root.$off('accomplay:subscription-canceled');
   },
   methods: {
     close () {

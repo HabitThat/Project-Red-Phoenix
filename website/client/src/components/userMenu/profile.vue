@@ -762,7 +762,7 @@ import error404 from '../404';
 import externalLinks from '../../mixins/externalLinks';
 import { userCustomStateMixin } from '../../mixins/userState';
 // @TODO: EMAILS.COMMUNITY_MANAGER_EMAIL
-const COMMUNITY_MANAGER_EMAIL = 'admin@habitica.com';
+const COMMUNITY_MANAGER_EMAIL = 'admin@accomplay.com';
 
 export default {
   directives: {
@@ -896,7 +896,7 @@ export default {
         if (response.response && response.response.status === 404) {
           user = null;
           this.$store.dispatch('snackbars:add', {
-            title: 'Habitica',
+            title: 'Accomplay',
             text: this.$t('messageDeletedUser'),
             type: 'error',
             timeout: false,
@@ -995,7 +995,7 @@ export default {
     },
     openSendGemsModal () {
       this.$store.state.giftModalOptions.startingPage = 'buyGems';
-      this.$root.$emit('habitica::send-gift', this.user);
+      this.$root.$emit('accomplay::send-gift', this.user);
     },
     adminTurnOnShadowMuting () {
       if (!this.hero.flags) {

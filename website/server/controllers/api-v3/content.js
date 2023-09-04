@@ -22,7 +22,7 @@ const api = {};
  *                                                     the request, the content will return with
  *                                                     the user's configured language.
  *
- * @apiSuccess {Object} data Various data about the content of Habitica. The content route
+ * @apiSuccess {Object} data Various data about the content of Accomplay. The content route
  * contains many keys, but the data listed below are the recommended data to use.
  * @apiSuccess {Object} data.mystery The mystery sets awarded to paying subscribers.
  * @apiSuccess {Object} data.gear The gear that can be equipped.

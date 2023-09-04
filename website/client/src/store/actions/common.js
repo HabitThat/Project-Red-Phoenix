@@ -25,9 +25,9 @@ export function hatch (store, params) {
 
 export function setTitle (store, params) {
   if (params.subSection && params.section) {
-    store.state.title = `${params.subSection} | ${params.section} | Habitica`;
+    store.state.title = `${params.subSection} | ${params.section} | Accomplay`;
   } else if (params.section) {
-    store.state.title = `${params.section} | Habitica`;
+    store.state.title = `${params.section} | Accomplay`;
   } else if (params.fullTitle) {
     store.state.title = params.fullTitle;
   }

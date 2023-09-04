@@ -1,5 +1,5 @@
 {
-    "playerTiersDesc": "The colored usernames you see in chat represent a person's contributor tier. The higher the tier, the more the person has contributed to habitica through art, code, the community, or more!",
+    "playerTiersDesc": "The colored usernames you see in chat represent a person's contributor tier. The higher the tier, the more the person has contributed to accomplay through art, code, the community, or more!",
     "tier1": "Tier 1 (Friend)",
     "tier2": "Tier 2 (Friend)",
     "tier3": "Tier 3 (Elite)",
@@ -19,13 +19,13 @@
     "staff": "Personalas",
     "heroic": "Herojai",
     "modalContribAchievement": "Pagalbininko Pasiekimas!",
-    "contribModal": "<%= name %>, you awesome person! You're now a tier <%= level %> contributor for helping Habitica.",
+    "contribModal": "<%= name %>, you awesome person! You're now a tier <%= level %> contributor for helping Accomplay.",
     "contribLink": "See what prizes you've earned for your contribution!",
     "contribName": "Pagalbininkas",
-    "contribText": "Has contributed to Habitica, whether via code, art, music, writing, or other methods. To learn more, join the Aspiring Legends Guild!",
+    "contribText": "Has contributed to Accomplay, whether via code, art, music, writing, or other methods. To learn more, join the Aspiring Legends Guild!",
     "kickstartName": "Startuolio rėmėjas - $<%= key %> lygmuo",
     "kickstartText": "Parėmė Kickstarter Projektą",
-    "helped": "Padėjo Habitica tobulėti",
+    "helped": "Padėjo Accomplay tobulėti",
     "hall": "Herojų Salė",
     "contribTitle": "Pagalbininko Lygmuo (pvz \"Kalvis\")",
     "contribLevel": "Pagalbos Lygmuo",
@@ -49,9 +49,9 @@
     "balance": "Balansas",
     "playerTiers": "Žaidėjų Lygmenys",
     "tier": "Lygmuo",
-    "conRewardsURL": "http://habitica.wikia.com/wiki/Contributor_Rewards",
-    "surveysSingle": "Prisidėjo prie Habitica - užpildant apklausą ar prisidedant prie vieno iš bandymų. Ačiū tau!",
-    "surveysMultiple": "Prisidėjo prie Habitica <%= count %> kartus, užpildant apklausą ar prisidedant prie vieno iš bandymų. Ačiū!",
-    "blurbHallPatrons": "Čia yra Globėjų Salėm kur mes pagerbiame kilnius nuotykių ieškotojus, kurie parėmė Habitica Kickstarter projekte. Dėkojame jiems už pagalbą suteikiant gyvenimą Habitica'i!",
-    "blurbHallContributors": "Tai yra Pagalbininkų salė, kur yra pagerbiami Habitica atviro kodo pagalbininkai. Jei visi prisidėjo prie projekto kodu, paveikslėliais, muzika, rašyba, ar tiesiog savo paslaugumu. Jie tai darydami užsidirbo <a href='http://habitica.wikia.com/wiki/Contributor_Rewards' target='_blank'> brangakmenius, išskirtinius drabužius</a>, ir <a href='http://habitica.wikia.com/wiki/Contributor_Titles' target='_blank'>prestižinius titulus</a>. Gali prisidėti prie Habitica ir tu! <a href='http://habitica.wikia.com/wiki/Contributing_to_Habitica' target='_blank'> Čia galima sužinoti daugiau. </a>"
+    "conRewardsURL": "http://accomplay.wikia.com/wiki/Contributor_Rewards",
+    "surveysSingle": "Prisidėjo prie Accomplay - užpildant apklausą ar prisidedant prie vieno iš bandymų. Ačiū tau!",
+    "surveysMultiple": "Prisidėjo prie Accomplay <%= count %> kartus, užpildant apklausą ar prisidedant prie vieno iš bandymų. Ačiū!",
+    "blurbHallPatrons": "Čia yra Globėjų Salėm kur mes pagerbiame kilnius nuotykių ieškotojus, kurie parėmė Accomplay Kickstarter projekte. Dėkojame jiems už pagalbą suteikiant gyvenimą Accomplay'i!",
+    "blurbHallContributors": "Tai yra Pagalbininkų salė, kur yra pagerbiami Accomplay atviro kodo pagalbininkai. Jei visi prisidėjo prie projekto kodu, paveikslėliais, muzika, rašyba, ar tiesiog savo paslaugumu. Jie tai darydami užsidirbo <a href='http://accomplay.wikia.com/wiki/Contributor_Rewards' target='_blank'> brangakmenius, išskirtinius drabužius</a>, ir <a href='http://accomplay.wikia.com/wiki/Contributor_Titles' target='_blank'>prestižinius titulus</a>. Gali prisidėti prie Accomplay ir tu! <a href='http://accomplay.wikia.com/wiki/Contributing_to_Accomplay' target='_blank'> Čia galima sužinoti daugiau. </a>"
 }

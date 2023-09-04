@@ -6,7 +6,7 @@
         <p>
           {{ $t('reportAccountProblems') }}
           &colon;&nbsp;
-          <a href="mailto:admin@habitica.com">admin&commat;habitica&period;com</a>
+          <a href="mailto:admin@accomplay.com">admin&commat;accomplay&period;com</a>
           <span v-if="user">
             <br>
             <a
@@ -18,18 +18,18 @@
             <br>
             {{ $t('reportCommunityIssues') }}
             &colon;&nbsp;
-            <a href="mailto:admin@habitica.com">admin&commat;habitica&period;com</a>
+            <a href="mailto:admin@accomplay.com">admin&commat;accomplay&period;com</a>
           </span>
           <span v-else>
             <br>
             {{ $t('reportBug') }}
             &colon;&nbsp;
-            <a href="mailto:admin@habitica.com">admin&commat;habitica&period;com</a>
+            <a href="mailto:admin@accomplay.com">admin&commat;accomplay&period;com</a>
           </span>
           <br>
           {{ $t('subscriptionPaymentIssues') }}
           &colon;&nbsp;
-          <a href="mailto:admin@habitica.com">admin&commat;habitica&period;com</a>
+          <a href="mailto:admin@accomplay.com">admin&commat;accomplay&period;com</a>
           <br>
           {{ $t('generalQuestionsSite') }}
           &colon;&nbsp;
@@ -40,11 +40,11 @@
           <br>
           {{ $t('businessInquiries') }}
           &colon;&nbsp;
-          <a href="mailto:admin@habitica.com">admin@habitica.com</a>
+          <a href="mailto:admin@accomplay.com">admin@accomplay.com</a>
           <br>
           {{ $t('merchandiseInquiries') }}
           &colon;&nbsp;
-          <a href="mailto:admin@habitica.com">admin&commat;habitica&period;com</a>
+          <a href="mailto:admin@accomplay.com">admin&commat;accomplay&period;com</a>
         </p>
       </div>
     </div>

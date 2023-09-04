@@ -71,7 +71,7 @@
       <div class="d-flex">
         <div class="jubilant-gryphatrice d-flex mr-auto">
           <img
-            src="https://habitica-assets.s3.amazonaws.com/mobileApp/images/Pet-Gryphatrice-Jubilant-Large.gif"
+            src="https://accomplay-assets.s3.amazonaws.com/mobileApp/images/Pet-Gryphatrice-Jubilant-Large.gif"
             width="156px"
             height="144px"
             alt="a pink, purple, and green gryphatrice pet winks at you adorably"

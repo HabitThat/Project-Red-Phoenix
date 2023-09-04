@@ -49,10 +49,10 @@ const api = {};
 
 api.constants = {
   // CURRENCY_CODE: 'USD',
-  // SELLER_NOTE: 'Habitica Payment',
-  // SELLER_NOTE_SUBSCRIPTION: 'Habitica Subscription',
-  // SELLER_NOTE_ATHORIZATION_SUBSCRIPTION: 'Habitica Subscription Payment',
-  // STORE_NAME: 'Habitica',
+  // SELLER_NOTE: 'Accomplay Payment',
+  // SELLER_NOTE_SUBSCRIPTION: 'Accomplay Subscription',
+  // SELLER_NOTE_ATHORIZATION_SUBSCRIPTION: 'Accomplay Subscription Payment',
+  // STORE_NAME: 'Accomplay',
   //
   // GIFT_TYPE_GEMS: 'gems',
   // GIFT_TYPE_SUBSCRIPTION: 'subscription',
@@ -83,7 +83,7 @@ api.checkout = async function checkout (options = {}) {
 
   let amount;
   let gemsBlock;
-  let description = 'Habitica Gems';
+  let description = 'Accomplay Gems';
 
   if (gift) {
     const member = await User.findById(gift.uuid).exec();
@@ -99,7 +99,7 @@ api.checkout = async function checkout (options = {}) {
       description = `${description} (Gift)`;
     } else {
       amount = Number(shared.content.subscriptionBlocks[gift.subscription.key].price).toFixed(2);
-      description = 'mo. Habitica Subscription (Gift)';
+      description = 'mo. Accomplay Subscription (Gift)';
     }
   } else if (sku) {
     if (sku === 'Pet-Gryphatrice-Jubilant') {
@@ -190,7 +190,7 @@ api.subscribe = async function subscribe (options = {}) {
     if (!couponResult) throw new NotAuthorized(i18n.t('invalidCoupon'));
   }
 
-  const billingPlanTitle = `Habitica Subscription ($${sub.price} every ${sub.months} months, recurring)`;
+  const billingPlanTitle = `Accomplay Subscription ($${sub.price} every ${sub.months} months, recurring)`;
   const billingAgreementAttributes = {
     name: billingPlanTitle,
     description: billingPlanTitle,

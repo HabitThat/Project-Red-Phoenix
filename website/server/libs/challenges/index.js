@@ -133,7 +133,7 @@ export function createChallengeQuery (query) {
                     input: '$categories',
                     as: 'cat',
                     cond: {
-                      $eq: ['$$cat.slug', 'habitica_official'],
+                      $eq: ['$$cat.slug', 'accomplay_official'],
                     },
                   },
                 },

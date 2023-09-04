@@ -62,7 +62,7 @@
     "onlyLeaderCancelQuest": "Samo vodja dogodivščine ali skupine lahko prekliče dogodivščino.",
     "questNotPending": "Ni dogodivščine, ki bi jo lahko začeli.",
     "questOrGroupLeaderOnlyStartQuest": "Samo vodja dogodivščine ali skupine lahko prisilno začne dogodivščino",
-    "loginIncentiveQuest": "To dogodivščino si boste prislužili po prijavi v program Habitica na <%= count %> različnih dni!",
+    "loginIncentiveQuest": "To dogodivščino si boste prislužili po prijavi v program Accomplay na <%= count %> različnih dni!",
     "loginReward": "<%= count %> vpisov",
     "questBundles": "Skupine dogodivščin s popustom",
     "noQuestToStart": "Ne uspete najti nobene dogodivščine? Preverite, če je na Trgu v oddelku z zvitki kak nov!",

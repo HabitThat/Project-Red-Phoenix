@@ -2,14 +2,14 @@ import { times } from 'lodash';
 import {
   generateUser,
   translate as t,
-  resetHabiticaDB,
+  resetAccomplayDB,
 } from '../../../../helpers/api-integration/v3';
 
 describe('GET /hall/patrons', () => {
   let user;
 
   beforeEach(async () => {
-    await resetHabiticaDB();
+    await resetAccomplayDB();
     user = await generateUser();
   });
 

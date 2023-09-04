@@ -5,7 +5,7 @@ import {
 const api = {};
 
 /**
- * @api {get} /api/v3/status Get Habitica's API status
+ * @api {get} /api/v3/status Get Accomplay's API status
  * @apiName GetStatus
  * @apiGroup Status
  *

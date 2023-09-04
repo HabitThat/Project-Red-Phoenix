@@ -41,7 +41,7 @@
     "messageGroupChatNotFound": "Di makita ang mensahe!",
     "messageGroupChatAdminClearFlagCount": "Tanging ang admin lang ang maaaring magbago ng bilang ng ulat!",
     "messageCannotFlagSystemMessages": "You cannot flag a system message. If you need to report a violation of the Community Guidelines related to this message, please email a screenshot and explanation to Lemoness at <%= communityManagerEmail %>.",
-    "messageGroupChatSpam": "Naku, mukhang marami ang iyong ipinapadalang mga mensahe! Mag-antay muna bago ipadala muli. Ang chat ng Taberna ay kaya lamang tumanggap ng 200 na mensahe, kaya hinihikayat ng Habitica na gumawa ng mas mahahaba't mapag-isip na mga mensahe at mga ganap na tugon. Nasasabik naming mapakinggan ang iyong mga saloobin. :)",
+    "messageGroupChatSpam": "Naku, mukhang marami ang iyong ipinapadalang mga mensahe! Mag-antay muna bago ipadala muli. Ang chat ng Taberna ay kaya lamang tumanggap ng 200 na mensahe, kaya hinihikayat ng Accomplay na gumawa ng mas mahahaba't mapag-isip na mga mensahe at mga ganap na tugon. Nasasabik naming mapakinggan ang iyong mga saloobin. :)",
     "messageCannotLeaveWhileQuesting": "You cannot accept this party invitation while you are in a quest. If you'd like to join this party, you must first abort your quest, which you can do from your party screen. You will be given back the quest scroll.",
     "messageUserOperationProtected": "ang path na `<%= operation %>`  ay hindi na isave, dahil ito ay isang protektadong path.",
     "messageNotificationNotFound": "Hindi mahanap ang abiso.",

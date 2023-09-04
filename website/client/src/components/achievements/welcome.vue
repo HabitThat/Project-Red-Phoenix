@@ -52,7 +52,7 @@
           class="btn btn-primary btn-lg flex-column"
           @click="ready()"
         >
-          {{ $t('enterHabitica') }}
+          {{ $t('enterAccomplay') }}
         </button>
       </div>
       <div class="col-3"></div>

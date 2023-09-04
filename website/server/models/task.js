@@ -149,7 +149,7 @@ export const TaskSchema = new Schema({
 
   reminders: [reminderSchema],
 
-  byHabitica: { $type: Boolean, default: false }, // Flag of Tasks that were created by Habitica
+  byAccomplay: { $type: Boolean, default: false }, // Flag of Tasks that were created by Accomplay
 }, _.defaults({
   minimize: false, // So empty objects are returned
   strict: true,
@@ -172,7 +172,6 @@ TaskSchema.plugin(baseModel, {
     }
 
     // Fix issue where iOS was sending null as the value of the attribute field
-    // See https://github.com/HabitRPG/habitica-ios/commit/4cd05f80363502eb7652e057aa564c85546f7806
     if (taskObj.attribute === null) {
       taskObj.attribute = 'str';
     }
@@ -246,7 +245,6 @@ TaskSchema.statics.findMultipleByIdOrAlias = async function findMultipleByIdOrAl
 };
 
 // Sanitize user tasks linked to a challenge
-// See https://habitica.fandom.com/wiki/Challenges#Challenge_Participant.27s_Permissions for more info
 TaskSchema.statics.sanitizeUserChallengeTask = function sanitizeUserChallengeTask (taskObj) {
   const initialSanitization = this.sanitize(taskObj);
 
